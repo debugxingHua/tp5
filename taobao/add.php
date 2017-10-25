@@ -11,27 +11,35 @@ try{
     //数据
     $createTime = date("Y-m-d H:i:s");
     //添加
-    $sql = "INSERT tb_user (name,account,phone,address,create_time) VALUES ('{$_POST["name"]}','{$_POST["account"]}','{$_POST["phone"]}','{$_POST["address"]}','{$createTime}') ";
-    $num = $pdo->exec($sql);
+    $user_sql = "INSERT tb_user (name,account,phone,user_message,create_time,update_time) VALUES ".
+        "('{$_POST["name"]}','{$_POST["account"]}','{$_POST["phone"]}','{$_POST["user_message"]}','{$createTime}','{$createTime}') ";
+    $user_num = $pdo->exec($user_sql);
     $lastId = $pdo->lastInsertId();
-    if($num > 0){
-        echo "成功插入了".$num."条记录 , 新增记录的id为：".$lastId;
+    if($user_num > 0){
+        echo "成功插入了".$user_num."个客户信息。";
         echo "<br/>";
-        echo "<a href='index.php'>[ 返回 ]</a>";
-        echo "<a href='select_all.php'>[ 查询全部 ]</a>";
-    }else{
-        print "error".$num;
-    }
+        if($_POST["money"] != null && $_POST["courier_number"] != null && $_POST["address"] != null && $_POST["deal_name"] != null ){
+            $deal_sql = "INSERT tb_deal (user_id,deal_message,address,deal_name,money,courier,courier_number,create_time) VALUES ".
+                "('{$lastId}','{$_POST["deal_message"]}','{$_POST["address"]}','{$_POST["deal_name"]}','{$_POST["money"]}','
+            {$_POST["courier"]}','{$_POST["courier_number"]}','{$createTime}') ";
 
-    //预处理更新
-//    $update_time = date("Y-m-d H:i:s");
-//    $sql = "UPDATE edu_user SET name=:name,update_time=:update_time WHERE id=4";
-//    $stmt = $pdo -> prepare($sql);
-//    $num = $stmt -> execute([":name" => "admin3",":update_time" => $update_time]);
-//    if($num > 0){
-//        echo "成功更新了".$num."条记录。";
-//    }
+            $deal_num = $pdo->exec($deal_sql);
+            if($deal_num > 0){
+                echo "成功插入了".$deal_num."条交易信息。";
+                echo "<br/>";
+            }else{
+                echo "交易添加失败";
+            }
+        }else{
+            echo "无交易添加";
+        }
+    }else{
+        echo "无信息添加";
+    }
+    echo "<br/>";
+    echo "<a href='index.php' style='text-decoration:none;'>[ 返回 ]</a>";
+    echo "<a href='select_all.php' style='text-decoration:none;'>[ 查询全部 ]</a>";
     unset($pdo);
 }catch (PDOException $exception){
-    die("error:".$exception->getMessage());
+    die("报错:".$exception->getMessage());
 }
