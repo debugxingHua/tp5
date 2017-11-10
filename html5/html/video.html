@@ -1,0 +1,76 @@
+<!DOCTYPE html> 
+<html> 
+<body>
+<div>
+  <a href="../index.html"><h3>首页</h3></a>
+</div>
+<div style="text-align:center;">
+  <button onclick="playPause()">播放/暂停</button> 
+  <button onclick="makeBig()">大</button>
+  <button onclick="makeNormal()">中</button>
+  <button onclick="makeSmall()">小</button>
+  <br /> 
+  <video id="video1" width="420" style="margin-top:15px;">
+    <source src="../static/video/1.mp4" type="video/mp4" />
+  </video>
+</div>
+
+<script type="text/javascript">
+var myVideo=document.getElementById("video1");
+
+function playPause()
+{ 
+if (myVideo.paused) 
+  myVideo.play(); 
+else 
+  myVideo.pause(); 
+} 
+
+function makeBig()
+{ 
+myVideo.width=560; 
+} 
+
+function makeSmall()
+{ 
+myVideo.width=320; 
+} 
+
+function makeNormal()
+{ 
+myVideo.width=420; 
+} 
+</script> 
+</body> 
+</html>
+<!-- 
+<video> 标签的属性
+属性    值     描述
+autoplay  autoplay  如果出现该属性，则视频在就绪后马上播放。
+controls  controls  如果出现该属性，则向用户显示控件，比如播放按钮。
+height    pixels    设置视频播放器的高度。
+loop    loop    如果出现该属性，则当媒介文件完成播放后再次开始播放。
+preload   preload 
+如果出现该属性，则视频在页面加载时进行加载，并预备播放。如果使用autoplay，则忽略该属性。
+src url 要播放的视频的URL。
+width   pixels    设置视频播放器的宽度。
+
+HTML5 <video> - 方法、属性以及事件
+下面列出了大多数浏览器支持的视频方法、属性和事件：
+
+方法        属性        事件
+play()      currentSrc  play
+pause()     currentTime pause
+load()      videoWidth  progress
+canPlayType videoHeight error
+            duration    timeupdate
+            ended       ended
+            error       abort
+            paused      empty
+            muted       emptied
+            seeking     waiting
+            volume      loadedmetadata
+            height   
+            width  
+注释：在所有属性中，只有 videoWidth 和 videoHeight 属性是立即可用的。在视频的元数据已加载后，其他属性才可用。
+ -->

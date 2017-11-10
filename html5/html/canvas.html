@@ -1,0 +1,112 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <style type="text/css">
+        body
+        {
+            font-size:70%;
+            font-family:verdana,helvetica,arial,sans-serif;
+        }
+    </style>
+</head>
+<body>
+<div>
+    <a href="../index.html"><h3>首页</h3></a>
+</div>
+<!--鼠标移动显示坐标-->
+<div class="div1">
+    <p>把鼠标悬停在下面的矩形上可以看到坐标：</p>
+    <div id="coordiv" style="width:200px;height:100px;border:1px solid #c3c3c3"
+         onmousemove="cnvs_getCoordinates(event)"
+         onmouseout="cnvs_clearCoordinates()">
+    </div>
+    <div id="xycoordinates" style="height: 10px"></div>
+</div>
+<!--画线条-->
+<div class="div2" style="margin: 10px 0px">
+    <canvas id="line" width="200" height="100" style="border:1px solid #c3c3c3;">
+        Your browser does not support the canvas element.
+    </canvas>
+</div>
+<!--画圆-->
+<div class="div3" style="margin: 10px 0px">
+    <canvas id="round" width="200" height="100" style="border:1px solid #c3c3c3;">
+        Your browser does not support the canvas element.
+    </canvas>
+</div>
+<!--渐变色-->
+<div class="div4" style="margin: 10px 0px">
+    <canvas id="gradual" width="200" height="100" style="border:1px solid #c3c3c3;">
+        Your browser does not support the canvas element.
+    </canvas>
+</div>
+<!--图像填充-->
+<div class="div5" style="margin: 10px 0px">
+    <canvas id="image" width="200" height="100" style="border:1px solid #c3c3c3;">
+        Your browser does not support the canvas element.
+    </canvas>
+</div>
+</body>
+<!--鼠标显示坐标-->
+<script type="text/javascript">
+    function cnvs_getCoordinates(e)
+    {
+        x=e.clientX;
+        y=e.clientY;
+        document.getElementById("xycoordinates").innerHTML="Coordinates(坐标): (" + x + "," + y + ")";
+    }
+
+    function cnvs_clearCoordinates()
+    {
+        document.getElementById("xycoordinates").innerHTML="";
+    }
+</script>
+<!--画线条-->
+<script type="text/javascript">
+    var c=document.getElementById("line");
+    var cxt=c.getContext("2d");
+    cxt.moveTo(10,20);
+    cxt.lineTo(160,80);
+    cxt.lineTo(10,50);
+    cxt.stroke();
+</script>
+<!--画圆-->
+<script type="text/javascript">
+    var c=document.getElementById("round");
+    var cxt=c.getContext("2d");
+    cxt.fillStyle="#FF0000";
+    cxt.beginPath();
+//    arc(x,y,radius半径,startAngle弧度,endAngle结束角,anticlockwise逆时针的)
+    cxt.arc(80,60,18,0,Math.PI*2,true);
+    cxt.closePath();
+    cxt.fill();
+
+</script>
+<!--渐变色-->
+<script type="text/javascript">
+    var c=document.getElementById("gradual");
+    var cxt=c.getContext("2d");
+    var grd=cxt.createLinearGradient(0,0,175,50);
+    grd.addColorStop(0,"#FF00ff");
+    grd.addColorStop(1,"#00FF00");
+    cxt.fillStyle=grd;
+    cxt.fillRect(0,0,175,90);
+</script>
+<!--图像填充-->
+<script type="text/javascript">
+    var c=document.getElementById("image");
+    var cxt=c.getContext("2d");
+    var img=new Image();
+    img.src="../static/img/1.png";
+    cxt.fillText("应该是图片不合适",1,10);
+    cxt.drawImage(img,50,50);
+</script>
+
+
+</html>
+<!--
+    原理：
+        1、显示坐标：
+        在元素上定义一个鼠标移动事件onmousemove，
+        还有一个鼠标离开事件onmouseout;
+-->

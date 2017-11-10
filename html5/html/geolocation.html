@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>地理定位</title>
+</head>
+<body>
+<div>
+    <a href="../index.html"><h3>首页</h3></a>
+</div>
+<div>
+    <P>点一下获取你的地理位置</P>
+    <button onclick="getLocation()">点击</button>
+    <button onclick="getLocation2()">点击</button>
+    <div id="error"></div>
+    <div id="map"></div>
+    <div id="demo"></div>
+</div>
+</body>
+<script>
+    var x=document.getElementById("error");
+    function getLocation() {
+        //判断当前浏览器是否支持定位api
+        if (navigator.geolocation) {
+            navigator.geolocation.getCurrentPosition(showPosition,errorFunction);
+        }else{
+            x.innerText="Geolocation is not supported by this browser.";
+        }
+    }
+    function showPosition(position) {
+        var latlon=position.coords.latitude+","+position.coords.longitude;
+        var img_url="http://maps.googleapis.com/maps/api/staticmap?center="+latlon+"&zoom=14&size=400x300&sensor=false";
+
+        document.getElementById("map").innerHTML="<img src='"+img_url+"' />";
+    }
+    function errorFunction(error) {
+        switch(error.code){
+            /*
+             错误代码：
+             Permission denied - 用户不允许地理定位
+             Position unavailable - 无法获取当前位置
+             Timeout - 操作超时
+             */
+            case error.PERMISSION_DENIED:
+                x.innerHTML="User denied the request for Geolocation."
+                break;
+            case error.POSITION_UNAVAILABLE:
+                x.innerHTML="Location information is unavailable."
+                break;
+            case error.TIMEOUT:
+                x.innerHTML="The request to get user location timed out."
+                break;
+            case error.UNKNOWN_ERROR:
+                x.innerHTML="An unknown error occurred."
+                break;
+        }
+    }
+</script>
+<script>
+    var x=document.getElementById("demo");
+    function getLocation2()
+    {
+        if (navigator.geolocation)
+        {
+            navigator.geolocation.watchPosition(showPosition2);
+        }
+        else{x.innerHTML="Geolocation is not supported by this browser.";}
+    }
+    function showPosition2(position)
+    {
+        x.innerHTML="Latitude: " + position.coords.latitude +
+            "<br />Longitude: " + position.coords.longitude;
+    }
+</script>
+</html>
+<!--
+79日列，报错了，搞不了
+getCurrentPosition() 方法 - 返回数据
+若成功，则 getCurrentPosition() 方法返回对象。始终会返回 latitude、longitude 以及 accuracy 属性。如果可用，则会返回其他下面的属性。
+
+属性	                    描述
+coords.latitude	            十进制数的纬度
+coords.longitude	        十进制数的经度
+coords.accuracy	            位置精度
+coords.altitude	            海拔，海平面以上以米计
+coords.altitudeAccuracy	    位置的海拔精度
+coords.heading	            方向，从正北开始以度计
+coords.speed	            速度，以米/每秒计
+timestamp	                响应的日期/时间
+-->
