@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>服务器发送事件</title>
+</head>
+<body>
+<h3>获得服务器更新</h3>
+    <div id="result"></div>
+</body>
+<script>
+    if(typeof(EventSource)!=="undefined")
+    {
+        var source=new EventSource("../php/serverSent.php");
+        //监听
+        source.onmessage=function(event)
+        {
+            document.getElementById("result").innerHTML+=event.data + "<br />";
+        };
+    }
+    else
+    {
+        document.getElementById("result").innerHTML="抱歉，您的浏览器不支持 server-sent 事件 ...";
+    }
+</script>
+</html>
+<!--
+例子解释：
+创建一个新的 EventSource 对象，然后规定发送更新的页面的 URL（本例中是 "demo_sse.php"）
+每接收到一次更新，就会发生 onmessage 事件
+当 onmessage 事件发生时，把已接收的数据推入 id 为 "result" 的元素中
+
+注意：IIS站点不支持PHP的，需要用php环境运行。
+
+EventSource 对象
+在上面的例子中，我们使用 onmessage 事件来获取消息。不过还可以使用其他事件：
+事件	描述
+onopen	当通往服务器的连接被打开
+onmessage	当接收到消息
+onerror	当错误发生
+-->

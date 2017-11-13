@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>表单属性</title>
+</head>
+<body>
+<h3>form表单属性</h3>
+<form name="form_name" id="form_name" method ="post" action = "../php/form.php"  target ="_self" autocomplete="on">
+    <input type="text" name="form_property" value="" required/>property<br />
+    <input type="text" name="first" pattern="[A-z]{3}" />First name<br />
+    <input type="range" name="range" min="0" max="10" step="2"/>间隔为2<br />
+    <input type="text" name="last"/>Last name<br />
+    <input type="image" src="../static/img/liuyan2.jpg" width="99" height="99"/><br />
+    <input type="submit"/>
+    <input type="submit" formaction="../php/form2.php" value="重写表单的 action 属性" /><br />
+    <input type="submit" formnovalidate="formnovalidate" value="重写表单的 novalidate 属性" /><br />
+    <input type="submit" formenctype ="text/plain" value="重写表单的 enctype 属性" /><br />
+    <input type="submit" formmethod ="get" value="重写表单的 method 属性" /><br />
+    <input type="submit" formtarget  ="_blank" value="重写表单的 target 属性" /><br />
+</form>
+<input type="email" name="email" autocomplete="off" autofocus="autofocus" form="form_name"/>E-mail<br />
+<input type="file" name="file[]" form="form_name" multiple="multiple" />上传<br/>
+
+</body>
+</html>
+<!--
+FORM的属性
+method属性：
+    post和get两种
+    规定用于发送 form-data 的 HTTP 方法。实际上就是请求的方式。
+name属性：
+    表单的名称。
+action属性：指定表单请求的路径
+target属性：
+    指定action的Url在哪里打开
+    _blank：指定action的Url在新开的浏览器窗口中
+    _parent：指定action的Url在父级浏览器窗口中
+    _self：指定action的Url在当前浏览器窗口中
+    _top：指定action的Url在顶级浏览器窗口中
+autocomplete属性
+    规定 form 或 input 域应该拥有自动完成功能。
+    自动完成允许浏览器预测对字段的输入。
+    当用户在字段开始键入时，浏览器基于之前键入过的值，应该显示出在字段中填写的选项。
+    注释：autocomplete 适用于 <form> 标签，
+    以及以下类型的 <input> 标签：text, search, url, telephone, email, password, datepickers, range 以及 color。
+autofocus属性
+    规定在页面加载时，域自动地获得焦点。
+    注释：autofocus 属性适用于所有 <input> 标签的类型。
+form属性
+    规定输入域所属的一个或多个表单。
+    注释：form 属性适用于所有 <input> 标签的类型。
+    form 属性必须引用所属表单的 id,如需引用一个以上的表单，请使用空格分隔的列表。
+表单重写属性（form override attributes）允许您重写 form 元素的某些属性设定。
+    表单重写属性有：
+        formaction - 重写表单的 action 属性
+        formenctype - 重写表单的 enctype 属性
+        formmethod - 重写表单的 method 属性
+        formnovalidate - 重写表单的 novalidate 属性
+        formtarget - 重写表单的 target 属性
+        注释：表单重写属性适用于以下类型的 <input> 标签：submit 和 image。
+enctype属性
+    规定在发送到服务器之前应该如何对表单数据进行编码。
+    默认地，表单数据会编码为 "application/x-www-form-urlencoded"。
+    就是说，在发送到服务器之前，所有字符都会进行编码（空格转换为 "+" 加号，特殊符号转换为 ASCII HEX 值）。
+    属性值
+        值	                                描述
+        application/x-www-form-urlencoded	在发送前编码所有字符（默认）
+        multipart/form-data                 不对字符编码。
+                                            在使用包含文件上传控件的表单时，必须使用该值。
+
+        text/plain	                        空格转换为 "+" 加号，但不对特殊字符编码。
+height和width属性
+    规定用于 image 类型的 input 标签的图像高度和宽度。
+    注释：height 和 width 属性只适用于 image 类型的 <input> 标签。
+list属性
+    规定输入域的 datalist。datalist 是输入域的选项列表。
+    注释：list 属性适用于以下类型的 <input> 标签：
+          text, search, url, telephone, email, date pickers, number, range 以及 color。
+min、max和step属性
+    用于为包含数字或日期的 input 类型规定限定（约束）。
+        max 属性规定输入域所允许的最大值。
+        min 属性规定输入域所允许的最小值。
+        step属性为输入域规定合法的数字间隔（如果 step="3"，则合法的数是 -3,0,3,6 等）。
+        注释：min、max 和 step 属性适用于以下类型的 <input> 标签：date pickers、number 以及 range。
+multiple属性
+    规定输入域中可选择多个值。
+    注释：multiple 属性适用于以下类型的 <input> 标签：email 和 file。
+novalidate 属性
+    novalidate="novalidate"
+    规定在提交表单时不应该验证 form 或 input 域。
+    注释：novalidate 属性适用于 <form> 以及以下类型的 <input> 标签：
+          text, search, url, telephone, email, password, date pickers, range 以及 color.
+pattern 属性
+    规定用于验证 input 域的模式（pattern）。
+    模式（pattern） 是正则表达式。
+    注释：pattern 属性适用于以下类型的 <input> 标签：text, search, url, telephone, email 以及 password。
+placeholder 属性
+    提供一种提示（hint），描述输入域所期待的值。
+    注释：placeholder 属性适用于以下类型的 <input> 标签：
+          text, search, url, telephone, email 以及 password。
+    提示（hint）会在输入域为空时显示出现，会在输入域获得焦点时消失
+required 属性
+required 属性规定必须在提交之前填写输入域（不能为空）。
+
+注释：required 属性适用于以下类型的 <input> 标签：
+          text, search, url, telephone, email, password, date pickers, number, checkbox, radio 以及 file。
+-->

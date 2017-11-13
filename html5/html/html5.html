@@ -1,0 +1,1371 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>html5的标签列表</title>
+    <style type="text/css">
+        a{
+            text-decoration: none;
+        }
+        p{
+            border: 1px green dashed;
+            margin: 10px 180px 10px 30px;
+            padding: 10px 5px;
+        }
+    </style>
+</head>
+<body>
+<!--1、注释-->
+<div>
+    <a href="#zhushi">1、 注释标签：< !--这是一段注释。注释不会在浏览器中显示--></a>
+    <p id="zhushi">&nbsp;&nbsp;&nbsp;&nbsp;
+        可以用来隐藏想要说的话
+    </p>
+</div>
+<!--2、<!DOCTYPE> 声明-->
+<div>
+    <!--
+        在 HTML 4.01 中，<!DOCTYPE> 声明引用 DTD，因为 HTML 4.01 基于 SGML。DTD 规定了标记语言的规则，
+     -->
+    <a href="#sm">2、声明标签< !DOCTYPE ></a>
+    <p id="sm">&nbsp;&nbsp;&nbsp;&nbsp;
+        在 HTML 4.01 中有三种 < !DOCTYPE> 声明。在 HTML5 中只有一种:<br/>
+        &nbsp;&nbsp;&nbsp;&nbsp; html5 的声明方式：< !DOCTYPE html><br/>
+        &nbsp;&nbsp;&nbsp;&nbsp;< !DOCTYPE>声明必须是 HTML 文档的第一行，位于 < html> 标签之前。<br/>
+        &nbsp;&nbsp;&nbsp;&nbsp;< !DOCTYPE> 声明不是 HTML 标签；它是指示 web 浏览器关于页面使用哪个 HTML 版本进行编写的指令。
+    </p>
+</div>
+<!--3、HTML-->
+<div>
+    <!--
+        HTML 与 XHTML 之间的差异
+            xmlns 属性在 XHTML 中是必需的，但在 HTML 中不是。
+            不过，即使 XHTML 文档中的 <html> 没有使用此属性，W3C 的验证器也不会报错。
+            这是因为 "xmlns=http://www.w3.org/1999/xhtml" 是一个固定值，即使您没有包含它，此值也会被添加到 <html> 标签中。
+            即使 html 元素是文档的根元素，它也不包含 doctype 元素。doctype 元素必须位于 html 元素之前。
+
+            属性
+                new : HTML5 中的新属性。
+                属性	        值	                            描述
+                manifest	    url	                            定义一个 URL，在这个 URL 上描述了文档的缓存信息。
+                xmlns	        http://www.w3.org/1999/xhtml	定义 XML namespace 属性。
+    -->
+    <a href="#html">3、html标签< html>< /html></a>
+    <p id="html">
+        &nbsp;&nbsp;&nbsp;&nbsp;
+        此元素可告知浏览器其自身是一个 HTML 文档。<br/>&nbsp;&nbsp;&nbsp;&nbsp;
+        < html> 与 < /html> 标签限定了文档的开始点和结束点，在它们之间是文档的头部和主体。
+    </p>
+</div>
+<!--4、标题title-->
+<div>
+    <!--
+        <title> 标签是 <head> 标签中唯一要求包含的东西。
+        <title> 标签支持 HTML 中的全局属性。
+        <title> 标签支持以下标准属性：
+            属性	    值	                    描述
+            dir         rtl ltr                 规定元素中内容的文本方向。
+            lang	    language_code	        规定元素中内容的语言代码。
+            xml:lang	language_code	        规定 XHTML 文档中元素内容的语言代码。
+    -->
+    <a href="#title">4、标题< title>< /title></a>
+    <p id="title">
+        &nbsp;&nbsp;&nbsp;&nbsp;
+        可定义文档的标题。<br/>&nbsp;&nbsp;&nbsp;&nbsp;
+        浏览器会以特殊的方式来使用标题，并且通常把它放置在浏览器窗口的标题栏或状态栏上。
+        同样，当把文档加入用户的链接列表或者收藏夹或书签列表时，标题将成为该文档链接的默认名称。
+    </p>
+</div>
+<!--5、head-->
+<div>
+    <!--
+        <head> 标签支持 HTML 中的全局属性。
+        可选的属性
+            属性	    值	    描述
+            profile	    URL	    一个由空格分隔的 URL 列表，这些 URL 包含着有关页面的元数据信息。
+            profile 属性的更多信息
+                文档的头部经常会包含一些 <meta> 标签，用来告诉浏览器关于文档的附加信息。
+                在将来，创作者可能会利用预先定义好的标准文档的元数据配置文件（metadata profile），
+                以便更好地描述它们的文档。profile 属性提供了与当前文档相关联的配置文件的 URL。
+                配置文件的格式以及浏览器使用它们的方式都还没有进行定义，这个属性主要是为将来的开发而保留的占位符。
+    -->
+    <a href="#head">5、头标签< head>< /head></a>
+    <p id="head">
+        &nbsp;&nbsp;&nbsp;&nbsp;
+        用于定义文档的头部，它是所有头部元素的容器。<br/>&nbsp;&nbsp;&nbsp;&nbsp;
+        < head> 中的元素可以引用脚本、指示浏览器在哪里找到样式表、提供元信息等等。<br/>&nbsp;&nbsp;&nbsp;&nbsp;
+        文档的头部描述了文档的各种属性和信息，包括文档的标题、在 Web 中的位置以及和其他文档的关系等。
+        <br/>&nbsp;&nbsp;&nbsp;&nbsp;
+        绝大多数文档头部包含的数据都不会真正作为内容显示给读者。
+        <br/>&nbsp;&nbsp;&nbsp;&nbsp;
+        下面这些标签可用在 head 部分：< base>, < link>, < meta>, < script>, < style>, 以及 < title>。
+    </p>
+</div>
+<!--6、body-->
+<div>
+    <!--
+            全局属性
+                <body> 标签支持 HTML 中的全局属性。
+
+            事件属性
+                <body> 标签支持 HTML 中的事件属性。
+            可选的属性
+                属性	            值	                           描述
+                alink               rgb(x,x,x)                     不赞成使用。请使用样式取代它。
+                                    #xxxxxx
+                                    colorname                      规定文档中活动链接（active link）的的颜色。
+                background	        URL                            不赞成使用。请使用样式取代它。
+                                                                   规定文档的背景图像。
+                bgcolor             rgb(x,x,x)                     不赞成使用。请使用样式取代它。
+                                    #xxxxxx
+                                    colorname                      规定文档的背景颜色。
+                link                rgb(x,x,x)                     不赞成使用。请使用样式取代它。
+                                    #xxxxxx
+                                    colorname                      规定文档中未访问链接的默认颜色。
+
+                text                rgb(x,x,x)                     不赞成使用。请使用样式取代它。
+                                    #xxxxxx
+                                    colorname                      规定文档中所有文本的颜色。
+
+                vlink               rgb(x,x,x)                     不赞成使用。请使用样式取代它。
+                                    #xxxxxx
+                                    colorname                      规定文档中已被访问链接的颜色。
+    -->
+    <a href="#body">6、内容< body>< /body></a>
+    <p id="body">
+        &nbsp;&nbsp;&nbsp;&nbsp;
+        body 元素定义文档的主体。<br/>&nbsp;&nbsp;&nbsp;&nbsp;
+        body 元素包含文档的所有内容（比如文本、超链接、图像、表格和列表等等。）
+    </p>
+</div>
+<!--42、页脚footer-->
+<div>
+    <a href="#footer">42、页脚< footer>< /footer></a>
+    <p id="footer">
+        &nbsp;&nbsp;&nbsp;&nbsp;
+        < footer> 标签定义文档或节的页脚。
+        <br/>&nbsp;&nbsp;&nbsp;&nbsp;
+        < footer> 元素应当含有其包含元素的信息。
+        <br/>&nbsp;&nbsp;&nbsp;&nbsp;
+        页脚通常包含文档的作者、版权信息、使用条款链接、联系信息等等。
+        <br/>&nbsp;&nbsp;&nbsp;&nbsp;
+        您可以在一个文档中使用多个 < footer> 元素。
+    </p>
+</div>
+<!--7、h1到h6-->
+<div>
+    <!--
+        标准属性
+            id, class, title, style, dir, lang, xml:lang
+        事件属性
+            onclick, ondblclick, onmousedown, onmouseup, onmouseover,
+            onmousemove, onmouseout, onkeypress, onkeydown, onkeyup
+        可选属性
+            align:left  center  right   justify
+    -->
+    <a href="#h1-6">7、六个不同的标题< h1-h6>< /h1-h6></a>
+    <p id="h1-6">
+        &nbsp;&nbsp;&nbsp;&nbsp;
+        可定义标题。< h1> 定义最大的标题。< h6> 定义最小的标题。<br/>&nbsp;&nbsp;&nbsp;&nbsp;
+        由于 h 元素拥有确切的语义，因此请您慎重地选择恰当的标签层级来构建文档的结构。<br/>&nbsp;&nbsp;&nbsp;&nbsp;
+        因此，请不要利用标题标签来改变同一行中的字体大小。相反，我们应当使用层叠样式表定义来达到漂亮的显示效果。
+    </p>
+</div>
+<!--8、p标签-->
+<div>
+    <!--
+        可选属性align
+        全局属性
+            <p> 标签支持 HTML 中的全局属性。
+        事件属性
+            <p> 标签支持 HTML 中的事件属性。
+    -->
+    <a href="#p">8、p标签< p>< /p></a>
+    <p id="p">
+        &nbsp;&nbsp;&nbsp;&nbsp;
+        定义段落。p 元素会自动在其前后创建一些空白。浏览器会自动添加这些空间
+    </p>
+</div>
+<!--9、换行br-->
+<div>
+    <!--
+        clear 属性
+            如果您希望文本流在内联表格或图像的下一行继续输出，请使用 clear 属性，该属性有三个可选的值：
+                left、right 或者 all，每个值都代表一个边界或两边的边界。
+    -->
+    <a href="#br">9、换行br< br/></a>
+    <p id="br">
+        &nbsp;&nbsp;&nbsp;&nbsp;
+        < br> 可插入一个简单的换行符。
+        < br> 标签是空标签（意味着它没有结束标签，因此这是错误的：< br>< /br>）。<br/>&nbsp;&nbsp;&nbsp;&nbsp;
+        在 XHTML 中，把结束标签放在开始标签中，也就是 < br />。<br/>&nbsp;&nbsp;&nbsp;&nbsp;
+        请注意，< br> 标签只是简单地开始新的一行，而当浏览器遇到 < p> 标签时，通常会在相邻的段落之间插入一些垂直的间距。
+    </p>
+</div>
+<!--10、水平线hr-->
+<div>
+    <!--
+        全局属性
+            <hr> 标签支持 HTML 中的全局属性。
+        事件属性
+            <hr> 标签支持 HTML 中的事件属性。
+        可选的属性
+        属性	        值	        描述
+        align           center      不赞成使用。请使用样式取代它。
+                        left
+                        right       规定 hr 元素的对齐方式。
+        noshade	        noshade     不赞成使用。请使用样式取代它。规定 hr 元素的颜色呈现为纯色。
+        size	        pixels      不赞成使用。请使用样式取代它。规定 hr 元素的高度（厚度）。
+        width           pixels      不赞成使用。请使用样式取代它。
+                        %           规定 hr 元素的宽度。
+        HTML 与 XHTML 之间的差异
+            在 HTML 中，<hr> 标签没有结束标签。
+            在 XHTML 中，<hr> 必须被正确地关闭，比如 <hr />。
+            在 HTML 4.01 中，hr 元素的所有呈现属性均不被赞成使用。
+            在 XHTML 1.0 Strict DTD 中，hr 元素的所有呈现属性均不被支持。
+    -->
+    <a href="#hr">10、水平线hr</a>
+    <p id="hr">
+        &nbsp;&nbsp;&nbsp;&nbsp;
+        在 HTML 页面中创建一条水平线。
+        <br/>&nbsp;&nbsp;&nbsp;&nbsp;
+        水平分隔线（horizontal rule）可以在视觉上将文档分隔成各个部分。
+    </p>
+</div>
+<!--11、超链接a<a></a>-->
+<div>
+    <!--
+        全局属性
+            <a> 标签支持 HTML 中的全局属性。
+
+        事件属性
+            <a> 标签支持 HTML 中的事件属性。
+        属性New : HTML5 中的新属性。
+            属性	            值	            描述
+            charset	            char_encoding	HTML5 中不支持。规定被链接文档的字符集。
+            coords	            coordinates	    HTML5 中不支持。规定链接的坐标。
+            download	        filename	    规定被下载的超链接目标。
+            href	            URL	            规定链接指向的页面的 URL。
+            hreflang	        language_code	规定被链接文档的语言。
+            media	            media_query	    规定被链接文档是为何种媒介/设备优化的。
+            name	            section_name	HTML5 中不支持。规定锚的名称。
+            rel	                text	        规定当前文档与被链接文档之间的关系。
+            rev	                text	        HTML5 中不支持。规定被链接文档与当前文档之间的关系。
+            shape               default         HTML5 中不支持。规定链接的形状。
+                                rect
+                                circle
+                                poly
+            target              _blank          规定在何处打开链接文档。
+                                _parent
+                                _self
+                                _top
+                                framename
+            type	            MIME type	    规定被链接文档的的 MIME 类型。
+    -->
+    <a href="#a">11、超链接a< a>< /a></a>
+    <p id="a">
+        &nbsp;&nbsp;&nbsp;&nbsp;
+        定义超链接，用于从一张页面链接到另一张页面。< a> 元素最重要的属性是 href 属性，它指示链接的目标。
+        <br/>&nbsp;&nbsp;&nbsp;&nbsp;
+        提示：如果不使用 href 属性，则不可以使用如下属性：download, hreflang, media, rel, target 以及 type 属性。
+        <br/>&nbsp;&nbsp;&nbsp;&nbsp;
+        提示：被链接页面通常显示在当前浏览器窗口中，除非您规定了另一个目标（target 属性）。
+        <br/>&nbsp;&nbsp;&nbsp;&nbsp;
+        提示：请使用 CSS 来设置链接的样式。
+    </p>
+</div>
+<!--12、缩写标记<abbr></abbr>-->
+<div>
+    <!--
+        全局属性
+            <abbr> 标签支持 HTML 中的全局属性。
+        事件属性
+            <abbr> 标签支持 HTML 中的事件属性。
+    -->
+    <a href="#abbr">12、缩写标记< abbrtitle="People's Republic of China">PRC< /abbr></a>
+    <p id="abbr">
+        &nbsp;&nbsp;&nbsp;&nbsp;
+        代替了原来的< acronym title="World Wide Web">WWW< /acronym>标签
+        <br/>&nbsp;&nbsp;&nbsp;&nbsp;
+        < abbr> 标签指示简称或缩写，比如 "WWW" 或 "NATO"。
+        <br/>&nbsp;&nbsp;&nbsp;&nbsp;
+        通过对缩写进行标记，您能够为浏览器、拼写检查和搜索引擎提供有用的信息。
+        <br/>&nbsp;&nbsp;&nbsp;&nbsp;
+        < abbr> 标签最初是在 HTML 4.0 中引入的，表示它所包含的文本是一个更长的单词或短语的缩写形式。
+        <br/>&nbsp;&nbsp;&nbsp;&nbsp;
+        可以在 < abbr> 标签中使用全局的 title 属性，这样就能够在鼠标指针移动到 < abbr> 元素上时显示出简称/缩写的完整版本。
+    </p>
+</div>
+<!--13、定义文档或文章的作者/拥有者的联系信息<address></address>-->
+<div>
+    <!--
+        全局属性
+            <address> 标签支持 HTML 中的全局属性。
+        事件属性
+            <address> 标签支持 HTML 中的事件属性。
+    -->
+    <a href="#address">13、定义文档或文章的作者/拥有者的联系信息</a>
+    <p id="address">
+        &nbsp;&nbsp;&nbsp;&nbsp;
+        < address> 标签定义文档或文章的作者/拥有者的联系信息。
+        <br/>&nbsp;&nbsp;&nbsp;&nbsp;
+        如果< address> 元素位于 < body> 元素内，则它表示文档联系信息。
+        <br/>&nbsp;&nbsp;&nbsp;&nbsp;
+        如果 < address> 元素位于 < article> 元素内，则它表示文章的联系信息。
+        <br/>&nbsp;&nbsp;&nbsp;&nbsp;
+        < address> 元素中的文本通常呈现为斜体。大多数浏览器会在 address 元素前后添加折行。
+        <br/>&nbsp;&nbsp;&nbsp;&nbsp;
+        提示：< address> 标签不应该用于描述通讯地址，除非它是联系信息的一部分。
+        <br/>&nbsp;&nbsp;&nbsp;&nbsp;
+        提示：< address> 元素通常连同其他信息被包含在 < footer> 元素中。
+    </p>
+</div>
+<!--14、图像中的某点创建事件<map><area></area><area></area></map>-->
+<div>
+    <!--
+        <img src="planets.jpg" border="0" usemap="#planetmap" alt="Planets" />
+        <map name="planetmap" id="planetmap">
+          <area shape="circle" coords="180,139,14" href ="venus.html" alt="Venus" />
+          <area shape="circle" coords="129,161,10" href ="mercur.html" alt="Mercury" />
+          <area shape="rect" coords="0,0,110,260" href ="sun.html" alt="Sun" />
+        </map>
+        必需的属性
+            属性	    值	    描述
+            alt	        text	定义此区域的替换文本。
+        可选的属性
+            属性	    值	    描述
+            coords	    坐标值	定义可点击区域（对鼠标敏感的区域）的坐标。
+            href	    URL	    定义此区域的目标 URL。
+            nohref	    nohref	从图像映射排除某个区域。
+            shape       default 定义区域的形状。
+                        rect
+                        circ
+                        poly
+            target      _blank  规定在何处打开 href 属性指定的目标 URL。
+                        _parent
+                        _self
+                        _top
+        全局属性
+            <area> 标签支持 HTML 中的全局属性。
+
+        事件属性
+            <area> 标签支持 HTML 中的事件属性。
+    -->
+    <a href="#area">14、定义图像映射中的区域< map>< area coords="0,0,110,260" href='' alt=''>< /area>< /map></a>
+    <p id="area">
+        &nbsp;&nbsp;&nbsp;&nbsp;
+        定义图像映射中的区域（注：图像映射指得是带有可点击区域的图像）。
+        area 元素总是嵌套在 < map> 标签中。
+        <br/>&nbsp;&nbsp;&nbsp;&nbsp;
+        注释：< img> 标签中的 usemap 属性与 map 元素 name 属性相关联，创建图像与映射之间的联系。
+    </p>
+</div>
+<!--15、文章自包含<article></article>-->
+<div>
+    <!--
+    <article> 标签是 HTML 5 中的新标签。
+    全局属性
+        <article> 标签支持 HTML 中的全局属性。
+    事件属性
+        <article> 标签支持 HTML 中的事件属性。
+    -->
+    <a href="#article">15、文章自包含< article>< /article></a>
+    <p id="article">
+        &nbsp;&nbsp;&nbsp;&nbsp;
+        < article> 标签规定独立的自包含内容。
+        <br/>&nbsp;&nbsp;&nbsp;&nbsp;
+        一篇文章应有其自身的意义，应该有可能独立于站点的其余部分对其进行分发。
+        <br/>&nbsp;&nbsp;&nbsp;&nbsp;
+        < article> 元素的潜在来源：论坛帖子、报纸文章、博客条目、用户评论
+    </p>
+</div>
+<!--16、文章的侧栏<aside></aside>-->
+<div>
+    <!--
+        <aside> 标签是 HTML 5 的新标签。
+        全局属性
+            <aside> 标签支持 HTML 中的全局属性。
+        事件属性
+            <aside> 标签支持 HTML 中的事件属性。
+    -->
+    <a href="#aside">16、文章的侧栏<aside></aside></a>
+    <p id="aside">
+        &nbsp;&nbsp;&nbsp;&nbsp;
+        < aside> 标签定义其所处内容之外的内容。
+        <br/>&nbsp;&nbsp;&nbsp;&nbsp;
+        aside 的内容应该与附近的内容相关。
+        <br/>&nbsp;&nbsp;&nbsp;&nbsp;
+        提示：< aside> 的内容可用作文章的侧栏。
+    </p>
+</div>
+<!--17、音频<audio src=''></audio>-->
+<div>
+    <!--
+        <audio> 标签是 HTML 5 的新标签。
+        属性
+        new : HTML5 中的新属性。
+
+        属性	        值	        描述
+        autoplay	    autoplay	如果出现该属性，则音频在就绪后马上播放。
+        controls	    controls	如果出现该属性，则向用户显示控件，比如播放按钮。
+        loop	        loop	    如果出现该属性，则每当音频结束时重新开始播放。
+        muted	        muted	    规定视频输出应该被静音。
+        preload	        preload     如果出现该属性，则音频在页面加载时进行加载，并预备播放。
+                                    如果使用 "autoplay"，则忽略该属性。
+        src	            url	        要播放的音频的 URL。
+        全局属性
+            <audio> 标签支持 HTML 中的全局属性。
+        事件属性
+            <audio> 标签支持 HTML 中的事件属性。
+    -->
+    <a href="#audio">17、音频<audio src=''></audio></a>
+    <p id="audio">
+        &nbsp;&nbsp;&nbsp;&nbsp;
+        < audio> 标签定义声音，比如音乐或其他音频流。
+        <br/>&nbsp;&nbsp;&nbsp;&nbsp;
+        提示：可以在开始标签和结束标签之间放置文本内容，这样老的浏览器就可以显示出不支持该标签的信息。
+    </p>
+</div>
+<!--18、加粗<b></b>-->
+<div>
+    <!--
+        全局属性
+            <b> 标签支持 HTML 中的全局属性。
+        事件属性
+            <b> 标签支持 HTML 中的事件属性。
+    -->
+    <a href="#b">18、加粗< b>< /b></a>
+    <p id="b">
+        &nbsp;&nbsp;&nbsp;&nbsp;
+        规定粗体文本。
+        <br/>&nbsp;&nbsp;&nbsp;&nbsp;
+        根据 HTML5 规范，在没有其他合适标签更合适时，才应该把 < b> 标签作为最后的选项。
+        HTML5 规范声明：应该使用 < h1> - < h6> 来表示标题，使用 < em> 标签来表示强调的文本，
+        应该使用 < strong> 标签来表示重要文本，应该使用 < mark> 标签来表示标注的/突出显示的文本。
+        提示：您也能够使用 CSS "font-weight" 属性来设置粗体文本。
+    </p>
+</div>
+<!--19、为页面定义一个默认地址<base href=''></base>-->
+<div>
+    <!--
+        必须的属性：href
+        可选的属性：
+            属性	        值	        描述
+            target	        _blank      在何处打开页面中所有的链接。
+                            _parent
+                            _self
+                            _top
+                            framename
+        标准的属性和事件
+            NONE
+    -->
+    <a href="#base">19、为页面定义一个地址< base href=''>< /base></a>
+    <p id="base">
+        &nbsp;&nbsp;&nbsp;&nbsp;
+        为页面上的所有链接规定默认地址或默认目标。
+        <br/>&nbsp;&nbsp;&nbsp;&nbsp;
+        < base> 标签必须位于 head 元素内部。
+        <br/>&nbsp;&nbsp;&nbsp;&nbsp;
+        通常情况下，浏览器会从当前文档的 URL 中提取相应的元素来填写相对 URL 中的空白。
+        使用 < base> 标签可以改变这一点。浏览器随后将不再使用当前文档的 URL，而使用指定的基本 URL 来解析所有的相对 URL。
+        这其中包括 < a>、< img>、< link>、< form> 标签中的 URL。
+    </p>
+</div>
+<!--basefont标签大部分浏览器不支持 <basefont color="red" size="5" />-->
+<!--20、bidi隔离<bdi></bdi>-->
+<div>
+    <!--
+        全局属性
+            <bdi> 标签支持 HTML 中的全局属性。
+
+        事件属性
+            <bdi> 标签支持 HTML 中的事件属性。
+        属性
+                可选。规定 <bdi> 元素内的文本的文本方向。默认值：auto。
+        dir     ltr
+                rtl
+                auto
+    -->
+    <a href="#bdi">20、bidi隔离< bdi>< /bdi></a>
+    <p id="bdi">
+        &nbsp;&nbsp;&nbsp;&nbsp;
+        bdi 指的是 bidi 隔离。
+        <br/>&nbsp;&nbsp;&nbsp;&nbsp;
+        在发布用户评论或其他您无法完全控制的内容时，该标签很有用。
+        <br/>&nbsp;&nbsp;&nbsp;&nbsp;
+        < bdi> 标签允许您设置一段文本，使其脱离其父元素的文本方向设置。
+    </p>
+</div>
+<!--21、覆盖默认文本方向bdo< bdo dir="ltr">< /bdo>-->
+<div>
+    <!--
+        全局属性
+            <bdo> 标签支持 HTML 中的全局属性。
+
+        事件属性
+            <bdo> 标签支持 HTML 中的事件属性。
+        可选属性
+            属性	值	    描述
+            dir     ltr
+                    rtl
+            定义文字的方向
+    -->
+    <a href="#bdo">21、覆盖默认文本方向bdo< bdo dir="ltr">< /bdo></a>
+    <p id="bdo">
+        &nbsp;&nbsp;&nbsp;&nbsp;
+        bdo 元素可覆盖默认的文本方向。
+    </p>
+</div>
+<!--22、呈现大号字体效果。<big></big>-->
+<div>
+    <a href="#big">22、呈现大号字体效果。<big></big></a>
+    <p id="big">
+        &nbsp;&nbsp;&nbsp;&nbsp;
+        呈现大号字体效果。
+        使用 < big> 标签可以很容易地放大字体。
+        <br/>&nbsp;&nbsp;&nbsp;&nbsp;
+        这简直不能再简单了：浏览器显示包含在 < big> 标签和其相应的 < /big> 标签之间的文字时，其字体比周围的文字要大一号。
+        但是，如果文字已经是最大号字体，这个 < big> 标签将不起任何作用。
+        更妙的是，可以嵌套 < big> 标签来放大文本。
+        <br/>&nbsp;&nbsp;&nbsp;&nbsp;
+        每一个 < big> 标签都可以使字体大一号，直到上限 7 号文本，正如字体模型所定义的那样。
+        但是使用 < big> 标签的时候还是要小心，因为浏览器总是很宽大地试图去理解各种标签，对于那些不支持 < big> 标签的浏览器来说，它经常将其认为是粗体字标签。
+    </p>
+</div>
+<!--23、块引用<blockquote ></blockquote>-->
+<div>
+    <!--
+        可选的属性
+            属性	值	    描述
+            cite	URL	    规定引用的来源。
+        全局属性
+            <blockquote> 标签支持 HTML 中的全局属性。
+
+        事件属性
+            <blockquote> 标签支持 HTML 中的事件属性。
+    -->
+    <a href="#blockquote">23、定义块引用< blockquote>< /blockquote></a>
+    <p id="blockquote">
+        &nbsp;&nbsp;&nbsp;&nbsp;
+        < blockquote> 与 < /blockquote> 之间的所有文本都会从常规文本中分离出来，经常会在左、右两边进行缩进（增加外边距），
+        而且有时会使用斜体。也就是说，块引用拥有它们自己的空间。
+        <br/>&nbsp;&nbsp;&nbsp;&nbsp;
+        请使用 q 元素来标记短的引用。
+        <br/>&nbsp;&nbsp;&nbsp;&nbsp;
+    </p>
+</div>
+<!--24、按钮<button></button>-->
+<div>
+    <!--
+        全局属性
+            <button> 标签支持 HTML 中的全局属性。
+        事件属性
+            <button> 标签支持 HTML 中的事件属性。
+        属性
+        new : HTML5 中的新属性。
+            属性	        值	            描述
+            autofocus	    autofocus	    规定当页面加载时按钮应当自动地获得焦点。
+            disabled	    disabled	    规定应该禁用该按钮。
+            form	        form_name	    规定按钮属于一个或多个表单。
+            formaction	    url             覆盖 form 元素的 action 属性。
+                                            注释：该属性与 type="submit" 配合使用。
+            formenctype	    见注释          覆盖 form 元素的 enctype 属性。
+                                            注释：该属性与 type="submit" 配合使用。
+                            formenctype 属性可能的值：
+                                application/x-www-form-urlencoded
+                                multipart/form-data
+                                text/plain
+            formmethod      get             覆盖 form 元素的 method 属性。
+                            post            注释：该属性与 type="submit" 配合使用。
+            formnovalidate	formnovalidate  覆盖 form 元素的 novalidate 属性。
+                                            注释：该属性与 type="submit" 配合使用。
+            formtarget      _blank          覆盖 form 元素的 target 属性。
+                            _self           注释：该属性与 type="submit" 配合使用。
+                            _parent
+                            _top
+                            framename
+            name	        button_name	    规定按钮的名称。
+                            type            规定按钮的类型。
+                            button
+                            reset
+                            submit
+            value	        text	        规定按钮的初始值。可由脚本进行修改。
+    -->
+    <a href="#button">24、按钮< button>< /button></a>
+    <p id="button">
+        &nbsp;&nbsp;&nbsp;&nbsp;按钮
+    </p>
+</div>
+<!--25、图形图表的画布<canvas id=''></canvas>-->
+<div>
+    <!--
+        属性
+        new : HTML5 中的新属性。
+        属性	    值	    描述
+        height	    pixels	设置 canvas 的高度。
+        width	    pixels	设置 canvas 的宽度。
+        全局属性
+            <canvas> 标签支持 HTML 中的全局属性。
+        事件属性
+            <canvas> 标签支持 HTML 中的事件属性。
+        如何使用 <canvas> 标记绘图
+            大多数 Canvas 绘图 API 都没有定义在 <canvas> 元素本身上，
+            而是定义在通过画布的 getContext() 方法获得的一个“绘图环境”对象上。
+            Canvas API 也使用了路径的表示法。但是，路径由一系列的方法调用来定义，
+            而不是描述为字母和数字的字符串，比如调用 beginPath() 和 arc() 方法。
+            一旦定义了路径，其他的方法，如 fill()，都是对此路径操作。绘图环境的各种属性，
+            比如 fillStyle，说明了这些操作如何使用。
+            注释：Canvas API 非常紧凑的一个原因上它没有对绘制文本提供任何支持。
+            要把文本加入到一个 <canvas> 图形，必须要么自己绘制它再用位图图像合并它，
+            或者在 <canvas> 上方使用 CSS 定位来覆盖 HTML 文本。
+    -->
+    <a href="#canvas">25、画布< canvas id=''>< /canvas></a>
+    <p id="canvas">
+        &nbsp;&nbsp;&nbsp;&nbsp;
+        < canvas> 标签定义图形，比如图表和其他图像。
+        <br/>&nbsp;&nbsp;&nbsp;&nbsp;
+        < canvas> 标签只是图形容器，您必须使用脚本来绘制图形。
+    </p>
+</div>
+<!--26、表格标题<caption></caption>-->
+<div>
+    <!--
+        可选的属性
+        属性	值	    描述
+        align   left    不赞成使用。请使用样式取而代之。
+                right
+                top
+                bottom  规定标题的对齐方式。
+        全局属性
+            <caption> 标签支持 HTML 中的全局属性。
+        事件属性
+            <caption> 标签支持 HTML 中的事件属性。
+    -->
+    <a href="#caption">26、表格标题< caption>< /caption></a>
+    <p id="caption">
+        &nbsp;&nbsp;&nbsp;&nbsp;
+        caption 元素定义表格标题。
+        <br/>&nbsp;&nbsp;&nbsp;&nbsp;
+        caption 标签必须紧随 table 标签之后。您只能对每个表格定义一个标题。
+        通常这个标题会被居中于表格之上。
+    </p>
+</div>
+<!--27、文本进行水平居中<center></center>-->
+<div>
+    <!--
+        标准属性
+        id, class, title, style, dir, lang, xml:lang
+        如需完整的描述，请访问标准属性。
+        事件属性
+        onclick, ondblclick, onmousedown, onmouseup, onmouseover,
+        onmousemove, onmouseout, onkeypress, onkeydown, onkeyup
+    -->
+    <a href="#center">27、文本进行水平居中< center>< /center></a>
+    <p id="center">
+        &nbsp;&nbsp;&nbsp;&nbsp;
+        对其所包括的文本进行水平居中。
+        <br/>&nbsp;&nbsp;&nbsp;&nbsp;
+        HTML 与 XHTML 之间的差异
+        在 HTML 4.01 中，center 元素不被赞成使用。
+        在 XHTML 1.0 Strict DTD 中，center 元素不被支持。
+        <br/>&nbsp;&nbsp;&nbsp;&nbsp;
+        提示：请使用 CSS 样式来居中文本！
+    </p>
+</div>
+<!--28、< em> < strong> < dfn> < code> < samp> < kbd>< var>< cite> 标签-->
+<div>
+    <!--
+        标准属性
+            id, class, title, style, dir, lang, xml:lang
+        事件属性
+            onclick, ondblclick, onmousedown, onmouseup, onmouseover,
+            onmousemove, onmouseout, onkeypress, onkeydown, onkeyup
+    -->
+    <a href="#cite">短语标签：< em> < strong> < dfn> < code> < samp> < kbd>< var>< cite></a>
+    <p id="cite">
+        &nbsp;&nbsp;&nbsp;&nbsp;
+        < em>把文本定义为强调的内容。
+        <br/>&nbsp;&nbsp;&nbsp;&nbsp;
+        < strong>把文本定义为语气更强的强调的内容。
+        <br/>&nbsp;&nbsp;&nbsp;&nbsp;
+        < dfn>定义一个定义项目。
+        <br/>&nbsp;&nbsp;&nbsp;&nbsp;
+        < code>定义计算机代码文本。
+        <br/>&nbsp;&nbsp;&nbsp;&nbsp;
+        < samp>定义样本文本。
+        <br/>&nbsp;&nbsp;&nbsp;&nbsp;
+        < kbd>定义键盘文本。它表示文本是从键盘上键入的。它经常用在与计算机相关的文档或手册中。
+        <br/>&nbsp;&nbsp;&nbsp;&nbsp;
+        < var>定义变量。您可以将此标签与 < pre> 及 < code> 标签配合使用。
+        <br/>&nbsp;&nbsp;&nbsp;&nbsp;
+        < cite>	定义引用。可使用该标签对参考文献的引用进行定义，比如书籍或杂志的标题。
+        <br/>&nbsp;&nbsp;&nbsp;&nbsp;
+        < cite> 标签通常表示它所包含的文本对某个参考文献的引用，比如书籍或者杂志的标题。
+        按照惯例，引用的文本将以斜体显示。
+        <br/>&nbsp;&nbsp;&nbsp;&nbsp;
+        用 < cite> 标签把指向其他文档的引用分离出来，尤其是分离那些传统媒体中的文档，
+        如书籍、杂志、期刊，等等。如果引用的这些文档有联机版本，还应该把引用包括在一个 < a> 标签中，
+        从而把一个超链接指向该联机版本。
+        <br/>&nbsp;&nbsp;&nbsp;&nbsp;
+        < cite> 标签还有一个隐藏的功能：它可以使你或者其他人从文档中自动摘录参考书目。
+        我们可以很容易地想象一个浏览器，它能够自动整理引用表格，并把它们作为脚注或者独立的文档来显示。
+        < cite> 标签的语义已经远远超过了改变它所包含的文本外观的作用；
+        它使浏览器能够以各种实用的方式来向用户表达文档的内容。
+    </p>
+</div>
+<!--29、表格中定义各个列的样式<col></col>-->
+<div>
+    <!--
+        可选的属性
+            属性	    值	        描述
+            align       right       规定与 col 元素相关的内容的水平对齐方式。
+                        left
+                        center
+                        justify
+                        char
+            char	    character	规定根据哪个字符来对齐与 col 元素相关的内容。
+            charoff	    number	    规定第一个对齐字符的偏移量。
+            span	    number	    规定 col 元素应该横跨的列数。
+            valign      top         定义与 col 元素相关的内容的垂直对齐方式。
+                        middle
+                        bottom
+                        baseline
+            width       pixels      规定 col 元素的宽度。
+                        %
+                        relative_length
+            全局属性
+                <col> 标签支持 HTML 中的全局属性。
+            事件属性
+                <col> 标签支持 HTML 中的事件属性。
+    -->
+    <a href="#col">29、表格中定义各个列的样式< col></col></a>
+    <p id="col">
+        &nbsp;&nbsp;&nbsp;&nbsp;
+        < col> 标签为表格中一个或多个列定义属性值。
+        <br/>&nbsp;&nbsp;&nbsp;&nbsp;
+        如需对全部列应用样式，< col> 标签很有用，这样就不需要对各个单元和各行重复应用样式了。
+        <br/>&nbsp;&nbsp;&nbsp;&nbsp;
+        您只能在 table 或 colgroup 元素中使用 < col> 标签。
+        <br/>&nbsp;&nbsp;&nbsp;&nbsp;
+        提示：请为 < col> 标签添加 class 属性。这样就可以使用 CSS 来负责对齐方式、宽度和颜色等等。
+        <br/>&nbsp;&nbsp;&nbsp;&nbsp;
+        提示：如果您希望在 colgroup 内部为每个列规定不同的属性值时，请使用此元素。如果没有 col 元素，
+        列会从 colgroup 那里继承所有的属性值。
+        <br/>&nbsp;&nbsp;&nbsp;&nbsp;
+        注释：col 元素是仅包含属性的空元素。如需创建列，您就必须在 tr 元素内部规定 td 元素。
+    </p>
+</div>
+<!--30、表格中的列进行组合，对其格式化<colgroup></colgroup>-->
+<div>
+    <!--
+        可选的属性
+            属性	    值	        描述
+            align       right       定义在列组合中内容的水平对齐方式。
+                        left
+                        center
+                        justify
+                        char
+
+            char	    character	规定根据哪个字符来对齐列组中的内容。
+            charoff	    number	    规定第一个对齐字符的偏移量。
+            span	    number	    规定列组应该横跨的列数。
+            valign      top         定义在列组合中内容的垂直对齐方式。
+                        middle
+                        bottom
+                        baseline
+            width       pixels      规定列组合的宽度。
+                        %
+                        relative_length
+        全局属性
+            <colgroup> 标签支持 HTML 中的全局属性。
+        事件属性
+            <colgroup> 标签支持 HTML 中的事件属性。
+    -->
+    <a href="#colgroup">30、表格中的列进行组合，对其格式化< colgroup>< /colgroup></a>
+    <p id="colgroup">
+        &nbsp;&nbsp;&nbsp;&nbsp;
+        < colgroup> 标签用于对表格中的列进行组合，以便对其进行格式化。
+        <br/>&nbsp;&nbsp;&nbsp;&nbsp;
+        如需对全部列应用样式，< colgroup> 标签很有用，这样就不需要对各个单元和各行重复应用样式了。
+        <br/>&nbsp;&nbsp;&nbsp;&nbsp;
+        < colgroup> 标签只能在 table 元素中使用。
+        <br/>&nbsp;&nbsp;&nbsp;&nbsp;
+        提示：请为 < colgroup> 标签添加 class 属性。这样就可以使用 CSS 来负责对齐方式、宽度和颜色等等。
+        <br/>&nbsp;&nbsp;&nbsp;&nbsp;
+        注释：col 元素是仅包含属性的空元素。如需创建列，您就必须在 tr 元素内部规定 td 元素。
+    </p>
+</div>
+<!--command标签没浏览器支持，表示用户能够调用的命令。-->
+<!--31、自定义选项列表<datalist></datalist>-->
+<div>
+    <!--
+    -->
+    <a href="#datalist">31、自定义选项列表< datalist id=''>< /datalist></a>
+    <p id="datalist">
+        &nbsp;&nbsp;&nbsp;&nbsp;
+        定义选项列表。请与 input 元素配合使用该元素，来定义 input 可能的值。
+        <br/>&nbsp;&nbsp;&nbsp;&nbsp;
+        datalist 及其选项不会被显示出来，它仅仅是合法的输入值列表。
+        <br/>&nbsp;&nbsp;&nbsp;&nbsp;
+        请使用 input 元素的 list 属性来绑定 datalist。
+    </p>
+</div>
+<!--32、条目的定义列表<dl><dt><dd>-->
+<div>
+    <!--
+        <dl>
+            <dt>计算机</dt>
+            <dd>用来计算的仪器 ... ...</dd>
+            <dt>显示器</dt>
+            <dd>以视觉方式显示信息的装置 ... ...</dd>
+        </dl>
+    -->
+    <a href="#dl">32、条目的定义部分< dl>< dt>物名< /dt>< dd>描述< /dd>< /dl></a>
+    <p id="dl">
+        &nbsp;&nbsp;&nbsp;&nbsp;
+        < dl> 标签定义了定义列表（definition list）。
+        <br/>&nbsp;&nbsp;&nbsp;&nbsp;
+        < dt> 标签定义了定义列表中的项目（即术语部分）。
+        <br/>&nbsp;&nbsp;&nbsp;&nbsp;
+        < dd> 在定义列表中定义条目的定义部分。
+        <br/>&nbsp;&nbsp;&nbsp;&nbsp;
+        < dl> 标签用于结合 < dt> （定义列表中的项目）和 < dd> （描述列表中的项目）。
+    </p>
+</div>
+<!--33、已删除的文本<del></del>-->
+<div>
+    <!--
+        可选的属性
+            属性	        值	        描述
+            cite	        URL	        指向另外一个文档的 URL，此文档可解释文本被删除的原因。
+            datetime	    YYYYMMDD	定义文本被删除的日期和时间。
+        全局属性
+            <del> 标签支持 HTML 中的全局属性。
+
+        事件属性
+            <del> 标签支持 HTML 中的事件属性。
+    -->
+    <a href="#del">33、已删除的文本< del>< /del>< ins>< /ins></a>
+    <p id="del">
+        &nbsp;&nbsp;&nbsp;&nbsp;
+        定义文档中已被删除的文本。
+        <br/>&nbsp;&nbsp;&nbsp;&nbsp;
+        请与 < ins> 标签配合使用，来描述文档中的更新和修正。
+        <br/>&nbsp;&nbsp;&nbsp;&nbsp;
+        < ins> 标签定义已经被插入文档中的文本。
+        <br/>&nbsp;&nbsp;&nbsp;&nbsp;
+        ps: a dozen is < del>20< /del> < ins>12< /ins> pieces
+    </p>
+</div>
+<!--34、文档的细节<details></details>-->
+<div>
+    <!--
+        属性：
+            open	open	定义 details 是否可见。
+    -->
+    <a href="#details">34、文档的细节< details>< /details></a>
+    <p id="details">
+        &nbsp;&nbsp;&nbsp;&nbsp;
+        < details> 标签用于描述文档或文档某个部分的细节。目前只有 Chrome 支持。
+    </p>
+</div>
+<!--35、对话框和窗口dialog-->
+<div>
+    <!--
+        属性：
+        open	open	规定 dialog 元素是活动的，用户可与之交互。
+    -->
+    <a href="#dialog">35、对话框和窗口dialog</a>
+    <p id="dialog">
+        &nbsp;&nbsp;&nbsp;&nbsp;
+        < dialog> 标签定义对话框或窗口。
+        <br/>&nbsp;&nbsp;&nbsp;&nbsp;
+        目前只有 Chrome 和 Safari 6 支持 < dialog> 标签。
+    </p>
+</div>
+<!--36、目录列表<dir>-->
+<div>
+    <!--
+        可选的属性
+            属性	        值	            描述
+            compact	        compact         不赞成使用。请使用样式代替。
+
+            标准属性
+            id, class, title, style, dir, lang, xml:lang
+            如需完整的描述，请访问标准属性。
+
+            事件属性
+            onclick, ondblclick, onfocus, onblur, onmousedown, onmouseup, onmouseover,
+            onmousemove, onmouseout, onkeypress, onkeydown, onkeyup
+    -->
+    <a href="#dir">36、目录列表< dir></a>
+    <p id="dir">
+        &nbsp;&nbsp;&nbsp;&nbsp;
+        额。不推荐使用。。。
+    </p>
+</div>
+<!--37、div-->
+<div>
+    <!--
+        属性	    值	    描述
+        align       left    不赞成使用。请使用样式取而代之。
+                    right   规定 div 元素中的内容的对齐方式。
+                    center
+                    justify
+    -->
+    <a href="#div">37、分区和节div</a>
+    <p id="div">
+        &nbsp;&nbsp;&nbsp;&nbsp;
+        < div> 可定义文档中的分区或节（division/section）。
+        <br/>&nbsp;&nbsp;&nbsp;&nbsp;
+        < div> 标签可以把文档分割为独立的、不同的部分。它可以用作严格的组织工具，并且不使用任何格式与其关联。
+        如果用 id 或 class 来标记 < div>，那么该标签的作用会变得更加有效。
+        <br/>&nbsp;&nbsp;&nbsp;&nbsp;
+        用法：
+        <br/>&nbsp;&nbsp;&nbsp;&nbsp;
+        < div> 是一个块级元素。这意味着它的内容自动地开始一个新行。
+        实际上，换行是 < div> 固有的唯一格式表现。可以通过 < div> 的 class 或 id 应用额外的样式。
+        不必为每一个 < div> 都加上类或 id，虽然这样做也有一定的好处。
+        可以对同一个 < div> 元素应用 class 或 id 属性，但是更常见的情况是只应用其中一种。
+        这两者的主要差异是，class 用于元素组（类似的元素，或者可以理解为某一类元素），而 id 用于标识单独的唯一的元素。
+    </p>
+</div>
+<!--38、嵌入的内容<embed src=''></embed>-->
+<div>
+    <!--
+        属性
+            new : HTML5 中的新属性。
+            属性	值	描述
+            height	pixels	设置嵌入内容的高度。
+            src	url	嵌入内容的 URL。
+            type	type	定义嵌入内容的类型。
+            width	pixels	设置嵌入内容的宽度。
+    -->
+    <a href="#embed">38、嵌入的内容< embed src=''>< /embed></a>
+    <p id="embed">
+        &nbsp;&nbsp;&nbsp;&nbsp;
+        < embed> 标签定义嵌入的内容，比如插件。
+    </p>
+</div>
+<!--39、将表单内的相关元素分组<fieldset>-->
+<div>
+    <!--
+        属性
+        属性	    值	        描述
+        disabled	disabled	规定应该禁用 fieldset。
+        form	    form_id	    规定 fieldset 所属的一个或多个表单。
+        name	    value	    规定 fieldset 的名称。
+    -->
+    <a href="#fieldest">39、将表单内的相关元素分组< fieldset>、< legend></a>
+    <p id="fieldest">
+        &nbsp;&nbsp;&nbsp;&nbsp;
+        ieldset 元素可将表单内的相关元素分组。
+        < fieldset> 标签将表单内容的一部分打包，生成一组相关表单的字段。
+        <br/>&nbsp;&nbsp;&nbsp;&nbsp;
+        当一组表单元素放到 < fieldset> 标签内时，浏览器会以特殊方式来显示它们，
+        它们可能有特殊的边界、3D 效果，或者甚至可创建一个子表单来处理这些元素。
+        <br/>&nbsp;&nbsp;&nbsp;&nbsp;
+        < fieldset> 标签没有必需的或唯一的属性。
+        < legend> 标签为 fieldset 元素定义标题。
+    </p>
+</div>
+<!--40、定义 figure元素中的标题<figcation></figcation>-->
+<div>
+    <a href="#figcation">40、定义 < figure>< /figure>元素中的标题< figcation>< /figcation></a>
+    <p id="figcation">
+        &nbsp;&nbsp;&nbsp;&nbsp;
+        < figure>< /figure>用作文档中插图的图像：
+        <br/>&nbsp;&nbsp;&nbsp;&nbsp;
+        < figcaption> 标签定义 figure 元素的标题（caption）。
+        "figcaption" 元素应该被置于 "figure" 元素的第一个或最后一个子元素的位置。
+        <br/>&nbsp;&nbsp;&nbsp;&nbsp;
+        < figure> 标签规定独立的流内容（图像、图表、照片、代码等等）。
+        figure 元素的内容应该与主内容相关，但如果被删除，则不应对文档流产生影响。
+    </p>
+</div>
+<!--41、字体标签<font></font>-->
+<div>
+    <!--
+        必须的属性：
+    -->
+    <a href="#font">41、字体标签< font>< /font></a>
+    <p id="font">
+        &nbsp;&nbsp;&nbsp;&nbsp;
+        < font> 规定文本的字体、字体尺寸、字体颜色。
+    </p>
+</div>
+<!--43、表单<form></form>-->
+<div>
+    <!--
+        属性
+        new : HTML5 中的新属性。
+        属性	        值	            描述
+        accept	        MIME_type	    HTML 5 中不支持。
+        accept-charset	charset_list	规定服务器可处理的表单数据字符集。
+        action	        URL	            规定当提交表单时向何处发送表单数据。
+        autocomplete    on              规定是否启用表单的自动完成功能。
+                        off
+        enctype	        见说明	        规定在发送表单数据之前如何对其进行编码。
+        method          get             规定用于发送 form-data 的 HTTP 方法。
+                        post
+        name	        form_name	    规定表单的名称。
+        novalidate	    novalidate	    如果使用该属性，则提交表单时不进行验证。
+        target          _blank          规定在何处打开 action URL。
+                        _self
+                        _parent
+                        _top
+                        framename
+        enctype 属性可能的值：
+            application/x-www-form-urlencoded
+            multipart/form-data
+            text/plain
+    -->
+    <a href="#form">43、表单< form>< /form></a>
+    <p id="form">
+        &nbsp;&nbsp;&nbsp;&nbsp;
+        < form> 标签用于为用户输入创建 HTML 表单。
+        <br/>&nbsp;&nbsp;&nbsp;&nbsp;
+        表单能够包含 input 元素，比如文本字段、复选框、单选框、提交按钮等等。
+        <br/>&nbsp;&nbsp;&nbsp;&nbsp;
+        表单还可以包含 menus、textarea、fieldset、legend 和 label 元素。
+        <br/>&nbsp;&nbsp;&nbsp;&nbsp;
+        表单用于向服务器传输数据。
+        <br/>&nbsp;&nbsp;&nbsp;&nbsp;
+        注释：form 元素是块级元素，其前后会产生折行。
+    </p>
+</div>
+<!--44、定义 frameset 中的一个特定的窗口（框架）<frame></frame>-->
+<div>
+    <!--可选的属性
+        属性	        值	        描述
+        frameborder     0           规定是否显示框架周围的边框。
+                        1
+        longdesc	    URL	        规定一个包含有关框架内容的长描述的页面。
+        marginheight	pixels	    定义框架的上方和下方的边距。
+        marginwidth	    pixels	    定义框架的左侧和右侧的边距。
+        name	        name	    规定框架的名称。
+        noresize	    noresize	规定无法调整框架的大小。
+        scrolling       yes         规定是否在框架中显示滚动条。
+                        no
+                        auto
+        src             url         规定在框架中显示的文档的 URL。
+-->
+    <a href="#frame">44、定义 frameset 中的一个特定的窗口（框架）< frame>< /frame></a>
+    <p id="frame">
+        &nbsp;&nbsp;&nbsp;&nbsp;
+        < frame> 标签定义 frameset 中的一个特定的窗口（框架）。
+        <br/>&nbsp;&nbsp;&nbsp;&nbsp;
+        frameset 中的每个框架都可以设置不同的属性，比如 border、scrolling、noresize 等等。
+        <br/>&nbsp;&nbsp;&nbsp;&nbsp;
+        注释：如果您希望验证包含框架的页面，请确保 doctype 被设置为 "Frameset DTD"。
+        <br/>&nbsp;&nbsp;&nbsp;&nbsp;
+        frameset 元素可定义一个框架集。它被用来组织多个窗口（框架）。
+        每个框架存有独立的文档。在其最简单的应用中，frameset 元素仅仅会规定在框架集中存在多少列或多少行。
+        您必须使用 cols 或 rows 属性。
+    </p>
+</div>
+<!--45、定义文档的页眉<header></header>-->
+<div>
+    <a href="#header">45、定义文档的页眉< header>< /header></a>
+    <p id="header">
+        &nbsp;&nbsp;&nbsp;&nbsp;
+        < header> 标签定义文档的页眉（介绍信息）。
+    </p>
+</div>
+<!--46、斜体<i></i>-->
+<div>
+    <a href="#i">46、斜体< i>< /i></a>
+    <p id="i">
+        &nbsp;&nbsp;&nbsp;&nbsp;
+        < i> 标签显示斜体文本效果。
+        <br/>&nbsp;&nbsp;&nbsp;&nbsp;
+        < i> 标签和基于内容的样式标签 < em> 类似。它告诉浏览器将包含其中的文本以斜体字（italic）或者倾斜（oblique）字体显示。
+        如果这种斜体字对该浏览器不可用的话，可以使用高亮、反白或加下划线等样式。
+        <br/>&nbsp;&nbsp;&nbsp;&nbsp;
+        提示：< i> 标签一定要和结束标签 < /i> 结合起来使用。
+    </p>
+</div>
+<!--47、行内框架<iframe>-->
+<div>
+    <!--
+        属性	值	描述
+        align
+        left
+        right
+        top
+        middle
+        bottom
+        不赞成使用。请使用样式代替。
+
+        规定如何根据周围的元素来对齐此框架。
+
+        frameborder
+        1
+        0
+        规定是否显示框架周围的边框。
+        height
+        pixels
+        %
+        规定 iframe 的高度。
+        longdesc	URL	规定一个页面，该页面包含了有关 iframe 的较长描述。
+        marginheight	pixels	定义 iframe 的顶部和底部的边距。
+        marginwidth	pixels	定义 iframe 的左侧和右侧的边距。
+        name	frame_name	规定 iframe 的名称。
+        sandbox
+        ""
+        allow-forms
+        allow-same-origin
+        allow-scripts
+        allow-top-navigation
+        启用一系列对 <iframe> 中内容的额外限制。
+        scrolling
+        yes
+        no
+        auto
+        规定是否在 iframe 中显示滚动条。
+        seamless	seamless	规定 <iframe> 看上去像是包含文档的一部分。
+        src	URL	规定在 iframe 中显示的文档的 URL。
+        srcdoc	HTML_code	规定在 <iframe> 中显示的页面的 HTML 内容。
+        width
+        pixels
+        %
+        定义 iframe 的宽度。
+    -->
+    <a href="#iframe">47、行内框架< iframe></a>
+    <p id="iframe">
+        &nbsp;&nbsp;&nbsp;&nbsp;
+        iframe 元素会创建包含另外一个文档的内联框架（即行内框架）。
+        <br/>&nbsp;&nbsp;&nbsp;&nbsp;
+        您可以把需要的文本放置在 < iframe> 和 < /iframe> 之间，这样就可以应对无法理解 iframe 的浏览器。
+    </p>
+</div>
+<!--48、图片<img>-->
+<div>
+    <!--
+        可选的属性
+            属性	值	描述
+            align
+            top
+            bottom
+            middle
+            left
+            right
+            不推荐使用。规定如何根据周围的文本来排列图像。
+            border	pixels	不推荐使用。定义图像周围的边框。
+            height
+            pixels
+            %
+            定义图像的高度。
+            hspace	pixels	不推荐使用。定义图像左侧和右侧的空白。
+            ismap	URL	将图像定义为服务器端图像映射。
+            longdesc	URL	指向包含长的图像描述文档的 URL。
+            usemap	URL	将图像定义为客户器端图像映射。
+            vspace	pixels	不推荐使用。定义图像顶部和底部的空白。
+            width
+            pixels
+            %
+            设置图像的宽度。
+    -->
+    <a href="#img">48、图片< img src=''></a>
+    <p id="img">
+        &nbsp;&nbsp;&nbsp;&nbsp;
+        img 元素向网页中嵌入一幅图像。
+        <br/>&nbsp;&nbsp;&nbsp;&nbsp;
+        请注意，从技术上讲，< img> 标签并不会在网页中插入图像，而是从网页上链接图像。
+        <br/>&nbsp;&nbsp;&nbsp;&nbsp;
+        < img> 标签创建的是被引用图像的占位空间。
+        < img> 标签有两个必需的属性：src 属性 和 alt 属性。
+    </p>
+</div>
+<!--49、input-->
+<div>
+    <!--属性
+        new : HTML5 中的新属性。
+        属性	        值	            描述
+        accept	        mime_type	    规定通过文件上传来提交的文件的类型。
+        align           left            不赞成使用。规定图像输入的对齐方式。
+                        right
+                        top
+                        middle
+                        bottom
+        alt	            text	        定义图像输入的替代文本。
+        autocomplete    on              规定是否使用输入字段的自动完成功能。
+                        off
+        autofocus	    autofocus       规定输入字段在页面加载时是否获得焦点。
+                                        （不适用于 type="hidden"）
+        checked	        checked	        规定此 input 元素首次加载时应当被选中。
+        disabled	    disabled	    当 input 元素加载时禁用此元素。
+        form	        formname	    规定输入字段所属的一个或多个表单。
+        formaction	    URL             覆盖表单的 action 属性。
+                                        （适用于 type="submit" 和 type="image"）
+        formenctype	    见注释          覆盖表单的 enctype 属性。
+                                        （适用于 type="submit" 和 type="image"）
+        formmethod      get             覆盖表单的 method 属性。
+                        post            （适用于 type="submit" 和 type="image"）
+        formnovalidate	formnovalidate  覆盖表单的 novalidate 属性。
+                                        如果使用该属性，则提交表单时不进行验证。
+        formtarget      _blank          覆盖表单的 target 属性。
+                        _self
+                        _parent
+                        _top
+                        framename       （适用于 type="submit" 和 type="image"）
+        height          pixels          定义 input 字段的高度。（适用于 type="image"）
+                        %
+        list	        datalist-id	    引用包含输入字段的预定义选项的 datalist 。
+        max             number          规定输入字段的最大值。
+                        date            请与 "min" 属性配合使用，来创建合法值的范围。
+        maxlength	    number	        规定输入字段中的字符的最大长度。
+        min             number          规定输入字段的最小值。
+                        date            请与 "max" 属性配合使用，来创建合法值的范围。
+        multiple	    multiple	    如果使用该属性，则允许一个以上的值。
+        name	        field_name	    定义 input 元素的名称。
+        pattern	        regexp_pattern  规定输入字段的值的模式或格式。
+                                        例如 pattern="[0-9]" 表示输入值必须是 0 与 9 之间的数字。
+
+        placeholder	    text	        规定帮助用户填写输入字段的提示。
+        readonly	    readonly	    规定输入字段为只读。
+        required	    required	    指示输入字段的值是必需的。
+        size	        number_of_char	定义输入字段的宽度。
+        src	            URL	            定义以提交按钮形式显示的图像的 URL。
+        step	        number	        规定输入字的的合法数字间隔。
+        type            button          规定 input 元素的类型。
+                        checkbox
+                        file
+                        hidden
+                        image
+                        password
+                        radio
+                        reset
+                        submit
+                        text
+        value	        value	        规定 input 元素的值。
+        width           pixels          定义 input 字段的宽度。（适用于 type="image"）
+                        %
+-->
+    <a href="#input">49、input</a>
+    <p id="input">
+        &nbsp;&nbsp;&nbsp;&nbsp;
+        根据不同的 type 属性值，输入字段拥有很多种形式。
+        输入字段可以是文本字段、复选框、掩码后的文本控件、单选按钮、按钮等等。
+    </p>
+</div>
+<!--50、表单的秘钥对生成器字段<keygen>-->
+<div>
+    <!--
+    属性
+    new : HTML5 中的新属性。
+    属性	    值	            描述
+    autofocus	autofocus	    使 keygen 字段在页面加载时获得焦点。
+    challenge	challenge	    如果使用，则将 keygen 的值设置为在提交时询问。
+    disabled	disabled	    禁用 keytag 字段。
+    form	    formname	    定义该 keygen 字段所属的一个或多个表单。
+    keytype	    rsa	定义        keytype。rsa 生成 RSA 密钥。
+    name	    fieldname       定义 keygen 元素的唯一名称。
+                                name 属性用于在提交表单时搜集字段的值。
+    -->
+    <a href="#keygen">50、表单的秘钥对生成器字段< keygen name='' /></a>
+    <p id="keygen">
+        &nbsp;&nbsp;&nbsp;&nbsp;
+        < keygen> 标签规定用于表单的密钥对生成器字段。
+        <br/>&nbsp;&nbsp;&nbsp;&nbsp;
+        当提交表单时，私钥存储在本地，公钥发送到服务器。
+        <br/>&nbsp;&nbsp;&nbsp;&nbsp;
+    </p>
+</div>
+<!--51、为 input 元素定义标注（标记）<lable>-->
+<div>
+    <a href="#lable">51、为 input 元素定义标注（标记）< lable></a>
+    <p id="lable">
+        &nbsp;&nbsp;&nbsp;&nbsp;
+        < label> 标签为 input 元素定义标注（标记）。
+        <br/>&nbsp;&nbsp;&nbsp;&nbsp;
+        label 元素不会向用户呈现任何特殊效果。不过，它为鼠标用户改进了可用性。如果您在 label 元素内点击文本，就会触发此控件。
+        就是说，当用户选择该标签时，浏览器就会自动将焦点转到和标签相关的表单控件上。
+        <br/>&nbsp;&nbsp;&nbsp;&nbsp;
+        < label> 标签的 for 属性应当与相关元素的 id 属性相同。
+    </p>
+</div>
+<!--52、li-->
+<div>
+    <a href="#"></a>
+    <p id="">
+        &nbsp;&nbsp;&nbsp;&nbsp;
+        <br/>&nbsp;&nbsp;&nbsp;&nbsp;
+        <br/>&nbsp;&nbsp;&nbsp;&nbsp;
+    </p>
+</div>
+<!---->
+<div>
+    <a href="#"></a>
+    <p id="">
+        &nbsp;&nbsp;&nbsp;&nbsp;
+        <br/>&nbsp;&nbsp;&nbsp;&nbsp;
+        <br/>&nbsp;&nbsp;&nbsp;&nbsp;
+    </p>
+</div>
+<!---->
+<div>
+    <a href="#"></a>
+    <p id="">
+        &nbsp;&nbsp;&nbsp;&nbsp;
+        <br/>&nbsp;&nbsp;&nbsp;&nbsp;
+        <br/>&nbsp;&nbsp;&nbsp;&nbsp;
+    </p>
+</div>
+<!---->
+<div>
+    <a href="#"></a>
+    <p id="">
+        &nbsp;&nbsp;&nbsp;&nbsp;
+        <br/>&nbsp;&nbsp;&nbsp;&nbsp;
+        <br/>&nbsp;&nbsp;&nbsp;&nbsp;
+    </p>
+</div>
+<!---->
+<div>
+    <a href="#"></a>
+    <p id="">
+        &nbsp;&nbsp;&nbsp;&nbsp;
+        <br/>&nbsp;&nbsp;&nbsp;&nbsp;
+        <br/>&nbsp;&nbsp;&nbsp;&nbsp;
+    </p>
+</div>
+<!---->
+<div>
+    <a href="#"></a>
+    <p id="">
+        &nbsp;&nbsp;&nbsp;&nbsp;
+        <br/>&nbsp;&nbsp;&nbsp;&nbsp;
+        <br/>&nbsp;&nbsp;&nbsp;&nbsp;
+    </p>
+</div>
+<!---->
+<div>
+    <a href="#"></a>
+    <p id="">
+        &nbsp;&nbsp;&nbsp;&nbsp;
+        <br/>&nbsp;&nbsp;&nbsp;&nbsp;
+        <br/>&nbsp;&nbsp;&nbsp;&nbsp;
+    </p>
+</div>
+<!---->
+<div>
+    <a href="#"></a>
+    <p id="">
+        &nbsp;&nbsp;&nbsp;&nbsp;
+        <br/>&nbsp;&nbsp;&nbsp;&nbsp;
+        <br/>&nbsp;&nbsp;&nbsp;&nbsp;
+    </p>
+</div>
+<!---->
+<div>
+    <a href="#"></a>
+    <p id="">
+        &nbsp;&nbsp;&nbsp;&nbsp;
+        <br/>&nbsp;&nbsp;&nbsp;&nbsp;
+        <br/>&nbsp;&nbsp;&nbsp;&nbsp;
+    </p>
+</div>
+
+</body>
+</html>

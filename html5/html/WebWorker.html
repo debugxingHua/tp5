@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Web Worker</title>
+</head>
+<body>
+<p>计数: <output id="result"></output></p>
+<button onclick="startWorker()">开始 Worker</button>
+<button onclick="stopWorker()">停止 Worker</button>
+<br /><br />
+</body>
+<script>
+    var w;
+    function startWorker(){
+        //在创建 web worker 之前，请检测用户的浏览器是否支持它
+        if(typeof(Worker)!=="undefined") {
+            //在一个外部 JavaScript 中创建我们的 web worker。从 HTML 页面调用它。
+            //下面的代码检测是否存在 worker，如果不存在，- 它会创建一个新的 web worker 对象，
+            // 然后运行 "workers.js" 中的代码：
+            if(typeof(w)=="undefined") {
+                w=new Worker("../static/js/workers.js");
+            }
+            //然后我们就可以从 web worker 发生和接收消息了。向 web worker 添加一个 "onmessage" 事件监听器：
+            //当 web worker 传递消息时，会执行事件监听器中的代码。event.data 中存有来自 event.data 的数据。
+            w.onmessage = function (event) {
+                document.getElementById("result").innerHTML=event.data;
+            };
+            w.onerror=function(event){
+                document.getElementById("result").innerHTML=event.data;
+            }
+        }else {
+            document.getElementById("result").innerHTML="Sorry, your browser does not support Web Workers...";
+        }
+    }
+    function stopWorker() {
+        //当我们创建 web worker 对象后，它会继续监听消息（即使在外部脚本完成之后）直到其被终止为止。
+        // 如需终止 web worker，并释放浏览器/计算机资源，请使用 terminate() 方法：
+        w.terminate();
+    }
+</script>
+</html>
+<!--
+什么是 Web Worker？
+当在 HTML 页面中执行脚本时，页面的状态是不可响应的，直到脚本已完成。
+web worker 是运行在后台的 JavaScript，独立于其他脚本，不会影响页面的性能。
+您可以继续做任何愿意做的事情：点击、选取内容等等，而此时 web worker 在后台运行。
+
+需要注意的就是，用来测试的js和html文件都需要发布到站点才可以正常访问，否则会提示这个错误：
+Uncaught
+ SecurityError: Failed to construct 'Worker': Script at 'file:///D:/selftraining/html5/webworker/my_task.js'
+ cannot be accessed from origin 'null'.
+ 解决方法：用iis配一个测试站点。
+-->

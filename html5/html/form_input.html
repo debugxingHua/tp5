@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>form表单</title>
+    <style type="text/css">
+        input {
+            margin: 10px 0px;
+        }
+    </style>
+</head>
+<body>
+<form action="../php/form.php" method="post">
+    <h3>表单元素:</h3>
+    <p>
+        一、input元素、select元素、textarea元素、button元素、datalist元素、keygen元素、output元素
+    </p>
+    <h3>Input元素输入类型、select元素、textarea元素、button元素:</h3>
+    <div>
+        <p>1、文本域</p>
+        <input type="text" name="text" placeholder="文本域" value="文本域"/>
+        <br/>
+        <p>2、密码域</p>
+        <input type="password" name="password" placeholder="密码域" value="密码"/>
+        <br/>
+        <p>3、复选框</p>
+        <input type="checkbox" name="checkbox" value="复选1" checked/>
+        <input type="checkbox" name="checkbox" value="复选2"/>
+        <br/>
+        <p>4、单选框</p>
+        <input type="radio" name="radio" value="单选1" checked/>
+        <input type="radio" name="radio" value="单选2"/>
+        <br/>
+        <p>5、按钮</p>
+        <input type="button" value="button"/>
+        <br/>
+        <p>6、下拉框</p>
+        <select name="select">
+            <option value="下拉框0">下拉框</option>
+            <option value="下拉框1" selected>1</option>
+            <option value="下拉框2">2</option>
+            <option value="下拉框3">3</option>
+        </select>
+        <br/><br/>
+        <p>7、围绕文本的边框的输入框</p>
+        <fieldset>
+            <legend>围绕文本的边框</legend>
+            <input type="text" name="text1" placeholder="text1" value="围绕文本的边框text1"/>
+            <input type="text" name="text2" placeholder="text2" value="围绕文本的边框text2"/><br/>
+        </fieldset>
+        <br/>
+        <p>8、用于验证邮箱的正确格式，可以为空,在提交表单时自动验证</p>
+        <input type="email" name="email" placeholder="邮件" value="854592400@qq.com"/>
+        <br/>
+        <p> 9、用于包含URL地址输入的输入域验证</p>
+        <input type="url" name="url" placeholder="url" value="http://www.hexinghua.club"/>
+        <br/>
+        <p>
+            10、包含数值的输入域，以下是数字类型的属性用于限定输入的数值类型<br/>
+            　　　　max number 规定允许的最大值<br/>
+            　　　　min number 规定允许的最小值<br/>
+            　　　　step number 规定合法的数字间隔，表示规定数值的倍数，比如step=2，那么输入0,2，-2都是合法的<br/>
+            　　　　value number 规定默认值
+        </p>
+        <input type="number" name="number" placeholder="包含数值的输入域" value="50" min="1" max="60"/>
+        <br/>
+        <p>11、验证一定范围的输入域，限定类型和number是一样的。</p>
+        <input type="range" name="range"  min="1" max="100" value="66"/>
+        <br/>
+        <p>12、你输入内容的时候，搜索框后边会自动出现一个小×，点击这个小×，可以清除输入的内容。</p>
+        <input type="search" name="search" value="搜索"/>
+        <br/>
+        <p>13、Date pickers<br/>
+                date - 选取日、月、年<br/>
+    　　　　　　month - 选取月、年<br/>
+    　　　　　　week - 选取周和年<br/>
+    　　　　　　time - 选取时间（小时和分钟）<br/>
+    　　　　　　datetime - 选取时间、日、月、年（ UTC 时间）<br/>
+    　　　　　　datetime-local - 选取时间、日、月、年（本地时间）<br/>
+        </p>
+        <input type="date" name="date"/>
+        <br/>
+        <p>14、色板</p>
+        <input type="color" name="color"/>
+        <br/>
+        <!--
+            输入类型：tel
+            <input type="tel" name="tel">用于应该包含电话号码的输入字段。
+            目前只有 Safari 8 支持 tel 类型。
+        -->
+        <p>15、input的file类型</p>
+        <input type="file" multiple>
+        <p>16、input的image类型，点击可提交表单</p>
+        <input type="image" src="../static/img/liuyan2.jpg" height="99" width="99">
+        <p>17、文本域</p>
+        <textarea name="textarea">文本域textarea</textarea>
+    </div>
+    <h3>二、新加的datalist元素、keygen元素、output元素:</h3>
+    <div>
+        <p>1、datalist 元素规定输入域的选项列表。
+            列表是通过 datalist 内的 option 元素创建的。
+            如需把 datalist 绑定到输入域，请用输入域的 list 属性引用 datalist 的 id：</p>
+        <input name="datalist" list="url_list" value="detalist">
+        <!--通过 <datalist> 设置预定义值的 <input> 元素：提示：option 元素永远都要设置 value 属性。-->
+        <datalist id="url_list">
+            <option value="url1" ></option>
+            <option value="url2" ></option>
+            <option value="url3" ></option>
+        </datalist>
+        <p>2、keygen 元素<br/>
+                keygen 元素的作用是提供一种验证用户的可靠方法。<br/>
+                keygen 元素是密钥对生成器（key-pair generator）。当提交表单时，会生成两个键，一个是私钥，一个公钥。<br/>
+                私钥（private key）存储于客户端，公钥（public key）则被发送到服务器。<br/>
+                公钥可用于之后验证用户的客户端证书（client certificate）。<br/>
+                目前，浏览器对此元素的糟糕的支持度不足以使其成为一种有用的安全标准。
+        </p>
+        <keygen name="security" ></keygen>
+        <br/>
+        <p>3、output 元素用于不同类型的输出</p>
+        <output name="output" id="output">output</output>
+    </div>
+    <br/>
+    <h3>end:提交与重置</h3>
+    <input type="submit" />
+    <input type="reset" />
+</form>
+<p>output做的计算输出，屌爆了：</p>
+<form oninput="x.value=parseInt(a.value)+parseInt(b.value)">
+    0<input type="range" id="a" value="50">100
+    +<input type="number" id="b" value="50">
+    =<output name="x" for="a b"></output>
+    <!--
+        属性	值	                    描述
+        for	    id of another element	定义输出域相关的一个或多个元素。
+        form	formname	            定义输入字段所属的一个或多个表单。
+        name	unique name	            定义对象的唯一名称。（表单提交时使用）-->
+</form>
+</body>
+</html>
+<!--
+HTML5 新的 Input 类型
+HTML5 拥有多个新的表单输入类型。这些新特性提供了更好的输入控制和验证。
+本章全面介绍这些新的输入类型：
+email
+url
+number
+range
+Date pickers (date, month, week, time, datetime, datetime-local)
+search
+color
+-->
