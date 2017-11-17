@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>HTML 事件</title>
+    <style>
+        table {
+            width: 80%;
+            text-align: center;
+            border-style: solid;
+        }
+        th,td{
+            border:1px solid blue;
+            height: 30px;
+        }
+        .th1{
+            width: 30%;
+        }
+        .th2{
+            width: 70%;
+        }
+    </style>
+</head>
+<body>
+<div>
+    <table align="center">
+        <tr>
+            <th colspan="3">Window 事件属性</th>
+        </tr>
+        <tr>
+            <th>属性</th>
+            <th>值</th>
+            <th>描述</th>
+        </tr>
+        <tr>
+            <td><a href="#onafterprint">onafterprint</a></td>
+            <td>script</td>
+            <td>文档打印之后运行的脚本。</td>
+        </tr>
+        <tr>
+            <td><a href="#onbeforeprint">onbeforeprint</a></td>
+            <td>script</td>
+            <td>文档打印之前运行的脚本。</td>
+        </tr>
+        <tr>
+            <td><a href="#onbeforeunload">onbeforeunload</a></td>
+            <td>script</td>
+            <td>文档卸载之前运行的脚本。</td>
+        </tr>
+        <tr>
+            <td><a href="#onerror">onerror</a></td>
+            <td>script</td>
+            <td>在错误发生时运行的脚本。</td>
+        </tr>
+        <tr>
+            <td><a href="#onhaschange">onhaschange</a></td>
+            <td>script</td>
+            <td>当文档已改变时运行的脚本。</td>
+        </tr>
+        <tr>
+            <td><a href="#onload">onload</a></td>
+            <td>script</td>
+            <td>页面结束加载之后触发。</td>
+        </tr>
+        <tr>
+            <td><a href="#onmessage">onmessage</a></td>
+            <td>script</td>
+            <td>在消息被触发时运行的脚本。</td>
+        </tr>
+        <tr>
+            <td><a href="#onoffline">onoffline</a></td>
+            <td>script</td>
+            <td>当文档离线时运行的脚本。</td>
+        </tr>
+        <tr>
+            <td><a href="#ononline">ononline</a></td>
+            <td>script</td>
+            <td>当文档上线时运行的脚本。</td>
+        </tr>
+        <tr>
+            <td><a href="#onpagehide">onpagehide</a></td>
+            <td>script</td>
+            <td>当窗口隐藏时运行的脚本。</td>
+        </tr>
+        <tr>
+            <td><a href="#onpageshow">onpageshow</a></td>
+            <td>script</td>
+            <td>当窗口成为可见时运行的脚本。</td>
+        </tr>
+        <tr>
+            <td><a href="#onpopstate">onpopstate</a></td>
+            <td>script</td>
+            <td>当窗口历史记录改变时运行的脚本。</td>
+        </tr>
+        <tr>
+            <td><a href="#onredo">onredo</a></td>
+            <td>script</td>
+            <td>当文档执行撤销（redo）时运行的脚本。</td>
+        </tr>
+        <tr>
+            <td><a href="#onredo">onresize</a></td>
+            <td>script</td>
+            <td>当浏览器窗口被调整大小时触发。</td>
+        </tr>
+        <tr>
+            <td><a href="#onredo">onstorage</a></td>
+            <td>script</td>
+            <td>在 Web Storage 区域更新后运行的脚本。</td>
+        </tr>
+        <tr>
+            <td><a href="#onredo">onundo</a></td>
+            <td>script</td>
+            <td>在文档执行 undo 时运行的脚本。</td>
+        </tr>
+        <tr>
+            <td><a href="#onredo">onunload</a></td>
+            <td>script</td>
+            <td>一旦页面已下载时触发（或者浏览器窗口已被关闭）。</td>
+        </tr>
+        <tr>
+            <th colspan="3">Form 事件</th>
+        </tr>
+        <tr>
+            <td><a href="#onblur">onblur</a></td>
+            <td>script</td>
+            <td>元素失去焦点时运行的脚本。</td>
+        </tr>
+        <tr>
+            <td><a href="#onchange">onchange</a></td>
+            <td>script</td>
+            <td>在元素值被改变时运行的脚本。</td>
+        </tr>
+        <tr>
+            <td><a href="#">oncontextmenu</a></td>
+            <td>script</td>
+            <td>当上下文菜单被触发时运行的脚本。</td>
+        </tr>
+        <tr>
+            <td><a href="#onfocus">onfocus</a></td>
+            <td>script</td>
+            <td>当元素获得焦点时运行的脚本。</td>
+        </tr>
+        <tr>
+            <td><a href="#">onformchange</a></td>
+            <td>script</td>
+            <td>在表单改变时运行的脚本。</td>
+        </tr>
+        <tr>
+            <td><a href="#">onforminput</a></td>
+            <td>script</td>
+            <td>当表单获得用户输入时运行的脚本。</td>
+        </tr>
+        <tr>
+            <td><a href="#">oninput</a></td>
+            <td>script</td>
+            <td>当元素获得用户输入时运行的脚本。</td>
+        </tr>
+        <tr>
+            <td><a href="#">oninvalid</a></td>
+            <td>script</td>
+            <td>当元素无效时运行的脚本。</td>
+        </tr>
+        <tr>
+            <td><a href="#onreset">onreset</a></td>
+            <td>script</td>
+            <td>当表单中的重置按钮被点击时触发。HTML5 中不支持。</td>
+        </tr>
+        <tr>
+            <td><a href="#onselect">onselect</a></td>
+            <td>script</td>
+            <td>在元素中文本被选中后触发。</td>
+        </tr>
+        <tr>
+            <td><a href="#onsubmit">onsubmit</a></td>
+            <td>script</td>
+            <td>在提交表单时触发。</td>
+        </tr>
+        <tr>
+            <th colspan="3">Keyboard 事件</th>
+        </tr>
+        <div>
+            <tr>
+                <td><a href="#onkeydown">onkeydown</a></td>
+                <td>script</td>
+                <td>在用户按下按键时触发。</td>
+            </tr>
+            <tr>
+                <td><a href="#onkeypress">onkeypress</a></td>
+                <td>script</td>
+                <td>在用户敲击按钮时触发。</td>
+            </tr>
+            <tr>
+                <td><a href="#onkeyup">onkeyup</a></td>
+                <td>script</td>
+                <td>当用户释放按键时触发。</td>
+            </tr>
+        </div>
+        <tr>
+            <th colspan="3">Mouse 事件</th>
+        </tr>
+        <div>
+            <tr>
+                <td><a href="#onclick">onclick</a></td>
+                <td>script</td>
+                <td>元素上发生鼠标点击时触发。</td>
+            </tr>
+            <tr>
+                <td><a href="#ondblclick">ondblclick</a></td>
+                <td>script</td>
+                <td>元素上发生鼠标双击时触发。</td>
+            </tr>
+            <tr>
+                <td><a href="#">ondrag</a></td>
+                <td>script</td>
+                <td>元素被拖动时运行的脚本。</td>
+            </tr>
+            <tr>
+                <td><a href="#">ondragend</a></td>
+                <td>script</td>
+                <td>在拖动操作末端运行的脚本。</td>
+            </tr>
+            <tr>
+                <td><a href="#">ondragenter</a></td>
+                <td>script</td>
+                <td>当元素元素已被拖动到有效拖放区域时运行的脚本。</td>
+            </tr>
+            <tr>
+                <td><a href="#">ondragleave</a></td>
+                <td>script</td>
+                <td>当元素离开有效拖放目标时运行的脚本。</td>
+            </tr>
+            <tr>
+                <td><a href="#">ondragover</a></td>
+                <td>script</td>
+                <td>当元素在有效拖放目标上正在被拖动时运行的脚本。</td>
+            </tr>
+            <tr>
+                <td><a href="#">ondragstart</a></td>
+                <td>script</td>
+                <td>在拖动操作开端运行的脚本。</td>
+            </tr>
+            <tr>
+                <td><a href="#">ondrop</a></td>
+                <td>script</td>
+                <td>当被拖元素正在被拖放时运行的脚本。</td>
+            </tr>
+            <tr>
+                <td><a href="#onmousedown">onmousedown</a></td>
+                <td>script</td>
+                <td>当元素上按下鼠标按钮时触发。</td>
+            </tr>
+            <tr>
+                <td><a href="#onmousemove">onmousemove</a></td>
+                <td>script</td>
+                <td>当鼠标指针移动到元素上时触发。</td>
+            </tr>
+            <tr>
+                <td><a href="#ondragstart">onmouseout</a></td>
+                <td>script</td>
+                <td>当鼠标指针移出元素时触发。</td>
+            </tr>
+            <tr>
+                <td><a href="#ondrop">onmouseover</a></td>
+                <td>script</td>
+                <td>当鼠标指针移动到元素上时触发。</td>
+            </tr>
+            <tr>
+                <td><a href="#onmousedown">onmouseup</a></td>
+                <td>script</td>
+                <td>当在元素上释放鼠标按钮时触发。</td>
+            </tr>
+            <tr>
+                <td><a href="#">onmousewheel</a></td>
+                <td>script</td>
+                <td>当鼠标滚轮正在被滚动时运行的脚本。</td>
+            </tr>
+            <tr>
+                <td><a href="#">onscroll</a></td>
+                <td>script</td>
+                <td>当元素滚动条被滚动时运行的脚本。</td>
+            </tr>
+        </div>
+    </table>
+</div>
+
+</body>
+</html>

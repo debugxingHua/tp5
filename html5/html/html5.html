@@ -1287,85 +1287,625 @@
 </div>
 <!--52、li-->
 <div>
-    <a href="#"></a>
-    <p id="">
+    <a href="#li">52、配合ol和ul标签标示列表的项目</a>
+    <p id="li">
         &nbsp;&nbsp;&nbsp;&nbsp;
+        < li> 标签定义列表项目。
         <br/>&nbsp;&nbsp;&nbsp;&nbsp;
-        <br/>&nbsp;&nbsp;&nbsp;&nbsp;
+        < li> 标签可用在有序列表 (< ol>) 和无序列表 (< dul>) 中。
     </p>
 </div>
-<!---->
+<!--53、link-->
 <div>
-    <a href="#"></a>
-    <p id="">
+    <!--
+        属性
+        new : HTML5 中的新属性。
+
+        属性	            值	            描述
+        charset	            char_encoding	HTML5 中不支持。
+        href	            URL	            规定被链接文档的位置。
+        hreflang	        language_code	规定被链接文档中文本的语言。
+        media	            media_query	    规定被链接文档将被显示在什么设备上。
+        rel                 alternate       规定当前文档与被链接文档之间的关系。
+                            author
+                            help
+                            icon
+                            licence
+                            next
+                            pingback
+                            prefetch
+                            prev
+                            search
+                            sidebar
+                            stylesheet
+                            tag
+        rev	                reversed relationship	HTML5 中不支持。
+        sizes               heightxwidth
+                            any             规定被链接资源的尺寸。仅适用于 rel="icon"。
+        target              _blank
+                            _self
+                            _top
+                            _parent
+                            frame_name      HTML5 中不支持。
+        type	            MIME_type	    规定被链接文档的 MIME 类型。
+    -->
+    <a href="#link">53、< link rel="stylesheet" type="text/css" href="theme.css" /></a>
+    <p id="link">
         &nbsp;&nbsp;&nbsp;&nbsp;
+        < link> 标签定义文档与外部资源的关系。
         <br/>&nbsp;&nbsp;&nbsp;&nbsp;
+        < link> 标签最常见的用途是链接样式表。
         <br/>&nbsp;&nbsp;&nbsp;&nbsp;
+        注释：link 元素是空元素，它仅包含属性。
+        <br/>&nbsp;&nbsp;&nbsp;&nbsp;
+        注释：此元素只能存在于 head 部分，不过它可出现任何次数。
     </p>
 </div>
-<!---->
+<!--54、<main></main>-->
 <div>
-    <a href="#"></a>
-    <p id="">
+    <a href="#main">54、主要内容< main>< /main></a>
+    <p id="main">
         &nbsp;&nbsp;&nbsp;&nbsp;
+        < main> 标签规定文档的主要内容。
         <br/>&nbsp;&nbsp;&nbsp;&nbsp;
+        < main> 元素中的内容对于文档来说应当是唯一的。
+        它不应包含在文档中重复出现的内容，比如侧栏、导航栏、版权信息、站点标志或搜索表单。
         <br/>&nbsp;&nbsp;&nbsp;&nbsp;
+        注释：在一个文档中，不能出现一个以上的 < main> 元素。
+        <br/>&nbsp;&nbsp;&nbsp;&nbsp;
+        < main> 元素不能是以下元素的后代：< article>、< aside>、< footer>、< header> 或 < nav>。
     </p>
 </div>
-<!---->
+<!--55、map <map name="" id="必须">-->
 <div>
-    <a href="#"></a>
-    <p id="">
+    <a href="#map">55、map配合area使用，定义图像中的点击区域</a>
+    <p id="map">
         &nbsp;&nbsp;&nbsp;&nbsp;
+        <a href="#area">查看area标签</a>
+        <br/>&nbsp;&nbsp;&nbsp;&nbsp;
+        定义一个客户端图像映射。图像映射（image-map）指带有可点击区域的一幅图像。
         <br/>&nbsp;&nbsp;&nbsp;&nbsp;
         <br/>&nbsp;&nbsp;&nbsp;&nbsp;
     </p>
 </div>
-<!---->
+<!--56、突出显示部分文本：<mark></mark>-->
 <div>
-    <a href="#"></a>
-    <p id="">
+    <a href="#mark">56、突出显示部分文本：< mark>< /mark></a>
+    <p id="mark">
         &nbsp;&nbsp;&nbsp;&nbsp;
-        <br/>&nbsp;&nbsp;&nbsp;&nbsp;
-        <br/>&nbsp;&nbsp;&nbsp;&nbsp;
+        < mark> 标签定义带有记号的文本。请在需要突出显示文本时使用 < m> 标签。
     </p>
 </div>
-<!---->
+<!--menu菜单定义命令的列表和菜单，但是主流浏览器均不支持-->
+<!--<menuitem> 标签定义用户可以从弹出菜单调用的命令/菜单项目。只有firefox支持-->
+<!--57、尺度标签meter-->
 <div>
-    <a href="#"></a>
-    <p id="">
+    <!--
+        属性
+        new : HTML5 中的新属性。
+        属性	        值	            描述
+        form	        form_id	        规定 <meter> 元素所属的一个或多个表单。
+        high	        number	        规定被视作高的值的范围。
+        low	            number	        规定被视作低的值的范围。
+        max	            number	        规定范围的最大值。
+        min	            number	        规定范围的最小值。
+        optimum	        number	        规定度量的优化值。
+        value	        number	        必需。规定度量的当前值。
+    -->
+    <a href="#meter">57、尺度标签meter</a>
+    <p id="meter">
         &nbsp;&nbsp;&nbsp;&nbsp;
+        显示度量值：
         <br/>&nbsp;&nbsp;&nbsp;&nbsp;
+        < meter value="3" min="0" max="10">3/10< /meter>
         <br/>&nbsp;&nbsp;&nbsp;&nbsp;
+        < meter value="0.6">60%< /meter>
+        <br/>&nbsp;&nbsp;&nbsp;&nbsp;
+        < meter> 标签定义已知范围或分数值内的标量测量。也被称为 gauge（尺度）。
+        <br/>&nbsp;&nbsp;&nbsp;&nbsp;
+        例子：磁盘用量、查询结果的相关性，等等。
+        <br/>&nbsp;&nbsp;&nbsp;&nbsp;
+        注释：< meter> 标签不应用于指示进度（在进度条中）。如果标记进度条，请使用 < progress> 标签。
     </p>
 </div>
-<!---->
+<!--58、定义导航链接部分<nav></nav>-->
 <div>
-    <a href="#"></a>
-    <p id="">
+    <a href="#nav">58、定义导航链接部分< nav>< /nav></a>
+    <p id="nav">
         &nbsp;&nbsp;&nbsp;&nbsp;
-        <br/>&nbsp;&nbsp;&nbsp;&nbsp;
-        <br/>&nbsp;&nbsp;&nbsp;&nbsp;
+        < nav> 标签定义导航链接的部分。
     </p>
 </div>
-<!---->
+<!--59、如果浏览器不支持框架，则显示<noframes>里的提示-->
 <div>
-    <a href="#"></a>
-    <p id="">
+    <!--
+    <frameset cols = "25%, 25%,*">
+       <noframes>
+            <body>Your browser does not handle frames!</body>
+      </noframes>
+      <frame src ="venus.htm" />
+      <frame src   ="sun.htm" />
+      <frame src ="mercur.htm"   />
+</frameset>
+    -->
+    <a href="#noframes">59、如果浏览器不支持，则显示< noframes>里的提示</a>
+    <p id="nofranaes">
         &nbsp;&nbsp;&nbsp;&nbsp;
+        noframes 元素可为那些不支持框架的浏览器显示文本。
         <br/>&nbsp;&nbsp;&nbsp;&nbsp;
+        noframes 元素位于 frameset 元素内部。
         <br/>&nbsp;&nbsp;&nbsp;&nbsp;
+        注释：如果浏览器有能力处理框架，就不会显示出 frameset 元素中的文本。
+        <br/>&nbsp;&nbsp;&nbsp;&nbsp;
+        重要事项：如果您希望 frameset 添加 < noframes> 标签，就必须把其中的文本包装在 < body>< /body> 标签中！
+        <br/>&nbsp;&nbsp;&nbsp;&nbsp;
+        注释：如果您希望验证包含框架的页面，请确保 DTD 被设置为 "Frameset DTD"。
     </p>
 </div>
-<!---->
+<!--60、如果浏览器不支持脚本，则显示<noscript>里的提示-->
 <div>
-    <a href="#"></a>
-    <p id="">
+    <a href="#noscript">60、如果浏览器不支持脚本，则显示< noscript>里的提示</a>
+    <p id="noscript">
         &nbsp;&nbsp;&nbsp;&nbsp;
+        注释：如果浏览器支持脚本，那么它不会显示出 noscript 元素中的文本。
         <br/>&nbsp;&nbsp;&nbsp;&nbsp;
+        注释：无法识别 < script> 标签的浏览器会把标签的内容显示到页面上。
+        为了避免浏览器这样做，您应当在注释标签中隐藏脚本。
+        老式的（无法识别< script> 标签的）浏览器会忽略注释，这样就不会把标签的内容写到页面上，
+        而新式的浏览器则懂得执行这些脚本，即使它们被包围在注释标签中！
+    </p>
+</div>
+<!--61、定义一个<object></object>对象-->
+<div>
+    <a href="#object">61、定义一个< object>< /object>对象</a>
+    <p id="object">
+        &nbsp;&nbsp;&nbsp;&nbsp;
+        定义一个嵌入的对象。请使用此元素向您的 XHTML 页面添加多媒体。
+        此元素允许您规定插入 HTML 文档中的对象的数据和参数，以及可用来显示和操作数据的代码。
+        <br/>&nbsp;&nbsp;&nbsp;&nbsp;
+        < object> 标签用于包含对象，比如图像、音频、视频、Java applets、ActiveX、PDF 以及 Flash。
+        object 的初衷是取代 img 和 applet 元素。不过由于漏洞以及缺乏浏览器支持，这一点并未实现。
+        浏览器的对象支持有赖于对象类型。不幸的是，主流浏览器都使用不同的代码来加载相同的对象类型。
+        <br/>&nbsp;&nbsp;&nbsp;&nbsp;
+        而幸运的是，object 对象提供了解决方案。如果未显示 object 元素，就会执行位于 < object> 和 < /object> 之间的代码。
+        通过这种方式，我们能够嵌套多个 object 元素（每个对应一个浏览器）。
+    </p>
+</div>
+<!--62、ol与ul-->
+<div>
+    <a href="#oul">62、ol与ul</a>
+    <p id="oul">
+        &nbsp;&nbsp;&nbsp;&nbsp;
+        < ol> 标签定义有序列表。
+        <br/>&nbsp;&nbsp;&nbsp;&nbsp;
+        < ul> 标签定义无序列表。
+    </p>
+</div>
+<!--63、定义选项组<optgroup></optgroup>-->
+<div>
+    <!--
+    <select>
+      <optgroup label="Swedish Cars">
+        <option value="volvo">Volvo</option>
+        <option value="saab">Saab</option>
+      </optgroup>
+      <optgroup label="German Cars">
+        <option value="mercedes">Mercedes</option>
+        <option value="audi">Audi</option>
+      </optgroup>
+    </select>
+    -->
+    <a href="#optgroup">63、定义选项组< optgroup>< /optgroup></a>
+    <p id="optgroup">
+        &nbsp;&nbsp;&nbsp;&nbsp;
+        < optgroup> 标签定义选项组。
+        <br/>&nbsp;&nbsp;&nbsp;&nbsp;
+        optgroup 元素用于组合选项。当您使用一个长的选项列表时，对相关的选项进行组合会使处理更加容易。
+    </p>
+</div>
+<!--64、选项option-->
+<div>
+    <!--
+        可选的属性
+        属性	        值	描述
+        disabled	    disabled	规定此选项应在首次加载时被禁用。
+        label	        text	    定义当使用 <optgroup> 时所使用的标注。
+        selected	    selected	规定选项（在首次显示在列表中时）表现为选中状态。
+        value	        text	    定义送往服务器的选项值。
+    -->
+    <a href="#option">64、选项option</a>
+    <p id="option">
+        &nbsp;&nbsp;&nbsp;&nbsp;
+        option 元素定义下拉列表中的一个选项（一个条目）。
+        <br/>&nbsp;&nbsp;&nbsp;&nbsp;
+        浏览器将 < option> 标签中的内容作为 < select> 标签的菜单或是滚动列表中的一个元素显示。
+        <br/>&nbsp;&nbsp;&nbsp;&nbsp;
+        option 元素位于 select 元素内部。
+    </p>
+</div>
+<!--65、<output> 标签定义不同类型的输出，比如脚本的输出。-->
+<div>
+    <!--
+        属性
+        new : HTML5 中的新属性。
+        属性	    值	            描述
+        for	        element_id	    定义输出域相关的一个或多个元素。
+        form	    form_id	        定义输入字段所属的一个或多个表单。
+        name	    name	        定义对象的唯一名称。（表单提交时使用）
+    -->
+    <a href="#output">65、< output> 标签定义不同类型的输出，比如脚本的输出。</a>
+    <p id="output">
+        &nbsp;&nbsp;&nbsp;&nbsp;
+        < output> 标签定义不同类型的输出，比如脚本的输出。
+        <br/>&nbsp;&nbsp;&nbsp;&nbsp;
+        < output name="x" for="a b">< /output>
+    </p>
+</div>
+<!--66、参数标签，<object><applet>-->
+<div>
+    <a href="#param">66、参数标签param，用于< object>< applet></a>
+    <p id="param">
+        &nbsp;&nbsp;&nbsp;&nbsp;
+        param 元素允许您为插入 XHTML 文档的对象规定 run-time 设置，也就是说，此标签可为包含它的 < object>或者 < applet> 标签提供参数。
+    </p>
+</div>
+<!--67、pre元素定义预格式化的文本-->
+<div>
+    <a href="#pre">67、pre元素定义预格式化的文本</a>
+    <p id="pre">
+        &nbsp;&nbsp;&nbsp;&nbsp;
+        pre 元素可定义预格式化的文本。被包围在 pre 元素中的文本通常会保留空格和换行符。
+        而文本也会呈现为等宽字体。
+        <br/>&nbsp;&nbsp;&nbsp;&nbsp;
+        < pre> 标签的一个常见应用就是用来表示计算机的源代码。
+        可以导致段落断开的标签（例如标题、< p> 和 < address> 标签）绝不能包含在 < pre> 所定义的块里。
+        尽管有些浏览器会把段落结束标签解释为简单地换行，但是这种行为在所有浏览器上并不都是一样的。
+        <br/>&nbsp;&nbsp;&nbsp;&nbsp;
+        提示：制表符（tab）在 < pre> 标签定义的块当中可以起到应有的作用，每个制表符占据 8 个字符的位置。
+        但是我们不推荐使用它，因为在不同的浏览器中，Tab 的实现各不相同。在用 < pre> 标签格式化的文档段中使用空格，
+        可以确保文本正确的水平位置。
+        提示：如果您希望使用 < pre> 标签来定义计算机源代码，比如 HTML 源代码，请使用符号实体来表示特殊字符，
+        比如 "&lt;" 代表 "<"，"&gt;" 代表 ">"，"&amp;" 代表 "&"。
+    </p>
+</div>
+<!--68、下载进度progress-->
+<div>
+    <!--
+    属性
+    new : HTML5 中的新属性。
+    属性	值	    描述
+    max	    number	规定任务一共需要多少工作。
+    value	number	规定已经完成多少任务。
+    -->
+    <a href="#progress">68、下载进度progress</a>
+    <p id="progress">
+        &nbsp;&nbsp;&nbsp;&nbsp;
+        < progress value="22" max="100">< /progress>
+        <br/>&nbsp;&nbsp;&nbsp;&nbsp;
+        < progress> 标签标示任务的进度（进程）。
+        <br/>&nbsp;&nbsp;&nbsp;&nbsp;
+        提示：请结合 < progress> 标签与 JavaScript 一同使用，来显示任务的进度。
+        注释：< progress> 标签不适合用来表示度量衡（例如，磁盘空间使用情况或查询结果）。
+        如需表示度量衡，请使用 < meter> 标签代替。
+    </p>
+</div>
+<!--69、短引用<q>,文本加引号-->
+<div>
+    <a href="#q">69、短引用，文本加引号< q></a>
+    <p id="q">
+        &nbsp;&nbsp;&nbsp;&nbsp;
+        浏览器经常在引用的内容周围添加引号。
+        <br/>&nbsp;&nbsp;&nbsp;&nbsp;
+        < q> 与 < blockquote> 的区别
+        <br/>&nbsp;&nbsp;&nbsp;&nbsp;
+        < q> 标签在本质上与 < blockquote> 是一样的。不同之处在于它们的显示和应用。
+        < q> 标签用于简短的行内引用。如果需要从周围内容分离出来比较长的部分（通常显示为缩进的块），请使用 < blockquote> 标签。
+    </p>
+</div>
+<!--70、<ruby><rp>标签与<rt>标签，定义字符的解释-->
+<div>
+    <a href="#rp">70、< rp>标签与< rt>标签，定义字符的解释</a>
+    <p id="rp">
+        &nbsp;&nbsp;&nbsp;&nbsp;
+        < rp> 标签在 ruby 注释中使用，以定义不支持 ruby 元素的浏览器所显示的内容。
+        ruby 注释是中文注音或字符。
+        <br/>&nbsp;&nbsp;&nbsp;&nbsp;
+        在东亚使用，显示的是东亚字符的发音。
+        与 < ruby> 以及 < rt> 标签一同使用：
+        <br/>&nbsp;&nbsp;&nbsp;&nbsp;
+        ruby 元素由一个或多个字符（需要一个解释/发音）和一个提供该信息的 rt 元素组成，还包括可选的 rp 元素，
+        定义当浏览器不支持 "ruby" 元素时显示的内容。
+        <br/>&nbsp;&nbsp;&nbsp;&nbsp;
+        提示：支持 "ruby" 元素的浏览器不会显示 "rp" 元素的内容。
+    </p>
+</div>
+<!--s标签不支持了，用del标签代替了-->
+<!--80、脚本script-->
+<div>
+    <a href="#script">80、脚本script</a>
+    <p id="script">
+        &nbsp;&nbsp;&nbsp;&nbsp;
+        < script> 标签用于定义客户端脚本，比如 JavaScript。
+        <br/>&nbsp;&nbsp;&nbsp;&nbsp;
+        script 元素既可以包含脚本语句，也可以通过 src 属性指向外部脚本文件。
+        <br/>&nbsp;&nbsp;&nbsp;&nbsp;
+        必需的 type 属性规定脚本的 MIME 类型。
+        JavaScript 的常见应用时图像操作、表单验证以及动态内容更新。
+    </p>
+</div>
+<!--81、章节、块section-->
+<div>
+    <a href="#section">81、章节、块section</a>
+    <p id="section">
+        &nbsp;&nbsp;&nbsp;&nbsp;
+        < section> 标签定义文档中的节（section、区段）。比如章节、页眉、页脚或文档中的其他部分。
+    </p>
+</div>
+<!--82、select 元素可创建单选或多选菜单。-->
+<div>
+    <!--
+        属性
+        New: HTML5 中的新属性。
+        属性	        值	        描述
+        autofocus	    autofocus	规定在页面加载后文本区域自动获得焦点。
+        disabled	    disabled	规定禁用该下拉列表。
+        form	        form_id	    规定文本区域所属的一个或多个表单。
+        multiple	    multiple	规定可选择多个选项。
+        name	        name	    规定下拉列表的名称。
+        required	    required	规定文本区域是必填的。
+        size	        number	    规定下拉列表中可见选项的数目。
+    -->
+    <a href="#select">82、select 元素可创建单选或多选菜单。</a>
+    <p id="select">
+        &nbsp;&nbsp;&nbsp;&nbsp;
+        < select> 元素中的 < option> 标签用于定义列表中的可用选项。
+        <br/>&nbsp;&nbsp;&nbsp;&nbsp;
+        提示：select 元素是一种表单控件，可用于在表单中接受用户输入。
         <br/>&nbsp;&nbsp;&nbsp;&nbsp;
     </p>
 </div>
+<!--83、small 标签呈现小号字体效果。-->
+<div>
+    <a href="#small">83、small 标签呈现小号字体效果。</a>
+    <p id="small">
+        &nbsp;&nbsp;&nbsp;&nbsp;
+        < small> 标签和它所对应的 < big> 标签一样，但它是缩小字体而不是放大。
+        <br/>&nbsp;&nbsp;&nbsp;&nbsp;
+        如果被包围的字体已经是字体模型所支持的最小字号，那么 < small> 标签将不起任何作用。
+        与 < big> 标签类似，< small> 标签也可以嵌套，从而连续地把文字缩小。每个 < small> 标签都把文本的字体变小一号，
+        直到达到下限的一号字。
+    </p>
+</div>
+<!--84、source与track标签   定义媒介资源，规定媒介外部文件轨道-->
+<div>
+    <a href="#source">84、source与track标签   定义媒介资源，规定媒介外部文件轨道</a>
+    <p id="source">
+        &nbsp;&nbsp;&nbsp;&nbsp;
+        < source> 标签为媒介元素（比如 < video> 和 < audio>）定义媒介资源。
+        <br/>&nbsp;&nbsp;&nbsp;&nbsp;
+        < audio controls>
+        <br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        < source src="horse.ogg" type="audio/ogg">
+        <br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        < source src="horse.mp3" type="audio/mpeg">
+        <br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <t rack kind="subtitles" src="1.srt" srclang="zh" label="Chinese">
+        <br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <t rack kind="subtitles" src="2.srt" srclang="en" label="English">
+        <br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        Your browser does not support the audio element.
+        <br/>&nbsp;&nbsp;&nbsp;&nbsp;
+        < /audio>
+        <br/>&nbsp;&nbsp;&nbsp;&nbsp;
+        < source> 标签允许您规定可替换的视频/音频文件供浏览器根据它对媒体类型或者编解码器的支持进行选择。
+        <br/>&nbsp;&nbsp;&nbsp;&nbsp;
+    </p>
+</div>
+<!--85、行内元素span-->
+<div>
+    <a href="#span">85、行内元素span</a>
+    <p id="span">
+        &nbsp;&nbsp;&nbsp;&nbsp;
+        提示：请使用 < span> 来组合行内元素，以便通过样式来格式化它们。
+        <br/>&nbsp;&nbsp;&nbsp;&nbsp;
+        注释：span 没有固定的格式表现。当对它应用样式时，它才会产生视觉上的变化。
+    </p>
+</div>
+<!--86、strike标签可定义加删除线文本定义。-->
+<div>
+    <a href="#strike">86、strike标签可定义加删除线文本定义。用del标签代替</a>
+    <p id="strike">
+        &nbsp;&nbsp;&nbsp;&nbsp;
+        请使用 < del> 替代它！
+    </p>
+</div>
+<!--87、标签用于为 HTML 文档定义样式信息-->
+<div>
+    <a href="#style">87、标签用于为 HTML 文档定义样式信息</a>
+    <p id="style">
+        &nbsp;&nbsp;&nbsp;&nbsp;
+        < style> 标签用于为 HTML 文档定义样式信息。
+        <br/>&nbsp;&nbsp;&nbsp;&nbsp;
+        在 style 中，您可以规定在浏览器中如何呈现 HTML 文档。
+        <br/>&nbsp;&nbsp;&nbsp;&nbsp;
+        type 属性是必需的，定义 style 元素的内容。唯一可能的值是 "text/css"。style 元素位于 head 部分中。
+        <br/>&nbsp;&nbsp;&nbsp;&nbsp;
+        提示：如需链接外部样式表，请使用 < link> 标签。
+        <br/>&nbsp;&nbsp;&nbsp;&nbsp;
+        提示：如需学习更多有关样式表的知识，请阅读我们的 CSS 教程。
+    </p>
+</div>
+<!--88、< sub> 标签可定义下标文本。-->
+<div>
+    <a href="#sub">88、< sub> 标签可定义下标文本。</a>
+    <p id="sub">
+        &nbsp;&nbsp;&nbsp;&nbsp;
+        包含在 < sub> 标签和其结束标签 < /sub> 中的内容将会以当前文本流中字符高度的一半来显示，
+        <br/>&nbsp;&nbsp;&nbsp;&nbsp;
+        但是与当前文本流中文字的字体和字号都是一样的。
+        <br/>&nbsp;&nbsp;&nbsp;&nbsp;
+        提示：无论是 < sub> 标签还是和它对应的 < sup> 标签，在数学等式、科学符号和化学公式中都非常有用。
+    </p>
+</div>
+<!--89、包含标题，标题可展开<summary>-->
+<div>
+    <a href="#summary">89、包含标题，标题可展开< summary></a>
+    <p id="summary">
+        &nbsp;&nbsp;&nbsp;&nbsp;
+        < details>
+        <br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        < summary>HTML 5< /summary>
+        <br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        This document teaches you everything you have to learn about HTML 5.
+        <br/>&nbsp;&nbsp;&nbsp;&nbsp;
+        < /details>
+        <br/>&nbsp;&nbsp;&nbsp;&nbsp;
+        < summary> 标签包含 details 元素的标题，"details" 元素用于描述有关文档或文档片段的详细信息。
+    </p>
+</div>
+<!--90、sup标签可定义上标文本。-->
+<div>
+    <a href="#sup">90、sup标签可定义上标文本。</a>
+    <p id="sup">
+        &nbsp;&nbsp;&nbsp;&nbsp;
+        包含在 < sup> 标签和其结束标签 < /sup> 中的内容将会以当前文本流中字符高度的一半来显示，
+        但是与当前文本流中文字的字体和字号都是一样的。
+        <br/>&nbsp;&nbsp;&nbsp;&nbsp;
+        提示：这个标签在向文档添加脚注以及表示方程式中的指数值时非常有用。
+        如果和 < a> 标签结合起来使用，就可以创建出很好的超链接脚注。
+    </p>
+</div>
+<!--91、table定义表格-->
+<div>
+    <!--
+    可选的属性
+    属性	        值	        描述
+    align           left        不赞成使用。请使用样式代替。
+                    center      规定表格相对周围元素的对齐方式。
+                    right
+    bgcolor         rgb(x,x,x)  不赞成使用。请使用样式代替。
+                    #xxxxxx
+                    colorname   规定表格的背景颜色。
+    border	        pixels	    规定表格边框的宽度。
+    cellpadding     pixels      规定单元边沿与其内容之间的空白。
+                    %
+    cellspacing     pixels      规定单元格之间的空白。
+                    %
+    frame           void        规定外侧边框的哪个部分是可见的。
+                    above
+                    below
+                    hsides
+                    lhs
+                    rhs
+                    vsides
+                    box
+                    border
+
+    rules           none        规定内侧边框的哪个部分是可见的。
+                    groups
+                    rows
+                    cols
+                    all
+    summary	text	规定表格的摘要。
+    width           %           规定表格的宽度
+                    pixels
+    -->
+    <a href="#table">91、table定义表格</a>
+    <p id="table">
+        &nbsp;&nbsp;&nbsp;&nbsp;
+        简单的 HTML 表格由 table 元素以及一个或多个 tr、th 或 td 元素组成。
+        <br/>&nbsp;&nbsp;&nbsp;&nbsp;
+        tr 元素定义表格行，th 元素定义表头，td 元素定义表格单元。
+        <br/>&nbsp;&nbsp;&nbsp;&nbsp;
+        更复杂的 HTML 表格也可能包括 caption、col、colgroup、thead、tfoot 以及 tbody 元素。
+    </p>
+</div>
+<!--92、thead、tbody、tfoot、th、td、-->
+<div>
+    <a href="#tbody">92、thead、tbody、tfoot、th、td、</a>
+    <p id="tdoby">
+        &nbsp;&nbsp;&nbsp;&nbsp;
+        < thead> 标签定义表格的表头。该标签用于组合 HTML 表格的表头内容。
+        <br/>&nbsp;&nbsp;&nbsp;&nbsp;
+        < tbody> 标签表格主体（正文）。该标签用于组合 HTML 表格的主体内容。
+        <br/>&nbsp;&nbsp;&nbsp;&nbsp;
+        < tfoot> 标签定义表格的页脚（脚注或表注）。该标签用于组合 HTML 表格中的表注内容。
+        <br/>&nbsp;&nbsp;&nbsp;&nbsp;
+        < tr> 标签定义 HTML 表格中的行。
+        <br/>&nbsp;&nbsp;&nbsp;&nbsp;
+        HTML 表单中有两种类型的单元格：
+        <br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        表头单元格 - 包含表头信息（由 th 元素创建）
+        <br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        标准单元格 - 包含数据（由 td 元素创建）
+        <br/>&nbsp;&nbsp;&nbsp;&nbsp;
+        th 元素内部的文本通常会呈现为居中的粗体文本，而 td 元素内的文本通常是左对齐的普通文本。
+        <br/>
+        <br/>&nbsp;&nbsp;&nbsp;&nbsp;
+        tbody 元素应该与 thead 和 tfoot 元素结合起来使用。
+        thead 元素用于对 HTML 表格中的表头内容进行分组，而 tfoot 元素用于对 HTML 表格中的表注（页脚）内容进行分组。
+        注释：如果您使用 thead、tfoot 以及 tbody 元素，您就必须使用全部的元素。它们的出现次序是：thead、tfoot、tbody，
+        这样浏览器就可以在收到所有数据前呈现页脚了。您必须在 table 元素内部使用这些标签。
+        <br/>&nbsp;&nbsp;&nbsp;&nbsp;
+        提示：在默认情况下这些元素不会影响到表格的布局。不过，您可以使用 CSS 使这些元素改变表格的外观。
+        <br/>&nbsp;&nbsp;&nbsp;&nbsp;
+        详细描述
+        <br/>&nbsp;&nbsp;&nbsp;&nbsp;
+        thead、tfoot 以及 tbody 元素使您有能力对表格中的行进行分组。当您创建某个表格时，您也许希望拥有一个标题行，
+        一些带有数据的行，以及位于底部的一个总计行。这种划分使浏览器有能力支持独立于表格标题和页脚的表格正文滚动。
+        当长的表格被打印时，表格的表头和页脚可被打印在包含表格数据的每张页面上。
+    </p>
+</div>
+<!--time标签都不支持-->
+<!--93、tt呈现类似打印机或等宽的文本效果-->
+<div>
+    <a href="#tt">93、tt呈现类似打印机或等宽的文本效果</a>
+    <p id="tt">
+        &nbsp;&nbsp;&nbsp;&nbsp;
+        < tt> 标签与 < code> 和 < kbd> 标签一样，< tt> 标签和必需的 < /tt> 结束标签告诉浏览器，
+        要把其中包含的文本显示为等宽字体。对于那些已经使用了等宽字体的浏览器来说，这个标签在文本的显示上就没有什么特殊效果了。
+    </p>
+</div>
+<!--94、video-->
+<div>
+    <!--
+        属性
+        new : HTML5 中的新属性。
+
+        属性	    值	描述
+        autoplay	autoplay	如果出现该属性，则视频在就绪后马上播放。
+        controls	controls	如果出现该属性，则向用户显示控件，比如播放按钮。
+        height	    pixels	    设置视频播放器的高度。
+        loop	    loop	    如果出现该属性，则当媒介文件完成播放后再次开始播放。
+        muted	    muted	    规定视频的音频输出应该被静音。
+        poster	    URL	        规定视频下载时显示的图像，或者在用户点击播放按钮前显示的图像。
+        preload	    preload     如果出现该属性，则视频在页面加载时进行加载，并预备播放。
+                                如果使用 "autoplay"，则忽略该属性。
+        src	        url	        要播放的视频的 URL。
+        width	    pixels	    设置视频播放器的宽度。
+    -->
+    <a href="#video">93、video</a>
+    <p id="video">
+        &nbsp;&nbsp;&nbsp;&nbsp;
+        < video> 标签定义视频，比如电影片段或其他视频流。
+    </p>
+</div>
+<!--95、规定换行时不可拆分的词-->
+<div>
+    <a href="#wbr">95、规定换行时不可拆分的词< wbr></a>
+    <p id="wbr">
+        &nbsp;&nbsp;&nbsp;&nbsp;
+        Word Break Opportunity (< wbr>) 规定在文本中的何处适合添加换行符。
+        &nbsp;&nbsp;&nbsp;&nbsp;
+        <br/>提示：如果单词太长，或者您担心浏览器会在错误的位置换行，
+        那么您可以使用 < wbr> 元素来添加 Word Break Opportunity（单词换行时机）。
+    </p>
+</div>
+
+<div style="margin-top: 60px">
+    <p style="text-align: center">END</p>
+</div>
+
 
 </body>
 </html>

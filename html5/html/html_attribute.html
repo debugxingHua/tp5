@@ -1,0 +1,469 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>HTML 全局属性</title>
+    <style>
+        table {
+            width: 80%;
+            text-align: center;
+            border-style: solid;
+        }
+        th,td{
+            border:1px solid blue;
+            height: 30px;
+        }
+        .th1{
+            width: 30%;
+        }
+        .th2{
+            width: 70%;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <table align="center">
+            <tr>
+                <th>属性</th>
+                <th>描述</th>
+            </tr>
+            <tr>
+                <td><a href="#accesskey">accesskey</a></td>
+                <td>规定激活元素的快捷键。</td>
+            </tr>
+            <tr>
+                <td><a href="#class">class</a></td>
+                <td>规定元素的一个或多个类名（引用样式表中的类）。</td>
+            </tr>
+            <tr>
+                <td><a href="#contenteditable">contenteditable</a></td>
+                <td>规定元素内容是否可编辑。</td>
+            </tr>
+            <tr>
+                <td><a href="#contextmenu">contextmenu</a></td>
+                <td>规定元素的上下文菜单。上下文菜单在用户点击元素时显示。</td>
+            </tr>
+            <tr>
+                <td><a href="#data-*">data-*</a></td>
+                <td>用于存储页面或应用程序的私有定制数据。</td>
+            </tr>
+            <tr>
+                <td><a href="#dir">dir</a></td>
+                <td>规定元素中内容的文本方向。</td>
+            </tr>
+            <tr>
+                <td><a href="#draggable">draggable</a></td>
+                <td>规定元素是否可拖动。</td>
+            </tr>
+            <tr>
+                <td><a href="#dropzone">dropzone</a></td>
+                <td>规定在拖动被拖动数据时是否进行复制、移动或链接。</td>
+            </tr>
+            <tr>
+                <td><a href="#hidden">hidden</a></td>
+                <td>规定元素仍未或不再相关。</td>
+            </tr>
+            <tr>
+                <td><a href="#id">id</a></td>
+                <td>规定元素的唯一 id。</td>
+            </tr>
+            <tr>
+                <td><a href="#lang">lang</a></td>
+                <td>规定元素内容的语言。</td>
+            </tr>
+            <tr>
+                <td><a href="#spellcheck">spellcheck</a></td>
+                <td>规定是否对元素进行拼写和语法检查。</td>
+            </tr>
+            <tr>
+                <td><a href="#style">style</a></td>
+                <td>规定元素的行内 CSS 样式。</td>
+            </tr>
+            <tr>
+                <td><a href="#tabindex">tabindex</a></td>
+                <td>规定元素的 tab 键次序。</td>
+            </tr>
+            <tr>
+                <td><a href="#title">title</a></td>
+                <td>规定有关元素的额外信息。</td>
+            </tr>
+            <tr>
+                <td><a href="#translate">translate</a></td>
+                <td>规定是否应该翻译元素内容。</td>
+            </tr>
+        </table>
+    </div>
+    <div style="height: 100px"></div>
+    <!--带有快捷键的超链接-->
+    <div id="accesskey">
+        <p>1、accesskey 属性规定激活（使元素获得焦点）元素的快捷键。</p>
+        <p>语法:< element accesskey="character"></p>
+        <p>
+            注释：以下元素支持 accesskey 属性< a>,< area>,< button>,< input>,< label>,< legend>以及< textarea>。
+        </p>
+        <table>
+            <tr>
+                <td colspan="2">属性值</td>
+            </tr>
+            <tr>
+                <th class="th1">值</th>
+                <th class="th2">描述</th>
+            </tr>
+            <tr>
+                <td>character</td>
+                <td>规定激活（使元素获得焦点）元素的便捷按键。</td>
+            </tr>
+        </table>
+    </div>
+    <!--class类名-->
+    <div id="class">
+        <p>2、class 属性规定元素的类名（classname）。</p>
+        <p>语法：< element class="value"></p>
+        <p>class 属性大多数时候用于指向样式表中的类（class）。
+            不过，也可以利用它通过 JavaScript 来改变带有指定 class 的 HTML 元素。</p>
+        <p>
+            注释：class 属性不能在以下 HTML 元素中使用：base, head, html, meta, param, script, style 以及 title。
+            提示：可以给 HTML 元素赋予多个 class，例如：< span class="left_menu important">。
+            这么做可以把若干个 CSS 类合并到一个 HTML 元素。类名不能以数字开头！只有 Internet Explorer 支持这种做法。
+        </p>
+        <table>
+            <tr>
+                <td colspan="2">属性值</td>
+            </tr>
+            <tr>
+                <th class="th1">值</th>
+                <th class="th2">描述</th>
+            </tr>
+            <tr>
+                <td>classname</td>
+                <td>规定元素的类的名称。如需为一个元素规定多个类，用空格分隔类名。</td>
+            </tr>
+        </table>
+    </div>
+    <!--设置文本为可编辑的-->
+    <div id="contentditable">
+        <p>3、contenteditable 属性规定元素内容是否可编辑。
+            如果元素未设置 contenteditable 属性，那么元素会从其父元素继承该属性。</p>
+        <p>语法：< element contenteditable="true|false"></p>
+        <table>
+            <tr>
+                <td colspan="2">属性值</td>
+            </tr>
+            <tr>
+                <th class="th1">值</th>
+                <th class="th2">描述</th>
+            </tr>
+            <tr>
+                <td>true</td>
+                <td>规定元素可编辑。</td>
+            </tr>
+            <tr>
+                <td>false</td>
+                <td>规定元素不可编辑。</td>
+            </tr>
+        </table>
+    </div>
+    <!--设置菜单，只有Firefox支持-->
+    <div id="contextmenu">
+        <p>4、contextmenu 属性规定元素的上下文菜单。当用户右键点击元素时，会出现上下文菜单。
+            contextmenu 属性的值是要打开的< menu> 元素的 id。
+        </p>
+        <p>语法：< element contextmenu="menu_id"></p>
+        <table>
+            <tr>
+                <td colspan="2">属性值</td>
+            </tr>
+            <tr>
+                <th class="th1">值</th>
+                <th class="th2">描述</th>
+            </tr>
+            <tr>
+                <td>menu_id</td>
+                <td>要打开的 < menu> 元素的 id。</td>
+            </tr>
+        </table>
+    </div>
+    <!--自定义数据-->
+    <div id="data-*">
+        <p>
+            2、data-* 属性用于存储页面或应用程序的私有自定义数据。<br/>
+            data-* 属性赋予我们在所有 HTML 元素上嵌入自定义 data 属性的能力。<br/>
+            存储的（自定义）数据能够被页面的 JavaScript 中利用，
+            以创建更好的用户体验（不进行 Ajax 调用或服务器端数据库查询）。<br/>
+            data-* 属性包括两部分：<br/>
+            属性名不应该包含任何大写字母，并且在前缀 "data-" 之后必须有至少一个字符<br/>
+            属性值可以是任意字符串<br/>
+            注释：用户代理会完全忽略前缀为 "data-" 的自定义属性。
+        </p>
+        <p>语法：< element data-*="somevalue"></p>
+        <p>
+        </p>
+        <table>
+            <tr>
+                <td colspan="2">属性值</td>
+            </tr>
+            <tr>
+                <th class="th1">值</th>
+                <th class="th2">描述</th>
+            </tr>
+            <tr>
+                <td>somevalue</td>
+                <td>规定属性的值（以字符串）。</td>
+            </tr>
+        </table>
+    </div>
+    <!--文本方向-->
+    <div id="dir">
+        <p>6、dir 属性规定元素内容的文本方向。</p>
+        <p>注释：dir 属性在以下标签中无效：< base>,< br>,< frame>,< frameset>,< hr>,< iframe>,< param>以及< script>。</p>
+        <p>
+            语法：< element dir="ltr|rtl">
+        </p>
+        <table>
+            <tr>
+                <td colspan="2">属性值</td>
+            </tr>
+            <tr>
+                <th class="th1">值</th>
+                <th class="th2">描述</th>
+            </tr>
+            <tr>
+                <td>ltr</td>
+                <td>默认。从左向右的文本方向。</td>
+            </tr>
+            <tr>
+                <td>rtl</td>
+                <td>从右向左的文本方向。</td>
+            </tr>
+        </table>
+    </div>
+    <!--设置为可拖动的-->
+    <div id="draggable">
+        <p>7、draggable 属性规定元素是否可拖动。
+            提示：链接和图像默认是可拖动的。
+            提示：draggable 属性常用在拖放操作中。请在我们的拖放教程中学习更多内容。
+        </p>
+        <p>
+            语法：< element draggable="true|false|auto">
+        </p>
+        <table>
+            <tr>
+                <td colspan="2">属性值</td>
+            </tr>
+            <tr>
+                <th class="th1">值</th>
+                <th class="th2">描述</th>
+            </tr>
+            <tr>
+                <td>true</td>
+                <td>规定元素的可拖动的。</td>
+            </tr>
+            <tr>
+                <td>false</td>
+                <td>规定元素不可拖动。</td>
+            </tr>
+            <tr>
+                <td>auto</td>
+                <td>使用浏览器的默认行为。</td>
+            </tr>
+        </table>
+    </div>
+    <!--拖动后的情况-->
+    <div id="dropzone">
+        <p>8、dropzone 属性规定在元素上拖动数据时，是否拷贝、移动或链接被拖动数据。</p>
+        <p>语法：< element dropzone="copy|move|link"></p>
+        <table>
+            <tr>
+                <td colspan="2">属性值</td>
+            </tr>
+            <tr>
+                <th class="th1">值</th>
+                <th class="th2">描述</th>
+            </tr>
+            <tr>
+                <td>copy</td>
+                <td>拖动数据会产生被拖动数据的副本。</td>
+            </tr>
+            <tr>
+                <td>move</td>
+                <td>拖动数据会导致被拖动数据被移动到新位置。</td>
+            </tr>
+            <tr>
+                <td>link</td>
+                <td>拖动数据会产生指向原始数据的链接。</td>
+            </tr>
+        </table>
+    </div>
+    <!--隐藏-->
+    <div id="hidden">
+        <p>
+            9、hidden 属性是布尔属性。
+            如果设置该属性，它规定元素仍未或不再相关。
+            浏览器不应显示已规定 hidden 属性的元素。
+            hidden 属性也可用于防止用户查看元素，直到匹配某些条件（比如选择了某个复选框）。
+            然后，JavaScript 可以删除 hidden 属性，以使此元素可见。
+        </p>
+        <p>语法：< element hidden></p>
+    </div>
+    <!--id-->
+    <div id="id">
+        <p>10、id 属性规定 HTML 元素的唯一的 id。
+            id 在 HTML 文档中必须是唯一的。
+            id 属性可用作链接锚（link anchor），
+            通过 JavaScript（HTML DOM）或通过 CSS 为带有指定 id 的元素改变或添加样式。
+        </p>
+        <p>语法：< element id="value"></p>
+        <table>
+            <tr>
+                <td colspan="2">属性值</td>
+            </tr>
+            <tr>
+                <th class="th1">值</th>
+                <th class="th2">描述</th>
+            </tr>
+            <tr>
+                <td>id</td>
+                <td>规定元素的唯一 id。</td>
+            </tr>
+        </table>
+    </div>
+    <!--语言-->
+    <div id="lang">
+        <p>11、lang 属性规定元素内容的语言。</p>
+        <p>语法< element lang="language_code"></p>
+        <p>
+            注释：lang 属性在以下标签中无效：< base>,< br>,< frame>,< frameset>,< hr>,< iframe>,< param>以及< script>。
+        </p>
+        <table>
+            <tr>
+                <td colspan="2">属性值</td>
+            </tr>
+            <tr>
+                <th class="th1">值</th>
+                <th class="th2">描述</th>
+            </tr>
+            <tr>
+                <td>language_code</td>
+                <td>规定元素内容的语言代码。</td>
+            </tr>
+        </table>
+    </div>
+    <!--语法检查-->
+    <div id="spellcheck">
+        <p>12、spellcheck 属性规定是否对元素进行拼写和语法检查。</p>
+        <p>语法:< element spellcheck="true|false"></p>
+        <p>
+            可以对以下内容进行拼写检查：<br/>
+            input 元素中的文本值（非密码）<br/>
+            < textarea> 元素中的文本<br/>
+            可编辑元素中的文本
+        </p>
+        <table>
+            <tr>
+                <td colspan="2">属性值</td>
+            </tr>
+            <tr>
+                <th class="th1">值</th>
+                <th class="th2">描述</th>
+            </tr>
+            <tr>
+                <td>true</td>
+                <td>对元素进行拼写和语法检查</td>
+            </tr>
+            <tr>
+                <td>false</td>
+                <td>不检查元素。</td>
+            </tr>
+        </table>
+    </div>
+    <!--样式-->
+    <div id="style">
+        <p>13、style 属性规定元素的行内样式（inline style）
+            style 属性将覆盖任何全局的样式设定，例如在 < style> 标签或在外部样式表中规定的样式。
+        </p>
+        <p>语法:< element style="value"></p>
+        <table>
+            <tr>
+                <td colspan="2">属性值</td>
+            </tr>
+            <tr>
+                <th class="th1">值</th>
+                <th class="th2">描述</th>
+            </tr>
+            <tr>
+                <td>style_definition</td>
+                <td>一个或多个由分号分隔的 CSS 属性和值。</td>
+            </tr>
+        </table>
+    </div>
+    <!--tab键的控制次序-->
+    <div id="tabindex">
+        <p>
+            13、tabindex 属性规定元素的 tab 键控制次序（当 tab 键用于导航时）。
+            注释：以下元素支持 tabindex 属性：< a>,< area>,< button>,< input>,< object>,< select>以及< textarea>。
+        </p>
+        <p>语法:< element tabindex="number"></p>
+        <table>
+            <tr>
+                <td colspan="2">属性值</td>
+            </tr>
+            <tr>
+                <th class="th1">值</th>
+                <th class="th2">描述</th>
+            </tr>
+            <tr>
+                <td>number</td>
+                <td>规定元素的 tab 键控制次序（1 是第一个）。</td>
+            </tr>
+        </table>
+    </div>
+    <!--鼠标放上去显示信息-->
+    <div id="title">
+        <p>14、title 属性规定关于元素的额外信息。
+            这些信息通常会在鼠标移到元素上时显示一段工具提示文本（tooltip text）。<br/>
+            提示：title 属性常与 form 以及 a 元素一同使用，以提供关于输入格式和链接目标的信息。
+            同时它也是 abbr 和 acronym 元素的必需属性。</p>
+        <p>语法:< element title="value"></p>
+        <p>
+        </p>
+        <table>
+            <tr>
+                <td colspan="2">属性值</td>
+            </tr>
+            <tr>
+                <th class="th1">值</th>
+                <th class="th2">描述</th>
+            </tr>
+            <tr>
+                <td>text</td>
+                <td>规定元素的工具提示文本（tooltip text）。</td>
+            </tr>
+        </table>
+    </div>
+    <!--规定是否翻译的内容-->
+    <div id="translate">
+        <p>13、translate 规定是否应该翻译元素内容。<br/>
+            提示：请使用 class="notranslate" 替代。</p>
+        <p>语法:< element translate="yes|no"></p>
+        <table>
+            <tr>
+                <td colspan="2">属性值</td>
+            </tr>
+            <tr>
+                <th class="th1">值</th>
+                <th class="th2">描述</th>
+            </tr>
+            <tr>
+                <td>yes</td>
+                <td>规定应该翻译元素内容。</td>
+            </tr>
+            <tr>
+                <td>no</td>
+                <td>规定不应该翻译元素内容。</td>
+            </tr>
+        </table>
+    </div>
+
+</body>
+</html>
