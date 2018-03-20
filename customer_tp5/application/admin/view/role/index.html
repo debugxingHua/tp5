@@ -1,0 +1,27 @@
+<h3>角色管理</h3>
+<form method="post" id="role_add_form" onsubmit="return role_add()">
+    <input type="text" name="role_name" placeholder="角色名称"/>
+    <input type="submit" />
+</form>
+<table class="table" id="role_table" width="80%">
+    <thead>
+    <tr>
+        <th>角色ID</th>
+        <th>角色名称</th>
+        <th>操作</th>
+    </tr>
+    </thead>
+    <tbody>
+    {volist name='role' id='r'}
+    <tr>
+        <td>{$r.role_id}</td>
+        <td>{$r.role_name}</td>
+        <td>
+            <a id="role_edit"   attr-id="{$r.role_id}" title="详细信息">查看</a>
+            <a id="role_delete" attr-id="{$r.role_id}" title="删除用户">删除</a>
+        </td>
+    </tr>
+    {/volist}
+    </tbody>
+</table>
+{$role->render()}

@@ -1,0 +1,30 @@
+<h3>用户管理</h3>
+<table class="table" id="user_table" width="80%">
+    <thead>
+    <tr>
+        <th>用户名</th>
+        <th>真实姓名</th>
+        <th>最近登录时间</th>
+        <th>最后登录ip</th>
+        <th>状态</th>
+        <th>操作</th>
+    </tr>
+    </thead>
+    <tbody>
+    {volist name='user' id='u'}
+    <tr>
+        <td>{$u.user_name}</td>
+        <td>{$u.real_name}</td>
+        <td>{$u.lastlogintime|date='Y-m-d H:i:s',###}</td>
+        <td>{$u.lastloginip}</td>
+        <td>{$u.status|user_status}</td>
+        <td>
+            <a id="user_edit"   attr-id="{$u.user_id}" title="详细信息">查看</a>
+            <!--<a id="user_set_pw" attr-id="{$u.user_id}" title="重置密码">重置密码</a>-->
+            <!--<a id="user_delete" attr-id="{$u.user_id}" title="删除用户">删除</a>-->
+        </td>
+    </tr>
+    {/volist}
+    </tbody>
+</table>
+{$user->render()}
