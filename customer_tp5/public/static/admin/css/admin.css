@@ -1,0 +1,48 @@
+div{
+    border: 1px solid blue;
+}
+/*
+  容器，总页面
+*/
+.container{
+    position: relative;
+    margin: 30px 30px 0 30px;
+}
+#div_height{
+    height: 30px;
+    background-color: #ef4300;
+}
+body{
+    margin: 0 auto 40px auto;
+    padding: 0 0;
+    font-family: 'PT Sans', Helvetica, Arial, sans-serif;
+    background-color: #6633cc;
+    color: #fff;
+}
+/*
+  菜单
+*/
+nav{
+    position: absolute;
+    left: 0;
+    width: 200px;
+    margin-top: 20px;
+    border: 1px solid blue;
+}
+/*
+  内容
+*/
+.content{
+    margin-left: 200px;
+}
+/*
+  页脚
+*/
+footer{
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    height: 40px;
+    background-color: #CCCCCC;
+    width: 100%;
+}

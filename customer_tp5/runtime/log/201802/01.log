@@ -1,0 +1,5002 @@
+---------------------------------------------------------------
+[ 2018-02-01T10:02:21+08:00 ] 127.0.0.1 127.0.0.1 GET /
+[ info ] tp5.com/ [运行时间：0.153728s][吞吐率：6.50req/s] [内存消耗：1,494.87kb] [文件加载：39]
+[ info ] [ LANG ] E:\myphp_www\PHPTutorial\WWW\customer_tp5\thinkphp\lang\zh-cn.php
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-02-01T10:02:29+08:00 ] 127.0.0.1 127.0.0.1 GET /admin
+[ info ] tp5.com/admin [运行时间：0.106344s][吞吐率：9.40req/s] [内存消耗：1,494.88kb] [文件加载：39]
+[ info ] [ LANG ] E:\myphp_www\PHPTutorial\WWW\customer_tp5\thinkphp\lang\zh-cn.php
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-02-01T10:02:45+08:00 ] 127.0.0.1 127.0.0.1 GET /index.html
+[ info ] tp5.com/index.html [运行时间：0.077050s][吞吐率：12.98req/s] [内存消耗：1,742.17kb] [文件加载：43]
+[ info ] [ LANG ] E:\myphp_www\PHPTutorial\WWW\customer_tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'index',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'tp5.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.119 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ E:\myphp_www\PHPTutorial\WWW\customer_tp5\application\index\controller\Index.php ]
+[ info ] [ VIEW ] E:\myphp_www\PHPTutorial\WWW\customer_tp5\public/../application/index\view\index\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-02-01T10:03:30+08:00 ] 127.0.0.1 127.0.0.1 GET /admin.html
+[ info ] tp5.com/admin.html [运行时间：0.080782s][吞吐率：12.38req/s] [内存消耗：1,771.09kb] [文件加载：45]
+[ info ] [ LANG ] E:\myphp_www\PHPTutorial\WWW\customer_tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'index',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'tp5.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.119 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'expire' => 60,
+  'type' => '',
+  'auto_start' => true,
+  'httponly' => false,
+  'secure' => false,
+  'use_cookies' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-02-01T10:03:30+08:00 ] 127.0.0.1 127.0.0.1 GET /login.html
+[ info ] tp5.com/login.html [运行时间：0.054105s][吞吐率：18.48req/s] [内存消耗：1,767.82kb] [文件加载：44]
+[ info ] [ LANG ] E:\myphp_www\PHPTutorial\WWW\customer_tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'login',
+    2 => 'login',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'tp5.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.119 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=qh9uqtu6l4l0th8dhi5bc81tt5',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'expire' => 60,
+  'type' => '',
+  'auto_start' => true,
+  'httponly' => false,
+  'secure' => false,
+  'use_cookies' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Login->login[ E:\myphp_www\PHPTutorial\WWW\customer_tp5\application\admin\controller\Login.php ]
+[ info ] [ VIEW ] E:\myphp_www\PHPTutorial\WWW\customer_tp5\public/../application/admin\view\login\login.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-02-01T10:03:32+08:00 ] 127.0.0.1 127.0.0.1 GET /login.html
+[ info ] tp5.com/login.html [运行时间：0.066217s][吞吐率：15.10req/s] [内存消耗：1,767.98kb] [文件加载：44]
+[ info ] [ LANG ] E:\myphp_www\PHPTutorial\WWW\customer_tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'login',
+    2 => 'login',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'tp5.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.119 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=qh9uqtu6l4l0th8dhi5bc81tt5',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'expire' => 60,
+  'type' => '',
+  'auto_start' => true,
+  'httponly' => false,
+  'secure' => false,
+  'use_cookies' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Login->login[ E:\myphp_www\PHPTutorial\WWW\customer_tp5\application\admin\controller\Login.php ]
+[ info ] [ VIEW ] E:\myphp_www\PHPTutorial\WWW\customer_tp5\public/../application/admin\view\login\login.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-02-01T10:03:40+08:00 ] 127.0.0.1 127.0.0.1 POST /check/login.html
+[ info ] tp5.com/check/login.html [运行时间：0.133059s][吞吐率：7.52req/s] [内存消耗：2,904.83kb] [文件加载：55]
+[ info ] [ LANG ] E:\myphp_www\PHPTutorial\WWW\customer_tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'login',
+    2 => 'login_action',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'tp5.com',
+  'connection' => 'keep-alive',
+  'content-length' => '28',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://tp5.com',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.119 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'referer' => 'http://tp5.com/login.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=qh9uqtu6l4l0th8dhi5bc81tt5',
+)
+[ info ] [ PARAM ] array (
+  'user_name' => 'admin',
+  'password' => '123',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'expire' => 60,
+  'type' => '',
+  'auto_start' => true,
+  'httponly' => false,
+  'secure' => false,
+  'use_cookies' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Login->login_action[ E:\myphp_www\PHPTutorial\WWW\customer_tp5\application\admin\controller\Login.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.005271s ] mysql:host=127.0.0.1;port=3306;dbname=tp5_cmt;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `cmt_user` [ RunTime:0.023448s ]
+[ sql ] [ SQL ] SELECT * FROM `cmt_user` WHERE  `user_name` = 'admin' LIMIT 1 [ RunTime:0.002097s ]
+[ sql ] [ EXPLAIN : array (
+  'id' => 1,
+  'select_type' => 'SIMPLE',
+  'table' => 'cmt_user',
+  'type' => 'ref',
+  'possible_keys' => 'user_name',
+  'key' => 'user_name',
+  'key_len' => '302',
+  'ref' => 'const',
+  'rows' => 1,
+  'extra' => 'Using where',
+) ]
+[ sql ] [ SQL ] UPDATE `cmt_user`  SET `lastlogintime`=1517450619  WHERE  `user_id` = 1 [ RunTime:0.000987s ]
+---------------------------------------------------------------
+[ 2018-02-01T10:03:41+08:00 ] 127.0.0.1 127.0.0.1 GET /admin.html
+[ info ] tp5.com/admin.html [运行时间：0.173958s][吞吐率：5.75req/s] [内存消耗：2,887.45kb] [文件加载：55]
+[ info ] [ LANG ] E:\myphp_www\PHPTutorial\WWW\customer_tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'index',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'tp5.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.119 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://tp5.com/login.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=qh9uqtu6l4l0th8dhi5bc81tt5',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'expire' => 60,
+  'type' => '',
+  'auto_start' => true,
+  'httponly' => false,
+  'secure' => false,
+  'use_cookies' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Index->index[ E:\myphp_www\PHPTutorial\WWW\customer_tp5\application\admin\controller\Index.php ]
+[ info ] [ VIEW ] E:\myphp_www\PHPTutorial\WWW\customer_tp5\public/../application/admin\view\index\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002549s ] mysql:host=127.0.0.1;port=3306;dbname=tp5_cmt;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `cmt_user` [ RunTime:0.015680s ]
+[ sql ] [ SQL ] SELECT `password` FROM `cmt_user` WHERE  `user_id` = 1 LIMIT 1 [ RunTime:0.000482s ]
+[ sql ] [ EXPLAIN : array (
+  'id' => 1,
+  'select_type' => 'SIMPLE',
+  'table' => 'cmt_user',
+  'type' => 'const',
+  'possible_keys' => 'PRIMARY',
+  'key' => 'PRIMARY',
+  'key_len' => '3',
+  'ref' => 'const',
+  'rows' => 1,
+  'extra' => '',
+) ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `cmt_menu` [ RunTime:0.020088s ]
+[ sql ] [ SQL ] SELECT * FROM `cmt_menu` [ RunTime:0.000946s ]
+[ sql ] [ EXPLAIN : array (
+  'id' => 1,
+  'select_type' => 'SIMPLE',
+  'table' => 'cmt_menu',
+  'type' => 'ALL',
+  'possible_keys' => NULL,
+  'key' => NULL,
+  'key_len' => NULL,
+  'ref' => NULL,
+  'rows' => 5,
+  'extra' => '',
+) ]
+---------------------------------------------------------------
+[ 2018-02-01T10:32:26+08:00 ] 127.0.0.1 127.0.0.1 GET /admin.html
+[ info ] tp5.com/admin.html [运行时间：0.096536s][吞吐率：10.36req/s] [内存消耗：1,771.31kb] [文件加载：45]
+[ info ] [ LANG ] E:\myphp_www\PHPTutorial\WWW\customer_tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'index',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'tp5.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.119 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://tp5.com/login.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'expire' => 60,
+  'type' => '',
+  'auto_start' => true,
+  'httponly' => false,
+  'secure' => false,
+  'use_cookies' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-02-01T10:32:26+08:00 ] 127.0.0.1 127.0.0.1 GET /login.html
+[ info ] tp5.com/login.html [运行时间：0.060986s][吞吐率：16.40req/s] [内存消耗：1,767.82kb] [文件加载：44]
+[ info ] [ LANG ] E:\myphp_www\PHPTutorial\WWW\customer_tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'login',
+    2 => 'login',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'tp5.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.119 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://tp5.com/login.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=98e0gspcus3sg9mv4h6b0p5c12',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'expire' => 60,
+  'type' => '',
+  'auto_start' => true,
+  'httponly' => false,
+  'secure' => false,
+  'use_cookies' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Login->login[ E:\myphp_www\PHPTutorial\WWW\customer_tp5\application\admin\controller\Login.php ]
+[ info ] [ VIEW ] E:\myphp_www\PHPTutorial\WWW\customer_tp5\public/../application/admin\view\login\login.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-02-01T10:32:29+08:00 ] 127.0.0.1 127.0.0.1 GET /login.html
+[ info ] tp5.com/login.html [运行时间：0.069965s][吞吐率：14.29req/s] [内存消耗：1,768.29kb] [文件加载：44]
+[ info ] [ LANG ] E:\myphp_www\PHPTutorial\WWW\customer_tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'login',
+    2 => 'login',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'tp5.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.119 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://tp5.com/.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=98e0gspcus3sg9mv4h6b0p5c12',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'expire' => 60,
+  'type' => '',
+  'auto_start' => true,
+  'httponly' => false,
+  'secure' => false,
+  'use_cookies' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Login->login[ E:\myphp_www\PHPTutorial\WWW\customer_tp5\application\admin\controller\Login.php ]
+[ info ] [ VIEW ] E:\myphp_www\PHPTutorial\WWW\customer_tp5\public/../application/admin\view\login\login.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-02-01T10:32:30+08:00 ] 127.0.0.1 127.0.0.1 POST /check/login.html
+[ info ] tp5.com/check/login.html [运行时间：0.043036s][吞吐率：23.24req/s] [内存消耗：1,756.19kb] [文件加载：43]
+[ info ] [ LANG ] E:\myphp_www\PHPTutorial\WWW\customer_tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'login',
+    2 => 'login_action',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'tp5.com',
+  'connection' => 'keep-alive',
+  'content-length' => '25',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://tp5.com',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.119 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'referer' => 'http://tp5.com/login.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=98e0gspcus3sg9mv4h6b0p5c12',
+)
+[ info ] [ PARAM ] array (
+  'user_name' => 'admin',
+  'password' => '',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'expire' => 60,
+  'type' => '',
+  'auto_start' => true,
+  'httponly' => false,
+  'secure' => false,
+  'use_cookies' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Login->login_action[ E:\myphp_www\PHPTutorial\WWW\customer_tp5\application\admin\controller\Login.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-02-01T10:32:34+08:00 ] 127.0.0.1 127.0.0.1 POST /check/login.html
+[ info ] tp5.com/check/login.html [运行时间：0.090050s][吞吐率：11.10req/s] [内存消耗：2,904.84kb] [文件加载：55]
+[ info ] [ LANG ] E:\myphp_www\PHPTutorial\WWW\customer_tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'login',
+    2 => 'login_action',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'tp5.com',
+  'connection' => 'keep-alive',
+  'content-length' => '28',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://tp5.com',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.119 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'referer' => 'http://tp5.com/login.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=98e0gspcus3sg9mv4h6b0p5c12',
+)
+[ info ] [ PARAM ] array (
+  'user_name' => 'admin',
+  'password' => '123',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'expire' => 60,
+  'type' => '',
+  'auto_start' => true,
+  'httponly' => false,
+  'secure' => false,
+  'use_cookies' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Login->login_action[ E:\myphp_www\PHPTutorial\WWW\customer_tp5\application\admin\controller\Login.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000974s ] mysql:host=127.0.0.1;port=3306;dbname=tp5_cmt;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `cmt_user` [ RunTime:0.016586s ]
+[ sql ] [ SQL ] SELECT * FROM `cmt_user` WHERE  `user_name` = 'admin' LIMIT 1 [ RunTime:0.000842s ]
+[ sql ] [ EXPLAIN : array (
+  'id' => 1,
+  'select_type' => 'SIMPLE',
+  'table' => 'cmt_user',
+  'type' => 'ref',
+  'possible_keys' => 'user_name',
+  'key' => 'user_name',
+  'key_len' => '302',
+  'ref' => 'const',
+  'rows' => 1,
+  'extra' => 'Using where',
+) ]
+[ sql ] [ SQL ] UPDATE `cmt_user`  SET `lastlogintime`=1517452354  WHERE  `user_id` = 1 [ RunTime:0.000862s ]
+---------------------------------------------------------------
+[ 2018-02-01T10:32:36+08:00 ] 127.0.0.1 127.0.0.1 GET /admin.html
+[ info ] tp5.com/admin.html [运行时间：0.164272s][吞吐率：6.09req/s] [内存消耗：2,887.45kb] [文件加载：55]
+[ info ] [ LANG ] E:\myphp_www\PHPTutorial\WWW\customer_tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'index',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'tp5.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.119 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://tp5.com/login.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=98e0gspcus3sg9mv4h6b0p5c12',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'expire' => 60,
+  'type' => '',
+  'auto_start' => true,
+  'httponly' => false,
+  'secure' => false,
+  'use_cookies' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Index->index[ E:\myphp_www\PHPTutorial\WWW\customer_tp5\application\admin\controller\Index.php ]
+[ info ] [ VIEW ] E:\myphp_www\PHPTutorial\WWW\customer_tp5\public/../application/admin\view\index\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001963s ] mysql:host=127.0.0.1;port=3306;dbname=tp5_cmt;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `cmt_user` [ RunTime:0.031262s ]
+[ sql ] [ SQL ] SELECT `password` FROM `cmt_user` WHERE  `user_id` = 1 LIMIT 1 [ RunTime:0.000587s ]
+[ sql ] [ EXPLAIN : array (
+  'id' => 1,
+  'select_type' => 'SIMPLE',
+  'table' => 'cmt_user',
+  'type' => 'const',
+  'possible_keys' => 'PRIMARY',
+  'key' => 'PRIMARY',
+  'key_len' => '3',
+  'ref' => 'const',
+  'rows' => 1,
+  'extra' => '',
+) ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `cmt_menu` [ RunTime:0.016390s ]
+[ sql ] [ SQL ] SELECT * FROM `cmt_menu` [ RunTime:0.000615s ]
+[ sql ] [ EXPLAIN : array (
+  'id' => 1,
+  'select_type' => 'SIMPLE',
+  'table' => 'cmt_menu',
+  'type' => 'ALL',
+  'possible_keys' => NULL,
+  'key' => NULL,
+  'key_len' => NULL,
+  'ref' => NULL,
+  'rows' => 5,
+  'extra' => '',
+) ]
+---------------------------------------------------------------
+[ 2018-02-01T10:32:44+08:00 ] 127.0.0.1 127.0.0.1 GET /user/index.html
+[ info ] tp5.com/user/index.html [运行时间：0.191254s][吞吐率：5.23req/s] [内存消耗：3,168.64kb] [文件加载：60]
+[ info ] [ LANG ] E:\myphp_www\PHPTutorial\WWW\customer_tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'user',
+    2 => 'index',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'tp5.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.119 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://tp5.com/admin.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=98e0gspcus3sg9mv4h6b0p5c12',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'expire' => 60,
+  'type' => '',
+  'auto_start' => true,
+  'httponly' => false,
+  'secure' => false,
+  'use_cookies' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\User->index[ E:\myphp_www\PHPTutorial\WWW\customer_tp5\application\admin\controller\User.php ]
+[ info ] [ VIEW ] E:\myphp_www\PHPTutorial\WWW\customer_tp5\public/../application/admin\view\user\index.html [ array (
+  0 => 'user',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002304s ] mysql:host=127.0.0.1;port=3306;dbname=tp5_cmt;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `cmt_user` [ RunTime:0.012914s ]
+[ sql ] [ SQL ] SELECT `password` FROM `cmt_user` WHERE  `user_id` = 1 LIMIT 1 [ RunTime:0.000995s ]
+[ sql ] [ EXPLAIN : array (
+  'id' => 1,
+  'select_type' => 'SIMPLE',
+  'table' => 'cmt_user',
+  'type' => 'const',
+  'possible_keys' => 'PRIMARY',
+  'key' => 'PRIMARY',
+  'key_len' => '3',
+  'ref' => 'const',
+  'rows' => 1,
+  'extra' => '',
+) ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `cmt_user` WHERE  (  status <> 3 AND user_id > 1 ) LIMIT 1 [ RunTime:0.000619s ]
+[ sql ] [ EXPLAIN : array (
+  'id' => 1,
+  'select_type' => 'SIMPLE',
+  'table' => 'cmt_user',
+  'type' => 'range',
+  'possible_keys' => 'PRIMARY',
+  'key' => 'PRIMARY',
+  'key_len' => '3',
+  'ref' => NULL,
+  'rows' => 4,
+  'extra' => 'Using where',
+) ]
+[ sql ] [ SQL ] SELECT * FROM `cmt_user` WHERE  (  status <> 3 AND user_id > 1 ) ORDER BY `status` LIMIT 0,10 [ RunTime:0.000742s ]
+[ sql ] [ EXPLAIN : array (
+  'id' => 1,
+  'select_type' => 'SIMPLE',
+  'table' => 'cmt_user',
+  'type' => 'ALL',
+  'possible_keys' => 'PRIMARY',
+  'key' => NULL,
+  'key_len' => NULL,
+  'ref' => NULL,
+  'rows' => 5,
+  'extra' => 'Using where; Using filesort',
+) ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `cmt_menu` [ RunTime:0.012984s ]
+[ sql ] [ SQL ] SELECT * FROM `cmt_menu` [ RunTime:0.000745s ]
+[ sql ] [ EXPLAIN : array (
+  'id' => 1,
+  'select_type' => 'SIMPLE',
+  'table' => 'cmt_menu',
+  'type' => 'ALL',
+  'possible_keys' => NULL,
+  'key' => NULL,
+  'key_len' => NULL,
+  'ref' => NULL,
+  'rows' => 5,
+  'extra' => '',
+) ]
+[ warn ] SQL:SELECT * FROM `cmt_user` WHERE  (  status <> 3 AND user_id > 1 ) ORDER BY `status` LIMIT 0,10  [Using where; Using filesort]
+---------------------------------------------------------------
+[ 2018-02-01T10:32:52+08:00 ] 127.0.0.1 127.0.0.1 GET /role/index.html
+[ info ] tp5.com/role/index.html [运行时间：0.189675s][吞吐率：5.27req/s] [内存消耗：3,197.27kb] [文件加载：61]
+[ info ] [ LANG ] E:\myphp_www\PHPTutorial\WWW\customer_tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'role',
+    2 => 'index',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'tp5.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.119 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://tp5.com/user/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=98e0gspcus3sg9mv4h6b0p5c12',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'expire' => 60,
+  'type' => '',
+  'auto_start' => true,
+  'httponly' => false,
+  'secure' => false,
+  'use_cookies' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Role->index[ E:\myphp_www\PHPTutorial\WWW\customer_tp5\application\admin\controller\Role.php ]
+[ info ] [ VIEW ] E:\myphp_www\PHPTutorial\WWW\customer_tp5\public/../application/admin\view\role\index.html [ array (
+  0 => 'role',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002695s ] mysql:host=127.0.0.1;port=3306;dbname=tp5_cmt;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `cmt_user` [ RunTime:0.016136s ]
+[ sql ] [ SQL ] SELECT `password` FROM `cmt_user` WHERE  `user_id` = 1 LIMIT 1 [ RunTime:0.000925s ]
+[ sql ] [ EXPLAIN : array (
+  'id' => 1,
+  'select_type' => 'SIMPLE',
+  'table' => 'cmt_user',
+  'type' => 'const',
+  'possible_keys' => 'PRIMARY',
+  'key' => 'PRIMARY',
+  'key_len' => '3',
+  'ref' => 'const',
+  'rows' => 1,
+  'extra' => '',
+) ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `cmt_role` [ RunTime:0.013423s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `cmt_role` LIMIT 1 [ RunTime:0.000329s ]
+[ sql ] [ EXPLAIN : array (
+  'id' => 1,
+  'select_type' => 'SIMPLE',
+  'table' => NULL,
+  'type' => NULL,
+  'possible_keys' => NULL,
+  'key' => NULL,
+  'key_len' => NULL,
+  'ref' => NULL,
+  'rows' => NULL,
+  'extra' => 'Select tables optimized away',
+) ]
+[ sql ] [ SQL ] SELECT * FROM `cmt_role` LIMIT 0,10 [ RunTime:0.000433s ]
+[ sql ] [ EXPLAIN : array (
+  'id' => 1,
+  'select_type' => 'SIMPLE',
+  'table' => 'cmt_role',
+  'type' => 'ALL',
+  'possible_keys' => NULL,
+  'key' => NULL,
+  'key_len' => NULL,
+  'ref' => NULL,
+  'rows' => 3,
+  'extra' => '',
+) ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `cmt_menu` [ RunTime:0.014446s ]
+[ sql ] [ SQL ] SELECT * FROM `cmt_menu` [ RunTime:0.000638s ]
+[ sql ] [ EXPLAIN : array (
+  'id' => 1,
+  'select_type' => 'SIMPLE',
+  'table' => 'cmt_menu',
+  'type' => 'ALL',
+  'possible_keys' => NULL,
+  'key' => NULL,
+  'key_len' => NULL,
+  'ref' => NULL,
+  'rows' => 5,
+  'extra' => '',
+) ]
+---------------------------------------------------------------
+[ 2018-02-01T10:32:54+08:00 ] 127.0.0.1 127.0.0.1 GET /menu/index.html
+[ info ] tp5.com/menu/index.html [运行时间：0.167801s][吞吐率：5.96req/s] [内存消耗：3,169.06kb] [文件加载：60]
+[ info ] [ LANG ] E:\myphp_www\PHPTutorial\WWW\customer_tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'menu',
+    2 => 'index',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'tp5.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.119 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://tp5.com/role/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=98e0gspcus3sg9mv4h6b0p5c12',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'expire' => 60,
+  'type' => '',
+  'auto_start' => true,
+  'httponly' => false,
+  'secure' => false,
+  'use_cookies' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Menu->index[ E:\myphp_www\PHPTutorial\WWW\customer_tp5\application\admin\controller\Menu.php ]
+[ info ] [ VIEW ] E:\myphp_www\PHPTutorial\WWW\customer_tp5\public/../application/admin\view\menu\index.html [ array (
+  0 => 'menu',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000890s ] mysql:host=127.0.0.1;port=3306;dbname=tp5_cmt;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `cmt_user` [ RunTime:0.017117s ]
+[ sql ] [ SQL ] SELECT `password` FROM `cmt_user` WHERE  `user_id` = 1 LIMIT 1 [ RunTime:0.000395s ]
+[ sql ] [ EXPLAIN : array (
+  'id' => 1,
+  'select_type' => 'SIMPLE',
+  'table' => 'cmt_user',
+  'type' => 'const',
+  'possible_keys' => 'PRIMARY',
+  'key' => 'PRIMARY',
+  'key_len' => '3',
+  'ref' => 'const',
+  'rows' => 1,
+  'extra' => '',
+) ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `cmt_menu` [ RunTime:0.014142s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `cmt_menu` LIMIT 1 [ RunTime:0.000434s ]
+[ sql ] [ EXPLAIN : array (
+  'id' => 1,
+  'select_type' => 'SIMPLE',
+  'table' => NULL,
+  'type' => NULL,
+  'possible_keys' => NULL,
+  'key' => NULL,
+  'key_len' => NULL,
+  'ref' => NULL,
+  'rows' => NULL,
+  'extra' => 'Select tables optimized away',
+) ]
+[ sql ] [ SQL ] SELECT * FROM `cmt_menu` LIMIT 0,10 [ RunTime:0.001459s ]
+[ sql ] [ EXPLAIN : array (
+  'id' => 1,
+  'select_type' => 'SIMPLE',
+  'table' => 'cmt_menu',
+  'type' => 'ALL',
+  'possible_keys' => NULL,
+  'key' => NULL,
+  'key_len' => NULL,
+  'ref' => NULL,
+  'rows' => 5,
+  'extra' => '',
+) ]
+[ sql ] [ SQL ] SELECT * FROM `cmt_menu` [ RunTime:0.000426s ]
+[ sql ] [ EXPLAIN : array (
+  'id' => 1,
+  'select_type' => 'SIMPLE',
+  'table' => 'cmt_menu',
+  'type' => 'ALL',
+  'possible_keys' => NULL,
+  'key' => NULL,
+  'key_len' => NULL,
+  'ref' => NULL,
+  'rows' => 5,
+  'extra' => '',
+) ]
+---------------------------------------------------------------
+[ 2018-02-01T10:32:56+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php
+[ info ] tp5.com/index.php [运行时间：0.045142s][吞吐率：22.15req/s] [内存消耗：1,495.67kb] [文件加载：39]
+[ info ] [ LANG ] E:\myphp_www\PHPTutorial\WWW\customer_tp5\thinkphp\lang\zh-cn.php
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-02-01T10:32:57+08:00 ] 127.0.0.1 127.0.0.1 GET /role/index.html
+[ info ] tp5.com/role/index.html [运行时间：0.193769s][吞吐率：5.16req/s] [内存消耗：3,055.39kb] [文件加载：59]
+[ info ] [ LANG ] E:\myphp_www\PHPTutorial\WWW\customer_tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'role',
+    2 => 'index',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'tp5.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.119 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://tp5.com/menu/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=98e0gspcus3sg9mv4h6b0p5c12',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'expire' => 60,
+  'type' => '',
+  'auto_start' => true,
+  'httponly' => false,
+  'secure' => false,
+  'use_cookies' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Role->index[ E:\myphp_www\PHPTutorial\WWW\customer_tp5\application\admin\controller\Role.php ]
+[ info ] [ VIEW ] E:\myphp_www\PHPTutorial\WWW\customer_tp5\public/../application/admin\view\role\index.html [ array (
+  0 => 'role',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002965s ] mysql:host=127.0.0.1;port=3306;dbname=tp5_cmt;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `cmt_user` [ RunTime:0.025316s ]
+[ sql ] [ SQL ] SELECT `password` FROM `cmt_user` WHERE  `user_id` = 1 LIMIT 1 [ RunTime:0.000450s ]
+[ sql ] [ EXPLAIN : array (
+  'id' => 1,
+  'select_type' => 'SIMPLE',
+  'table' => 'cmt_user',
+  'type' => 'const',
+  'possible_keys' => 'PRIMARY',
+  'key' => 'PRIMARY',
+  'key_len' => '3',
+  'ref' => 'const',
+  'rows' => 1,
+  'extra' => '',
+) ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `cmt_role` [ RunTime:0.014228s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `cmt_role` LIMIT 1 [ RunTime:0.000312s ]
+[ sql ] [ EXPLAIN : array (
+  'id' => 1,
+  'select_type' => 'SIMPLE',
+  'table' => NULL,
+  'type' => NULL,
+  'possible_keys' => NULL,
+  'key' => NULL,
+  'key_len' => NULL,
+  'ref' => NULL,
+  'rows' => NULL,
+  'extra' => 'Select tables optimized away',
+) ]
+[ sql ] [ SQL ] SELECT * FROM `cmt_role` LIMIT 0,10 [ RunTime:0.000472s ]
+[ sql ] [ EXPLAIN : array (
+  'id' => 1,
+  'select_type' => 'SIMPLE',
+  'table' => 'cmt_role',
+  'type' => 'ALL',
+  'possible_keys' => NULL,
+  'key' => NULL,
+  'key_len' => NULL,
+  'ref' => NULL,
+  'rows' => 3,
+  'extra' => '',
+) ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `cmt_menu` [ RunTime:0.020063s ]
+[ sql ] [ SQL ] SELECT * FROM `cmt_menu` [ RunTime:0.000545s ]
+[ sql ] [ EXPLAIN : array (
+  'id' => 1,
+  'select_type' => 'SIMPLE',
+  'table' => 'cmt_menu',
+  'type' => 'ALL',
+  'possible_keys' => NULL,
+  'key' => NULL,
+  'key_len' => NULL,
+  'ref' => NULL,
+  'rows' => 5,
+  'extra' => '',
+) ]
+---------------------------------------------------------------
+[ 2018-02-01T10:33:29+08:00 ] 127.0.0.1 127.0.0.1 GET /role/index.html
+[ info ] tp5.com/role/index.html [运行时间：0.125842s][吞吐率：7.95req/s] [内存消耗：1,785.09kb] [文件加载：45]
+[ info ] [ LANG ] E:\myphp_www\PHPTutorial\WWW\customer_tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'role',
+    2 => 'index',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'tp5.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.119 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://tp5.com/menu/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'expire' => 60,
+  'type' => '',
+  'auto_start' => true,
+  'httponly' => false,
+  'secure' => false,
+  'use_cookies' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-02-01T10:33:30+08:00 ] 127.0.0.1 127.0.0.1 GET /login.html
+[ info ] tp5.com/login.html [运行时间：0.060840s][吞吐率：16.44req/s] [内存消耗：1,768.31kb] [文件加载：44]
+[ info ] [ LANG ] E:\myphp_www\PHPTutorial\WWW\customer_tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'login',
+    2 => 'login',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'tp5.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.119 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://tp5.com/menu/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=u7p1bhmp33jlbe0re91hcuvpf5',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'expire' => 60,
+  'type' => '',
+  'auto_start' => true,
+  'httponly' => false,
+  'secure' => false,
+  'use_cookies' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Login->login[ E:\myphp_www\PHPTutorial\WWW\customer_tp5\application\admin\controller\Login.php ]
+[ info ] [ VIEW ] E:\myphp_www\PHPTutorial\WWW\customer_tp5\public/../application/admin\view\login\login.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-02-01T10:33:31+08:00 ] 127.0.0.1 127.0.0.1 GET /login.html
+[ info ] tp5.com/login.html [运行时间：0.087846s][吞吐率：11.38req/s] [内存消耗：1,768.31kb] [文件加载：44]
+[ info ] [ LANG ] E:\myphp_www\PHPTutorial\WWW\customer_tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'login',
+    2 => 'login',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'tp5.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.119 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://tp5.com/menu/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=u7p1bhmp33jlbe0re91hcuvpf5',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'expire' => 60,
+  'type' => '',
+  'auto_start' => true,
+  'httponly' => false,
+  'secure' => false,
+  'use_cookies' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Login->login[ E:\myphp_www\PHPTutorial\WWW\customer_tp5\application\admin\controller\Login.php ]
+[ info ] [ VIEW ] E:\myphp_www\PHPTutorial\WWW\customer_tp5\public/../application/admin\view\login\login.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-02-01T10:33:32+08:00 ] 127.0.0.1 127.0.0.1 GET /login.html
+[ info ] tp5.com/login.html [运行时间：0.071034s][吞吐率：14.08req/s] [内存消耗：1,768.31kb] [文件加载：44]
+[ info ] [ LANG ] E:\myphp_www\PHPTutorial\WWW\customer_tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'login',
+    2 => 'login',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'tp5.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.119 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://tp5.com/menu/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=u7p1bhmp33jlbe0re91hcuvpf5',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'expire' => 60,
+  'type' => '',
+  'auto_start' => true,
+  'httponly' => false,
+  'secure' => false,
+  'use_cookies' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Login->login[ E:\myphp_www\PHPTutorial\WWW\customer_tp5\application\admin\controller\Login.php ]
+[ info ] [ VIEW ] E:\myphp_www\PHPTutorial\WWW\customer_tp5\public/../application/admin\view\login\login.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-02-01T10:33:32+08:00 ] 127.0.0.1 127.0.0.1 GET /login.html
+[ info ] tp5.com/login.html [运行时间：0.113669s][吞吐率：8.80req/s] [内存消耗：1,768.31kb] [文件加载：44]
+[ info ] [ LANG ] E:\myphp_www\PHPTutorial\WWW\customer_tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'login',
+    2 => 'login',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'tp5.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.119 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://tp5.com/menu/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=u7p1bhmp33jlbe0re91hcuvpf5',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'expire' => 60,
+  'type' => '',
+  'auto_start' => true,
+  'httponly' => false,
+  'secure' => false,
+  'use_cookies' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Login->login[ E:\myphp_www\PHPTutorial\WWW\customer_tp5\application\admin\controller\Login.php ]
+[ info ] [ VIEW ] E:\myphp_www\PHPTutorial\WWW\customer_tp5\public/../application/admin\view\login\login.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-02-01T10:33:32+08:00 ] 127.0.0.1 127.0.0.1 GET /login.html
+[ info ] tp5.com/login.html [运行时间：0.082823s][吞吐率：12.07req/s] [内存消耗：1,768.31kb] [文件加载：44]
+[ info ] [ LANG ] E:\myphp_www\PHPTutorial\WWW\customer_tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'login',
+    2 => 'login',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'tp5.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.119 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://tp5.com/menu/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=u7p1bhmp33jlbe0re91hcuvpf5',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'expire' => 60,
+  'type' => '',
+  'auto_start' => true,
+  'httponly' => false,
+  'secure' => false,
+  'use_cookies' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Login->login[ E:\myphp_www\PHPTutorial\WWW\customer_tp5\application\admin\controller\Login.php ]
+[ info ] [ VIEW ] E:\myphp_www\PHPTutorial\WWW\customer_tp5\public/../application/admin\view\login\login.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-02-01T10:33:33+08:00 ] 127.0.0.1 127.0.0.1 GET /login.html
+[ info ] tp5.com/login.html [运行时间：0.074446s][吞吐率：13.43req/s] [内存消耗：1,768.31kb] [文件加载：44]
+[ info ] [ LANG ] E:\myphp_www\PHPTutorial\WWW\customer_tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'login',
+    2 => 'login',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'tp5.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.119 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://tp5.com/menu/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=u7p1bhmp33jlbe0re91hcuvpf5',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'expire' => 60,
+  'type' => '',
+  'auto_start' => true,
+  'httponly' => false,
+  'secure' => false,
+  'use_cookies' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Login->login[ E:\myphp_www\PHPTutorial\WWW\customer_tp5\application\admin\controller\Login.php ]
+[ info ] [ VIEW ] E:\myphp_www\PHPTutorial\WWW\customer_tp5\public/../application/admin\view\login\login.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-02-01T10:33:33+08:00 ] 127.0.0.1 127.0.0.1 GET /login.html
+[ info ] tp5.com/login.html [运行时间：0.078021s][吞吐率：12.82req/s] [内存消耗：1,768.31kb] [文件加载：44]
+[ info ] [ LANG ] E:\myphp_www\PHPTutorial\WWW\customer_tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'login',
+    2 => 'login',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'tp5.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.119 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://tp5.com/menu/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=u7p1bhmp33jlbe0re91hcuvpf5',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'expire' => 60,
+  'type' => '',
+  'auto_start' => true,
+  'httponly' => false,
+  'secure' => false,
+  'use_cookies' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Login->login[ E:\myphp_www\PHPTutorial\WWW\customer_tp5\application\admin\controller\Login.php ]
+[ info ] [ VIEW ] E:\myphp_www\PHPTutorial\WWW\customer_tp5\public/../application/admin\view\login\login.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-02-01T10:33:34+08:00 ] 127.0.0.1 127.0.0.1 GET /login.html
+[ info ] tp5.com/login.html [运行时间：0.077607s][吞吐率：12.89req/s] [内存消耗：1,768.31kb] [文件加载：44]
+[ info ] [ LANG ] E:\myphp_www\PHPTutorial\WWW\customer_tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'login',
+    2 => 'login',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'tp5.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.119 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://tp5.com/menu/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=u7p1bhmp33jlbe0re91hcuvpf5',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'expire' => 60,
+  'type' => '',
+  'auto_start' => true,
+  'httponly' => false,
+  'secure' => false,
+  'use_cookies' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Login->login[ E:\myphp_www\PHPTutorial\WWW\customer_tp5\application\admin\controller\Login.php ]
+[ info ] [ VIEW ] E:\myphp_www\PHPTutorial\WWW\customer_tp5\public/../application/admin\view\login\login.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-02-01T10:33:34+08:00 ] 127.0.0.1 127.0.0.1 GET /login.html
+[ info ] tp5.com/login.html [运行时间：0.075379s][吞吐率：13.27req/s] [内存消耗：1,768.31kb] [文件加载：44]
+[ info ] [ LANG ] E:\myphp_www\PHPTutorial\WWW\customer_tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'login',
+    2 => 'login',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'tp5.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.119 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://tp5.com/menu/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=u7p1bhmp33jlbe0re91hcuvpf5',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'expire' => 60,
+  'type' => '',
+  'auto_start' => true,
+  'httponly' => false,
+  'secure' => false,
+  'use_cookies' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Login->login[ E:\myphp_www\PHPTutorial\WWW\customer_tp5\application\admin\controller\Login.php ]
+[ info ] [ VIEW ] E:\myphp_www\PHPTutorial\WWW\customer_tp5\public/../application/admin\view\login\login.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-02-01T10:37:37+08:00 ] 127.0.0.1 127.0.0.1 GET /login.html
+[ info ] tp5.com/login.html [运行时间：0.083474s][吞吐率：11.98req/s] [内存消耗：1,767.88kb] [文件加载：44]
+[ info ] [ LANG ] E:\myphp_www\PHPTutorial\WWW\customer_tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'login',
+    2 => 'login',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'tp5.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.119 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://tp5.com/menu/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'expire' => 60,
+  'type' => '',
+  'auto_start' => true,
+  'httponly' => false,
+  'secure' => false,
+  'use_cookies' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Login->login[ E:\myphp_www\PHPTutorial\WWW\customer_tp5\application\admin\controller\Login.php ]
+[ info ] [ VIEW ] E:\myphp_www\PHPTutorial\WWW\customer_tp5\public/../application/admin\view\login\login.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-02-01T10:37:38+08:00 ] 127.0.0.1 127.0.0.1 POST /check/login.html
+[ info ] tp5.com/check/login.html [运行时间：0.036340s][吞吐率：27.52req/s] [内存消耗：1,755.91kb] [文件加载：43]
+[ info ] [ LANG ] E:\myphp_www\PHPTutorial\WWW\customer_tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'login',
+    2 => 'login_action',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'tp5.com',
+  'connection' => 'keep-alive',
+  'content-length' => '25',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://tp5.com',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.119 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'referer' => 'http://tp5.com/login.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=jigh0l5758ghu1744l2kadl0t7',
+)
+[ info ] [ PARAM ] array (
+  'user_name' => 'admin',
+  'password' => '',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'expire' => 60,
+  'type' => '',
+  'auto_start' => true,
+  'httponly' => false,
+  'secure' => false,
+  'use_cookies' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Login->login_action[ E:\myphp_www\PHPTutorial\WWW\customer_tp5\application\admin\controller\Login.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-02-01T10:37:42+08:00 ] 127.0.0.1 127.0.0.1 POST /check/login.html
+[ info ] tp5.com/check/login.html [运行时间：0.088430s][吞吐率：11.31req/s] [内存消耗：2,904.83kb] [文件加载：55]
+[ info ] [ LANG ] E:\myphp_www\PHPTutorial\WWW\customer_tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'login',
+    2 => 'login_action',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'tp5.com',
+  'connection' => 'keep-alive',
+  'content-length' => '28',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://tp5.com',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.119 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'referer' => 'http://tp5.com/login.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=jigh0l5758ghu1744l2kadl0t7',
+)
+[ info ] [ PARAM ] array (
+  'user_name' => 'admin',
+  'password' => '123',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'expire' => 60,
+  'type' => '',
+  'auto_start' => true,
+  'httponly' => false,
+  'secure' => false,
+  'use_cookies' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Login->login_action[ E:\myphp_www\PHPTutorial\WWW\customer_tp5\application\admin\controller\Login.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000961s ] mysql:host=127.0.0.1;port=3306;dbname=tp5_cmt;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `cmt_user` [ RunTime:0.021423s ]
+[ sql ] [ SQL ] SELECT * FROM `cmt_user` WHERE  `user_name` = 'admin' LIMIT 1 [ RunTime:0.000789s ]
+[ sql ] [ EXPLAIN : array (
+  'id' => 1,
+  'select_type' => 'SIMPLE',
+  'table' => 'cmt_user',
+  'type' => 'ref',
+  'possible_keys' => 'user_name',
+  'key' => 'user_name',
+  'key_len' => '302',
+  'ref' => 'const',
+  'rows' => 1,
+  'extra' => 'Using where',
+) ]
+[ sql ] [ SQL ] UPDATE `cmt_user`  SET `lastlogintime`=1517452662  WHERE  `user_id` = 1 [ RunTime:0.000501s ]
+---------------------------------------------------------------
+[ 2018-02-01T10:37:43+08:00 ] 127.0.0.1 127.0.0.1 GET /admin.html
+[ info ] tp5.com/admin.html [运行时间：0.164162s][吞吐率：6.09req/s] [内存消耗：2,887.45kb] [文件加载：55]
+[ info ] [ LANG ] E:\myphp_www\PHPTutorial\WWW\customer_tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'index',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'tp5.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.119 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://tp5.com/login.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=jigh0l5758ghu1744l2kadl0t7',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'expire' => 60,
+  'type' => '',
+  'auto_start' => true,
+  'httponly' => false,
+  'secure' => false,
+  'use_cookies' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Index->index[ E:\myphp_www\PHPTutorial\WWW\customer_tp5\application\admin\controller\Index.php ]
+[ info ] [ VIEW ] E:\myphp_www\PHPTutorial\WWW\customer_tp5\public/../application/admin\view\index\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001031s ] mysql:host=127.0.0.1;port=3306;dbname=tp5_cmt;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `cmt_user` [ RunTime:0.022962s ]
+[ sql ] [ SQL ] SELECT `password` FROM `cmt_user` WHERE  `user_id` = 1 LIMIT 1 [ RunTime:0.001952s ]
+[ sql ] [ EXPLAIN : array (
+  'id' => 1,
+  'select_type' => 'SIMPLE',
+  'table' => 'cmt_user',
+  'type' => 'const',
+  'possible_keys' => 'PRIMARY',
+  'key' => 'PRIMARY',
+  'key_len' => '3',
+  'ref' => 'const',
+  'rows' => 1,
+  'extra' => '',
+) ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `cmt_menu` [ RunTime:0.020931s ]
+[ sql ] [ SQL ] SELECT * FROM `cmt_menu` [ RunTime:0.000689s ]
+[ sql ] [ EXPLAIN : array (
+  'id' => 1,
+  'select_type' => 'SIMPLE',
+  'table' => 'cmt_menu',
+  'type' => 'ALL',
+  'possible_keys' => NULL,
+  'key' => NULL,
+  'key_len' => NULL,
+  'ref' => NULL,
+  'rows' => 5,
+  'extra' => '',
+) ]
+---------------------------------------------------------------
+[ 2018-02-01T10:37:44+08:00 ] 127.0.0.1 127.0.0.1 GET /admin.html
+[ info ] tp5.com/admin.html [运行时间：0.130658s][吞吐率：7.65req/s] [内存消耗：2,887.76kb] [文件加载：55]
+[ info ] [ LANG ] E:\myphp_www\PHPTutorial\WWW\customer_tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'index',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'tp5.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.119 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://tp5.com/login.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=jigh0l5758ghu1744l2kadl0t7',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'expire' => 60,
+  'type' => '',
+  'auto_start' => true,
+  'httponly' => false,
+  'secure' => false,
+  'use_cookies' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Index->index[ E:\myphp_www\PHPTutorial\WWW\customer_tp5\application\admin\controller\Index.php ]
+[ info ] [ VIEW ] E:\myphp_www\PHPTutorial\WWW\customer_tp5\public/../application/admin\view\index\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001857s ] mysql:host=127.0.0.1;port=3306;dbname=tp5_cmt;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `cmt_user` [ RunTime:0.021925s ]
+[ sql ] [ SQL ] SELECT `password` FROM `cmt_user` WHERE  `user_id` = 1 LIMIT 1 [ RunTime:0.000401s ]
+[ sql ] [ EXPLAIN : array (
+  'id' => 1,
+  'select_type' => 'SIMPLE',
+  'table' => 'cmt_user',
+  'type' => 'const',
+  'possible_keys' => 'PRIMARY',
+  'key' => 'PRIMARY',
+  'key_len' => '3',
+  'ref' => 'const',
+  'rows' => 1,
+  'extra' => '',
+) ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `cmt_menu` [ RunTime:0.012388s ]
+[ sql ] [ SQL ] SELECT * FROM `cmt_menu` [ RunTime:0.000799s ]
+[ sql ] [ EXPLAIN : array (
+  'id' => 1,
+  'select_type' => 'SIMPLE',
+  'table' => 'cmt_menu',
+  'type' => 'ALL',
+  'possible_keys' => NULL,
+  'key' => NULL,
+  'key_len' => NULL,
+  'ref' => NULL,
+  'rows' => 5,
+  'extra' => '',
+) ]
+---------------------------------------------------------------
+[ 2018-02-01T10:37:45+08:00 ] 127.0.0.1 127.0.0.1 GET /admin.html
+[ info ] tp5.com/admin.html [运行时间：0.128710s][吞吐率：7.77req/s] [内存消耗：2,887.76kb] [文件加载：55]
+[ info ] [ LANG ] E:\myphp_www\PHPTutorial\WWW\customer_tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'index',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'tp5.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.119 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://tp5.com/login.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=jigh0l5758ghu1744l2kadl0t7',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'expire' => 60,
+  'type' => '',
+  'auto_start' => true,
+  'httponly' => false,
+  'secure' => false,
+  'use_cookies' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Index->index[ E:\myphp_www\PHPTutorial\WWW\customer_tp5\application\admin\controller\Index.php ]
+[ info ] [ VIEW ] E:\myphp_www\PHPTutorial\WWW\customer_tp5\public/../application/admin\view\index\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002507s ] mysql:host=127.0.0.1;port=3306;dbname=tp5_cmt;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `cmt_user` [ RunTime:0.017346s ]
+[ sql ] [ SQL ] SELECT `password` FROM `cmt_user` WHERE  `user_id` = 1 LIMIT 1 [ RunTime:0.000620s ]
+[ sql ] [ EXPLAIN : array (
+  'id' => 1,
+  'select_type' => 'SIMPLE',
+  'table' => 'cmt_user',
+  'type' => 'const',
+  'possible_keys' => 'PRIMARY',
+  'key' => 'PRIMARY',
+  'key_len' => '3',
+  'ref' => 'const',
+  'rows' => 1,
+  'extra' => '',
+) ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `cmt_menu` [ RunTime:0.013899s ]
+[ sql ] [ SQL ] SELECT * FROM `cmt_menu` [ RunTime:0.000481s ]
+[ sql ] [ EXPLAIN : array (
+  'id' => 1,
+  'select_type' => 'SIMPLE',
+  'table' => 'cmt_menu',
+  'type' => 'ALL',
+  'possible_keys' => NULL,
+  'key' => NULL,
+  'key_len' => NULL,
+  'ref' => NULL,
+  'rows' => 5,
+  'extra' => '',
+) ]
+---------------------------------------------------------------
+[ 2018-02-01T10:37:46+08:00 ] 127.0.0.1 127.0.0.1 GET /admin.html
+[ info ] tp5.com/admin.html [运行时间：0.123732s][吞吐率：8.08req/s] [内存消耗：2,887.76kb] [文件加载：55]
+[ info ] [ LANG ] E:\myphp_www\PHPTutorial\WWW\customer_tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'index',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'tp5.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.119 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://tp5.com/login.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=jigh0l5758ghu1744l2kadl0t7',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'expire' => 60,
+  'type' => '',
+  'auto_start' => true,
+  'httponly' => false,
+  'secure' => false,
+  'use_cookies' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Index->index[ E:\myphp_www\PHPTutorial\WWW\customer_tp5\application\admin\controller\Index.php ]
+[ info ] [ VIEW ] E:\myphp_www\PHPTutorial\WWW\customer_tp5\public/../application/admin\view\index\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002121s ] mysql:host=127.0.0.1;port=3306;dbname=tp5_cmt;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `cmt_user` [ RunTime:0.022872s ]
+[ sql ] [ SQL ] SELECT `password` FROM `cmt_user` WHERE  `user_id` = 1 LIMIT 1 [ RunTime:0.000403s ]
+[ sql ] [ EXPLAIN : array (
+  'id' => 1,
+  'select_type' => 'SIMPLE',
+  'table' => 'cmt_user',
+  'type' => 'const',
+  'possible_keys' => 'PRIMARY',
+  'key' => 'PRIMARY',
+  'key_len' => '3',
+  'ref' => 'const',
+  'rows' => 1,
+  'extra' => '',
+) ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `cmt_menu` [ RunTime:0.012109s ]
+[ sql ] [ SQL ] SELECT * FROM `cmt_menu` [ RunTime:0.000584s ]
+[ sql ] [ EXPLAIN : array (
+  'id' => 1,
+  'select_type' => 'SIMPLE',
+  'table' => 'cmt_menu',
+  'type' => 'ALL',
+  'possible_keys' => NULL,
+  'key' => NULL,
+  'key_len' => NULL,
+  'ref' => NULL,
+  'rows' => 5,
+  'extra' => '',
+) ]
+---------------------------------------------------------------
+[ 2018-02-01T10:37:46+08:00 ] 127.0.0.1 127.0.0.1 GET /admin.html
+[ info ] tp5.com/admin.html [运行时间：0.131045s][吞吐率：7.63req/s] [内存消耗：2,887.76kb] [文件加载：55]
+[ info ] [ LANG ] E:\myphp_www\PHPTutorial\WWW\customer_tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'index',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'tp5.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.119 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://tp5.com/login.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=jigh0l5758ghu1744l2kadl0t7',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'expire' => 60,
+  'type' => '',
+  'auto_start' => true,
+  'httponly' => false,
+  'secure' => false,
+  'use_cookies' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Index->index[ E:\myphp_www\PHPTutorial\WWW\customer_tp5\application\admin\controller\Index.php ]
+[ info ] [ VIEW ] E:\myphp_www\PHPTutorial\WWW\customer_tp5\public/../application/admin\view\index\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000890s ] mysql:host=127.0.0.1;port=3306;dbname=tp5_cmt;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `cmt_user` [ RunTime:0.023526s ]
+[ sql ] [ SQL ] SELECT `password` FROM `cmt_user` WHERE  `user_id` = 1 LIMIT 1 [ RunTime:0.000407s ]
+[ sql ] [ EXPLAIN : array (
+  'id' => 1,
+  'select_type' => 'SIMPLE',
+  'table' => 'cmt_user',
+  'type' => 'const',
+  'possible_keys' => 'PRIMARY',
+  'key' => 'PRIMARY',
+  'key_len' => '3',
+  'ref' => 'const',
+  'rows' => 1,
+  'extra' => '',
+) ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `cmt_menu` [ RunTime:0.014384s ]
+[ sql ] [ SQL ] SELECT * FROM `cmt_menu` [ RunTime:0.000611s ]
+[ sql ] [ EXPLAIN : array (
+  'id' => 1,
+  'select_type' => 'SIMPLE',
+  'table' => 'cmt_menu',
+  'type' => 'ALL',
+  'possible_keys' => NULL,
+  'key' => NULL,
+  'key_len' => NULL,
+  'ref' => NULL,
+  'rows' => 5,
+  'extra' => '',
+) ]
+---------------------------------------------------------------
+[ 2018-02-01T10:37:46+08:00 ] 127.0.0.1 127.0.0.1 GET /admin.html
+[ info ] tp5.com/admin.html [运行时间：0.130447s][吞吐率：7.67req/s] [内存消耗：2,887.76kb] [文件加载：55]
+[ info ] [ LANG ] E:\myphp_www\PHPTutorial\WWW\customer_tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'index',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'tp5.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.119 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://tp5.com/login.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=jigh0l5758ghu1744l2kadl0t7',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'expire' => 60,
+  'type' => '',
+  'auto_start' => true,
+  'httponly' => false,
+  'secure' => false,
+  'use_cookies' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Index->index[ E:\myphp_www\PHPTutorial\WWW\customer_tp5\application\admin\controller\Index.php ]
+[ info ] [ VIEW ] E:\myphp_www\PHPTutorial\WWW\customer_tp5\public/../application/admin\view\index\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000975s ] mysql:host=127.0.0.1;port=3306;dbname=tp5_cmt;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `cmt_user` [ RunTime:0.016665s ]
+[ sql ] [ SQL ] SELECT `password` FROM `cmt_user` WHERE  `user_id` = 1 LIMIT 1 [ RunTime:0.001098s ]
+[ sql ] [ EXPLAIN : array (
+  'id' => 1,
+  'select_type' => 'SIMPLE',
+  'table' => 'cmt_user',
+  'type' => 'const',
+  'possible_keys' => 'PRIMARY',
+  'key' => 'PRIMARY',
+  'key_len' => '3',
+  'ref' => 'const',
+  'rows' => 1,
+  'extra' => '',
+) ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `cmt_menu` [ RunTime:0.013466s ]
+[ sql ] [ SQL ] SELECT * FROM `cmt_menu` [ RunTime:0.001040s ]
+[ sql ] [ EXPLAIN : array (
+  'id' => 1,
+  'select_type' => 'SIMPLE',
+  'table' => 'cmt_menu',
+  'type' => 'ALL',
+  'possible_keys' => NULL,
+  'key' => NULL,
+  'key_len' => NULL,
+  'ref' => NULL,
+  'rows' => 5,
+  'extra' => '',
+) ]
+---------------------------------------------------------------
+[ 2018-02-01T10:37:46+08:00 ] 127.0.0.1 127.0.0.1 GET /admin.html
+[ info ] tp5.com/admin.html [运行时间：0.129481s][吞吐率：7.72req/s] [内存消耗：2,887.76kb] [文件加载：55]
+[ info ] [ LANG ] E:\myphp_www\PHPTutorial\WWW\customer_tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'index',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'tp5.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.119 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://tp5.com/login.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=jigh0l5758ghu1744l2kadl0t7',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'expire' => 60,
+  'type' => '',
+  'auto_start' => true,
+  'httponly' => false,
+  'secure' => false,
+  'use_cookies' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Index->index[ E:\myphp_www\PHPTutorial\WWW\customer_tp5\application\admin\controller\Index.php ]
+[ info ] [ VIEW ] E:\myphp_www\PHPTutorial\WWW\customer_tp5\public/../application/admin\view\index\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001064s ] mysql:host=127.0.0.1;port=3306;dbname=tp5_cmt;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `cmt_user` [ RunTime:0.023759s ]
+[ sql ] [ SQL ] SELECT `password` FROM `cmt_user` WHERE  `user_id` = 1 LIMIT 1 [ RunTime:0.000401s ]
+[ sql ] [ EXPLAIN : array (
+  'id' => 1,
+  'select_type' => 'SIMPLE',
+  'table' => 'cmt_user',
+  'type' => 'const',
+  'possible_keys' => 'PRIMARY',
+  'key' => 'PRIMARY',
+  'key_len' => '3',
+  'ref' => 'const',
+  'rows' => 1,
+  'extra' => '',
+) ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `cmt_menu` [ RunTime:0.014295s ]
+[ sql ] [ SQL ] SELECT * FROM `cmt_menu` [ RunTime:0.000419s ]
+[ sql ] [ EXPLAIN : array (
+  'id' => 1,
+  'select_type' => 'SIMPLE',
+  'table' => 'cmt_menu',
+  'type' => 'ALL',
+  'possible_keys' => NULL,
+  'key' => NULL,
+  'key_len' => NULL,
+  'ref' => NULL,
+  'rows' => 5,
+  'extra' => '',
+) ]
+---------------------------------------------------------------
+[ 2018-02-01T10:37:47+08:00 ] 127.0.0.1 127.0.0.1 GET /admin.html
+[ info ] tp5.com/admin.html [运行时间：0.133339s][吞吐率：7.50req/s] [内存消耗：2,887.76kb] [文件加载：55]
+[ info ] [ LANG ] E:\myphp_www\PHPTutorial\WWW\customer_tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'index',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'tp5.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.119 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://tp5.com/login.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=jigh0l5758ghu1744l2kadl0t7',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'expire' => 60,
+  'type' => '',
+  'auto_start' => true,
+  'httponly' => false,
+  'secure' => false,
+  'use_cookies' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Index->index[ E:\myphp_www\PHPTutorial\WWW\customer_tp5\application\admin\controller\Index.php ]
+[ info ] [ VIEW ] E:\myphp_www\PHPTutorial\WWW\customer_tp5\public/../application/admin\view\index\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000952s ] mysql:host=127.0.0.1;port=3306;dbname=tp5_cmt;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `cmt_user` [ RunTime:0.030140s ]
+[ sql ] [ SQL ] SELECT `password` FROM `cmt_user` WHERE  `user_id` = 1 LIMIT 1 [ RunTime:0.000423s ]
+[ sql ] [ EXPLAIN : array (
+  'id' => 1,
+  'select_type' => 'SIMPLE',
+  'table' => 'cmt_user',
+  'type' => 'const',
+  'possible_keys' => 'PRIMARY',
+  'key' => 'PRIMARY',
+  'key_len' => '3',
+  'ref' => 'const',
+  'rows' => 1,
+  'extra' => '',
+) ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `cmt_menu` [ RunTime:0.014202s ]
+[ sql ] [ SQL ] SELECT * FROM `cmt_menu` [ RunTime:0.000548s ]
+[ sql ] [ EXPLAIN : array (
+  'id' => 1,
+  'select_type' => 'SIMPLE',
+  'table' => 'cmt_menu',
+  'type' => 'ALL',
+  'possible_keys' => NULL,
+  'key' => NULL,
+  'key_len' => NULL,
+  'ref' => NULL,
+  'rows' => 5,
+  'extra' => '',
+) ]
+---------------------------------------------------------------
+[ 2018-02-01T10:37:47+08:00 ] 127.0.0.1 127.0.0.1 GET /admin.html
+[ info ] tp5.com/admin.html [运行时间：0.127351s][吞吐率：7.85req/s] [内存消耗：2,887.76kb] [文件加载：55]
+[ info ] [ LANG ] E:\myphp_www\PHPTutorial\WWW\customer_tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'index',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'tp5.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.119 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://tp5.com/login.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=jigh0l5758ghu1744l2kadl0t7',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'expire' => 60,
+  'type' => '',
+  'auto_start' => true,
+  'httponly' => false,
+  'secure' => false,
+  'use_cookies' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Index->index[ E:\myphp_www\PHPTutorial\WWW\customer_tp5\application\admin\controller\Index.php ]
+[ info ] [ VIEW ] E:\myphp_www\PHPTutorial\WWW\customer_tp5\public/../application/admin\view\index\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000873s ] mysql:host=127.0.0.1;port=3306;dbname=tp5_cmt;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `cmt_user` [ RunTime:0.022188s ]
+[ sql ] [ SQL ] SELECT `password` FROM `cmt_user` WHERE  `user_id` = 1 LIMIT 1 [ RunTime:0.000825s ]
+[ sql ] [ EXPLAIN : array (
+  'id' => 1,
+  'select_type' => 'SIMPLE',
+  'table' => 'cmt_user',
+  'type' => 'const',
+  'possible_keys' => 'PRIMARY',
+  'key' => 'PRIMARY',
+  'key_len' => '3',
+  'ref' => 'const',
+  'rows' => 1,
+  'extra' => '',
+) ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `cmt_menu` [ RunTime:0.014119s ]
+[ sql ] [ SQL ] SELECT * FROM `cmt_menu` [ RunTime:0.000665s ]
+[ sql ] [ EXPLAIN : array (
+  'id' => 1,
+  'select_type' => 'SIMPLE',
+  'table' => 'cmt_menu',
+  'type' => 'ALL',
+  'possible_keys' => NULL,
+  'key' => NULL,
+  'key_len' => NULL,
+  'ref' => NULL,
+  'rows' => 5,
+  'extra' => '',
+) ]
+---------------------------------------------------------------
+[ 2018-02-01T10:37:47+08:00 ] 127.0.0.1 127.0.0.1 GET /admin.html
+[ info ] tp5.com/admin.html [运行时间：0.131643s][吞吐率：7.60req/s] [内存消耗：2,887.76kb] [文件加载：55]
+[ info ] [ LANG ] E:\myphp_www\PHPTutorial\WWW\customer_tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'index',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'tp5.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.119 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://tp5.com/login.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=jigh0l5758ghu1744l2kadl0t7',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'expire' => 60,
+  'type' => '',
+  'auto_start' => true,
+  'httponly' => false,
+  'secure' => false,
+  'use_cookies' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Index->index[ E:\myphp_www\PHPTutorial\WWW\customer_tp5\application\admin\controller\Index.php ]
+[ info ] [ VIEW ] E:\myphp_www\PHPTutorial\WWW\customer_tp5\public/../application/admin\view\index\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000877s ] mysql:host=127.0.0.1;port=3306;dbname=tp5_cmt;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `cmt_user` [ RunTime:0.026643s ]
+[ sql ] [ SQL ] SELECT `password` FROM `cmt_user` WHERE  `user_id` = 1 LIMIT 1 [ RunTime:0.000411s ]
+[ sql ] [ EXPLAIN : array (
+  'id' => 1,
+  'select_type' => 'SIMPLE',
+  'table' => 'cmt_user',
+  'type' => 'const',
+  'possible_keys' => 'PRIMARY',
+  'key' => 'PRIMARY',
+  'key_len' => '3',
+  'ref' => 'const',
+  'rows' => 1,
+  'extra' => '',
+) ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `cmt_menu` [ RunTime:0.018216s ]
+[ sql ] [ SQL ] SELECT * FROM `cmt_menu` [ RunTime:0.000724s ]
+[ sql ] [ EXPLAIN : array (
+  'id' => 1,
+  'select_type' => 'SIMPLE',
+  'table' => 'cmt_menu',
+  'type' => 'ALL',
+  'possible_keys' => NULL,
+  'key' => NULL,
+  'key_len' => NULL,
+  'ref' => NULL,
+  'rows' => 5,
+  'extra' => '',
+) ]
+---------------------------------------------------------------
+[ 2018-02-01T10:37:47+08:00 ] 127.0.0.1 127.0.0.1 GET /admin.html
+[ info ] tp5.com/admin.html [运行时间：0.144124s][吞吐率：6.94req/s] [内存消耗：2,887.76kb] [文件加载：55]
+[ info ] [ LANG ] E:\myphp_www\PHPTutorial\WWW\customer_tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'index',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'tp5.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.119 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://tp5.com/login.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=jigh0l5758ghu1744l2kadl0t7',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'expire' => 60,
+  'type' => '',
+  'auto_start' => true,
+  'httponly' => false,
+  'secure' => false,
+  'use_cookies' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Index->index[ E:\myphp_www\PHPTutorial\WWW\customer_tp5\application\admin\controller\Index.php ]
+[ info ] [ VIEW ] E:\myphp_www\PHPTutorial\WWW\customer_tp5\public/../application/admin\view\index\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001465s ] mysql:host=127.0.0.1;port=3306;dbname=tp5_cmt;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `cmt_user` [ RunTime:0.023584s ]
+[ sql ] [ SQL ] SELECT `password` FROM `cmt_user` WHERE  `user_id` = 1 LIMIT 1 [ RunTime:0.001607s ]
+[ sql ] [ EXPLAIN : array (
+  'id' => 1,
+  'select_type' => 'SIMPLE',
+  'table' => 'cmt_user',
+  'type' => 'const',
+  'possible_keys' => 'PRIMARY',
+  'key' => 'PRIMARY',
+  'key_len' => '3',
+  'ref' => 'const',
+  'rows' => 1,
+  'extra' => '',
+) ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `cmt_menu` [ RunTime:0.011966s ]
+[ sql ] [ SQL ] SELECT * FROM `cmt_menu` [ RunTime:0.000452s ]
+[ sql ] [ EXPLAIN : array (
+  'id' => 1,
+  'select_type' => 'SIMPLE',
+  'table' => 'cmt_menu',
+  'type' => 'ALL',
+  'possible_keys' => NULL,
+  'key' => NULL,
+  'key_len' => NULL,
+  'ref' => NULL,
+  'rows' => 5,
+  'extra' => '',
+) ]
+---------------------------------------------------------------
+[ 2018-02-01T10:37:48+08:00 ] 127.0.0.1 127.0.0.1 GET /admin.html
+[ info ] tp5.com/admin.html [运行时间：0.142126s][吞吐率：7.04req/s] [内存消耗：2,887.76kb] [文件加载：55]
+[ info ] [ LANG ] E:\myphp_www\PHPTutorial\WWW\customer_tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'index',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'tp5.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.119 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://tp5.com/login.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=jigh0l5758ghu1744l2kadl0t7',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'expire' => 60,
+  'type' => '',
+  'auto_start' => true,
+  'httponly' => false,
+  'secure' => false,
+  'use_cookies' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Index->index[ E:\myphp_www\PHPTutorial\WWW\customer_tp5\application\admin\controller\Index.php ]
+[ info ] [ VIEW ] E:\myphp_www\PHPTutorial\WWW\customer_tp5\public/../application/admin\view\index\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000937s ] mysql:host=127.0.0.1;port=3306;dbname=tp5_cmt;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `cmt_user` [ RunTime:0.024151s ]
+[ sql ] [ SQL ] SELECT `password` FROM `cmt_user` WHERE  `user_id` = 1 LIMIT 1 [ RunTime:0.000946s ]
+[ sql ] [ EXPLAIN : array (
+  'id' => 1,
+  'select_type' => 'SIMPLE',
+  'table' => 'cmt_user',
+  'type' => 'const',
+  'possible_keys' => 'PRIMARY',
+  'key' => 'PRIMARY',
+  'key_len' => '3',
+  'ref' => 'const',
+  'rows' => 1,
+  'extra' => '',
+) ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `cmt_menu` [ RunTime:0.015324s ]
+[ sql ] [ SQL ] SELECT * FROM `cmt_menu` [ RunTime:0.000437s ]
+[ sql ] [ EXPLAIN : array (
+  'id' => 1,
+  'select_type' => 'SIMPLE',
+  'table' => 'cmt_menu',
+  'type' => 'ALL',
+  'possible_keys' => NULL,
+  'key' => NULL,
+  'key_len' => NULL,
+  'ref' => NULL,
+  'rows' => 5,
+  'extra' => '',
+) ]
+---------------------------------------------------------------
+[ 2018-02-01T10:37:48+08:00 ] 127.0.0.1 127.0.0.1 GET /admin.html
+[ info ] tp5.com/admin.html [运行时间：0.135412s][吞吐率：7.38req/s] [内存消耗：2,887.76kb] [文件加载：55]
+[ info ] [ LANG ] E:\myphp_www\PHPTutorial\WWW\customer_tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'index',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'tp5.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.119 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://tp5.com/login.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=jigh0l5758ghu1744l2kadl0t7',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'expire' => 60,
+  'type' => '',
+  'auto_start' => true,
+  'httponly' => false,
+  'secure' => false,
+  'use_cookies' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Index->index[ E:\myphp_www\PHPTutorial\WWW\customer_tp5\application\admin\controller\Index.php ]
+[ info ] [ VIEW ] E:\myphp_www\PHPTutorial\WWW\customer_tp5\public/../application/admin\view\index\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001060s ] mysql:host=127.0.0.1;port=3306;dbname=tp5_cmt;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `cmt_user` [ RunTime:0.023062s ]
+[ sql ] [ SQL ] SELECT `password` FROM `cmt_user` WHERE  `user_id` = 1 LIMIT 1 [ RunTime:0.000413s ]
+[ sql ] [ EXPLAIN : array (
+  'id' => 1,
+  'select_type' => 'SIMPLE',
+  'table' => 'cmt_user',
+  'type' => 'const',
+  'possible_keys' => 'PRIMARY',
+  'key' => 'PRIMARY',
+  'key_len' => '3',
+  'ref' => 'const',
+  'rows' => 1,
+  'extra' => '',
+) ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `cmt_menu` [ RunTime:0.015119s ]
+[ sql ] [ SQL ] SELECT * FROM `cmt_menu` [ RunTime:0.000422s ]
+[ sql ] [ EXPLAIN : array (
+  'id' => 1,
+  'select_type' => 'SIMPLE',
+  'table' => 'cmt_menu',
+  'type' => 'ALL',
+  'possible_keys' => NULL,
+  'key' => NULL,
+  'key_len' => NULL,
+  'ref' => NULL,
+  'rows' => 5,
+  'extra' => '',
+) ]
+---------------------------------------------------------------
+[ 2018-02-01T10:37:48+08:00 ] 127.0.0.1 127.0.0.1 GET /admin.html
+[ info ] tp5.com/admin.html [运行时间：0.130895s][吞吐率：7.64req/s] [内存消耗：2,887.76kb] [文件加载：55]
+[ info ] [ LANG ] E:\myphp_www\PHPTutorial\WWW\customer_tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'index',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'tp5.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.119 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://tp5.com/login.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=jigh0l5758ghu1744l2kadl0t7',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'expire' => 60,
+  'type' => '',
+  'auto_start' => true,
+  'httponly' => false,
+  'secure' => false,
+  'use_cookies' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Index->index[ E:\myphp_www\PHPTutorial\WWW\customer_tp5\application\admin\controller\Index.php ]
+[ info ] [ VIEW ] E:\myphp_www\PHPTutorial\WWW\customer_tp5\public/../application/admin\view\index\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002518s ] mysql:host=127.0.0.1;port=3306;dbname=tp5_cmt;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `cmt_user` [ RunTime:0.013458s ]
+[ sql ] [ SQL ] SELECT `password` FROM `cmt_user` WHERE  `user_id` = 1 LIMIT 1 [ RunTime:0.000441s ]
+[ sql ] [ EXPLAIN : array (
+  'id' => 1,
+  'select_type' => 'SIMPLE',
+  'table' => 'cmt_user',
+  'type' => 'const',
+  'possible_keys' => 'PRIMARY',
+  'key' => 'PRIMARY',
+  'key_len' => '3',
+  'ref' => 'const',
+  'rows' => 1,
+  'extra' => '',
+) ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `cmt_menu` [ RunTime:0.015381s ]
+[ sql ] [ SQL ] SELECT * FROM `cmt_menu` [ RunTime:0.000558s ]
+[ sql ] [ EXPLAIN : array (
+  'id' => 1,
+  'select_type' => 'SIMPLE',
+  'table' => 'cmt_menu',
+  'type' => 'ALL',
+  'possible_keys' => NULL,
+  'key' => NULL,
+  'key_len' => NULL,
+  'ref' => NULL,
+  'rows' => 5,
+  'extra' => '',
+) ]
+---------------------------------------------------------------
+[ 2018-02-01T10:37:48+08:00 ] 127.0.0.1 127.0.0.1 GET /admin.html
+[ info ] tp5.com/admin.html [运行时间：0.165479s][吞吐率：6.04req/s] [内存消耗：2,887.76kb] [文件加载：55]
+[ info ] [ LANG ] E:\myphp_www\PHPTutorial\WWW\customer_tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'index',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'tp5.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.119 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://tp5.com/login.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=jigh0l5758ghu1744l2kadl0t7',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'expire' => 60,
+  'type' => '',
+  'auto_start' => true,
+  'httponly' => false,
+  'secure' => false,
+  'use_cookies' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Index->index[ E:\myphp_www\PHPTutorial\WWW\customer_tp5\application\admin\controller\Index.php ]
+[ info ] [ VIEW ] E:\myphp_www\PHPTutorial\WWW\customer_tp5\public/../application/admin\view\index\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000969s ] mysql:host=127.0.0.1;port=3306;dbname=tp5_cmt;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `cmt_user` [ RunTime:0.024256s ]
+[ sql ] [ SQL ] SELECT `password` FROM `cmt_user` WHERE  `user_id` = 1 LIMIT 1 [ RunTime:0.000400s ]
+[ sql ] [ EXPLAIN : array (
+  'id' => 1,
+  'select_type' => 'SIMPLE',
+  'table' => 'cmt_user',
+  'type' => 'const',
+  'possible_keys' => 'PRIMARY',
+  'key' => 'PRIMARY',
+  'key_len' => '3',
+  'ref' => 'const',
+  'rows' => 1,
+  'extra' => '',
+) ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `cmt_menu` [ RunTime:0.012319s ]
+[ sql ] [ SQL ] SELECT * FROM `cmt_menu` [ RunTime:0.000626s ]
+[ sql ] [ EXPLAIN : array (
+  'id' => 1,
+  'select_type' => 'SIMPLE',
+  'table' => 'cmt_menu',
+  'type' => 'ALL',
+  'possible_keys' => NULL,
+  'key' => NULL,
+  'key_len' => NULL,
+  'ref' => NULL,
+  'rows' => 5,
+  'extra' => '',
+) ]
+---------------------------------------------------------------
+[ 2018-02-01T10:37:49+08:00 ] 127.0.0.1 127.0.0.1 GET /admin.html
+[ info ] tp5.com/admin.html [运行时间：0.179199s][吞吐率：5.58req/s] [内存消耗：2,887.76kb] [文件加载：55]
+[ info ] [ LANG ] E:\myphp_www\PHPTutorial\WWW\customer_tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'index',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'tp5.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.119 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://tp5.com/login.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=jigh0l5758ghu1744l2kadl0t7',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'expire' => 60,
+  'type' => '',
+  'auto_start' => true,
+  'httponly' => false,
+  'secure' => false,
+  'use_cookies' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Index->index[ E:\myphp_www\PHPTutorial\WWW\customer_tp5\application\admin\controller\Index.php ]
+[ info ] [ VIEW ] E:\myphp_www\PHPTutorial\WWW\customer_tp5\public/../application/admin\view\index\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002257s ] mysql:host=127.0.0.1;port=3306;dbname=tp5_cmt;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `cmt_user` [ RunTime:0.028020s ]
+[ sql ] [ SQL ] SELECT `password` FROM `cmt_user` WHERE  `user_id` = 1 LIMIT 1 [ RunTime:0.000417s ]
+[ sql ] [ EXPLAIN : array (
+  'id' => 1,
+  'select_type' => 'SIMPLE',
+  'table' => 'cmt_user',
+  'type' => 'const',
+  'possible_keys' => 'PRIMARY',
+  'key' => 'PRIMARY',
+  'key_len' => '3',
+  'ref' => 'const',
+  'rows' => 1,
+  'extra' => '',
+) ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `cmt_menu` [ RunTime:0.015653s ]
+[ sql ] [ SQL ] SELECT * FROM `cmt_menu` [ RunTime:0.000719s ]
+[ sql ] [ EXPLAIN : array (
+  'id' => 1,
+  'select_type' => 'SIMPLE',
+  'table' => 'cmt_menu',
+  'type' => 'ALL',
+  'possible_keys' => NULL,
+  'key' => NULL,
+  'key_len' => NULL,
+  'ref' => NULL,
+  'rows' => 5,
+  'extra' => '',
+) ]
+---------------------------------------------------------------
+[ 2018-02-01T10:38:38+08:00 ] 127.0.0.1 127.0.0.1 GET /admin.html
+[ info ] tp5.com/admin.html [运行时间：0.089170s][吞吐率：11.21req/s] [内存消耗：1,771.41kb] [文件加载：45]
+[ info ] [ LANG ] E:\myphp_www\PHPTutorial\WWW\customer_tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'index',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'tp5.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.119 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://tp5.com/login.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'expire' => 60,
+  'type' => '',
+  'auto_start' => true,
+  'httponly' => false,
+  'secure' => false,
+  'use_cookies' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-02-01T10:38:38+08:00 ] 127.0.0.1 127.0.0.1 GET /login.html
+[ info ] tp5.com/login.html [运行时间：0.059962s][吞吐率：16.68req/s] [内存消耗：1,768.32kb] [文件加载：44]
+[ info ] [ LANG ] E:\myphp_www\PHPTutorial\WWW\customer_tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'login',
+    2 => 'login',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'tp5.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.119 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://tp5.com/login.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=2utuuljc36t2doio0v55si0du5',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'expire' => 60,
+  'type' => '',
+  'auto_start' => true,
+  'httponly' => false,
+  'secure' => false,
+  'use_cookies' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Login->login[ E:\myphp_www\PHPTutorial\WWW\customer_tp5\application\admin\controller\Login.php ]
+[ info ] [ VIEW ] E:\myphp_www\PHPTutorial\WWW\customer_tp5\public/../application/admin\view\login\login.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-02-01T10:38:39+08:00 ] 127.0.0.1 127.0.0.1 GET /login.html
+[ info ] tp5.com/login.html [运行时间：0.076641s][吞吐率：13.05req/s] [内存消耗：1,768.32kb] [文件加载：44]
+[ info ] [ LANG ] E:\myphp_www\PHPTutorial\WWW\customer_tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'login',
+    2 => 'login',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'tp5.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.119 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://tp5.com/login.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=2utuuljc36t2doio0v55si0du5',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'expire' => 60,
+  'type' => '',
+  'auto_start' => true,
+  'httponly' => false,
+  'secure' => false,
+  'use_cookies' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Login->login[ E:\myphp_www\PHPTutorial\WWW\customer_tp5\application\admin\controller\Login.php ]
+[ info ] [ VIEW ] E:\myphp_www\PHPTutorial\WWW\customer_tp5\public/../application/admin\view\login\login.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-02-01T10:38:40+08:00 ] 127.0.0.1 127.0.0.1 GET /login.html
+[ info ] tp5.com/login.html [运行时间：0.065486s][吞吐率：15.27req/s] [内存消耗：1,768.32kb] [文件加载：44]
+[ info ] [ LANG ] E:\myphp_www\PHPTutorial\WWW\customer_tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'login',
+    2 => 'login',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'tp5.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.119 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://tp5.com/login.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=2utuuljc36t2doio0v55si0du5',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'expire' => 60,
+  'type' => '',
+  'auto_start' => true,
+  'httponly' => false,
+  'secure' => false,
+  'use_cookies' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Login->login[ E:\myphp_www\PHPTutorial\WWW\customer_tp5\application\admin\controller\Login.php ]
+[ info ] [ VIEW ] E:\myphp_www\PHPTutorial\WWW\customer_tp5\public/../application/admin\view\login\login.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-02-01T10:38:40+08:00 ] 127.0.0.1 127.0.0.1 GET /login.html
+[ info ] tp5.com/login.html [运行时间：0.092688s][吞吐率：10.79req/s] [内存消耗：1,768.32kb] [文件加载：44]
+[ info ] [ LANG ] E:\myphp_www\PHPTutorial\WWW\customer_tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'login',
+    2 => 'login',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'tp5.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.119 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://tp5.com/login.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=2utuuljc36t2doio0v55si0du5',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'expire' => 60,
+  'type' => '',
+  'auto_start' => true,
+  'httponly' => false,
+  'secure' => false,
+  'use_cookies' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Login->login[ E:\myphp_www\PHPTutorial\WWW\customer_tp5\application\admin\controller\Login.php ]
+[ info ] [ VIEW ] E:\myphp_www\PHPTutorial\WWW\customer_tp5\public/../application/admin\view\login\login.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-02-01T10:38:40+08:00 ] 127.0.0.1 127.0.0.1 GET /login.html
+[ info ] tp5.com/login.html [运行时间：0.099850s][吞吐率：10.02req/s] [内存消耗：1,768.32kb] [文件加载：44]
+[ info ] [ LANG ] E:\myphp_www\PHPTutorial\WWW\customer_tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'login',
+    2 => 'login',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'tp5.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.119 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://tp5.com/login.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=2utuuljc36t2doio0v55si0du5',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'expire' => 60,
+  'type' => '',
+  'auto_start' => true,
+  'httponly' => false,
+  'secure' => false,
+  'use_cookies' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Login->login[ E:\myphp_www\PHPTutorial\WWW\customer_tp5\application\admin\controller\Login.php ]
+[ info ] [ VIEW ] E:\myphp_www\PHPTutorial\WWW\customer_tp5\public/../application/admin\view\login\login.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-02-01T10:38:41+08:00 ] 127.0.0.1 127.0.0.1 GET /login.html
+[ info ] tp5.com/login.html [运行时间：0.105809s][吞吐率：9.45req/s] [内存消耗：1,768.32kb] [文件加载：44]
+[ info ] [ LANG ] E:\myphp_www\PHPTutorial\WWW\customer_tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'login',
+    2 => 'login',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'tp5.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.119 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://tp5.com/login.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=2utuuljc36t2doio0v55si0du5',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'expire' => 60,
+  'type' => '',
+  'auto_start' => true,
+  'httponly' => false,
+  'secure' => false,
+  'use_cookies' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Login->login[ E:\myphp_www\PHPTutorial\WWW\customer_tp5\application\admin\controller\Login.php ]
+[ info ] [ VIEW ] E:\myphp_www\PHPTutorial\WWW\customer_tp5\public/../application/admin\view\login\login.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-02-01T10:38:41+08:00 ] 127.0.0.1 127.0.0.1 GET /login.html
+[ info ] tp5.com/login.html [运行时间：0.145166s][吞吐率：6.89req/s] [内存消耗：1,768.32kb] [文件加载：44]
+[ info ] [ LANG ] E:\myphp_www\PHPTutorial\WWW\customer_tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'login',
+    2 => 'login',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'tp5.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.119 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://tp5.com/login.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=2utuuljc36t2doio0v55si0du5',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'expire' => 60,
+  'type' => '',
+  'auto_start' => true,
+  'httponly' => false,
+  'secure' => false,
+  'use_cookies' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Login->login[ E:\myphp_www\PHPTutorial\WWW\customer_tp5\application\admin\controller\Login.php ]
+[ info ] [ VIEW ] E:\myphp_www\PHPTutorial\WWW\customer_tp5\public/../application/admin\view\login\login.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-02-01T10:38:41+08:00 ] 127.0.0.1 127.0.0.1 GET /login.html
+[ info ] tp5.com/login.html [运行时间：0.093154s][吞吐率：10.73req/s] [内存消耗：1,768.32kb] [文件加载：44]
+[ info ] [ LANG ] E:\myphp_www\PHPTutorial\WWW\customer_tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'login',
+    2 => 'login',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'tp5.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.119 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://tp5.com/login.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=2utuuljc36t2doio0v55si0du5',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'expire' => 60,
+  'type' => '',
+  'auto_start' => true,
+  'httponly' => false,
+  'secure' => false,
+  'use_cookies' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Login->login[ E:\myphp_www\PHPTutorial\WWW\customer_tp5\application\admin\controller\Login.php ]
+[ info ] [ VIEW ] E:\myphp_www\PHPTutorial\WWW\customer_tp5\public/../application/admin\view\login\login.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-02-01T10:38:44+08:00 ] 127.0.0.1 127.0.0.1 GET /login.html
+[ info ] tp5.com/login.html [运行时间：0.072833s][吞吐率：13.73req/s] [内存消耗：1,768.44kb] [文件加载：44]
+[ info ] [ LANG ] E:\myphp_www\PHPTutorial\WWW\customer_tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'login',
+    2 => 'login',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'tp5.com',
+  'connection' => 'keep-alive',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.119 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://tp5.com/login.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=2utuuljc36t2doio0v55si0du5',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'expire' => 60,
+  'type' => '',
+  'auto_start' => true,
+  'httponly' => false,
+  'secure' => false,
+  'use_cookies' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Login->login[ E:\myphp_www\PHPTutorial\WWW\customer_tp5\application\admin\controller\Login.php ]
+[ info ] [ VIEW ] E:\myphp_www\PHPTutorial\WWW\customer_tp5\public/../application/admin\view\login\login.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-02-01T10:38:44+08:00 ] 127.0.0.1 127.0.0.1 GET /login.html
+[ info ] tp5.com/login.html [运行时间：0.095825s][吞吐率：10.44req/s] [内存消耗：1,768.44kb] [文件加载：44]
+[ info ] [ LANG ] E:\myphp_www\PHPTutorial\WWW\customer_tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'login',
+    2 => 'login',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'tp5.com',
+  'connection' => 'keep-alive',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.119 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://tp5.com/login.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=2utuuljc36t2doio0v55si0du5',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'expire' => 60,
+  'type' => '',
+  'auto_start' => true,
+  'httponly' => false,
+  'secure' => false,
+  'use_cookies' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Login->login[ E:\myphp_www\PHPTutorial\WWW\customer_tp5\application\admin\controller\Login.php ]
+[ info ] [ VIEW ] E:\myphp_www\PHPTutorial\WWW\customer_tp5\public/../application/admin\view\login\login.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-02-01T10:38:44+08:00 ] 127.0.0.1 127.0.0.1 GET /login.html
+[ info ] tp5.com/login.html [运行时间：0.070973s][吞吐率：14.09req/s] [内存消耗：1,768.44kb] [文件加载：44]
+[ info ] [ LANG ] E:\myphp_www\PHPTutorial\WWW\customer_tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'login',
+    2 => 'login',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'tp5.com',
+  'connection' => 'keep-alive',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.119 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://tp5.com/login.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=2utuuljc36t2doio0v55si0du5',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'expire' => 60,
+  'type' => '',
+  'auto_start' => true,
+  'httponly' => false,
+  'secure' => false,
+  'use_cookies' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Login->login[ E:\myphp_www\PHPTutorial\WWW\customer_tp5\application\admin\controller\Login.php ]
+[ info ] [ VIEW ] E:\myphp_www\PHPTutorial\WWW\customer_tp5\public/../application/admin\view\login\login.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-02-01T10:38:44+08:00 ] 127.0.0.1 127.0.0.1 GET /login.html
+[ info ] tp5.com/login.html [运行时间：0.114239s][吞吐率：8.75req/s] [内存消耗：1,768.44kb] [文件加载：44]
+[ info ] [ LANG ] E:\myphp_www\PHPTutorial\WWW\customer_tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'login',
+    2 => 'login',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'tp5.com',
+  'connection' => 'keep-alive',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.119 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://tp5.com/login.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=2utuuljc36t2doio0v55si0du5',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'expire' => 60,
+  'type' => '',
+  'auto_start' => true,
+  'httponly' => false,
+  'secure' => false,
+  'use_cookies' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Login->login[ E:\myphp_www\PHPTutorial\WWW\customer_tp5\application\admin\controller\Login.php ]
+[ info ] [ VIEW ] E:\myphp_www\PHPTutorial\WWW\customer_tp5\public/../application/admin\view\login\login.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-02-01T10:38:49+08:00 ] 127.0.0.1 127.0.0.1 POST /check/login.html
+[ info ] tp5.com/check/login.html [运行时间：0.092963s][吞吐率：10.76req/s] [内存消耗：2,904.83kb] [文件加载：55]
+[ info ] [ LANG ] E:\myphp_www\PHPTutorial\WWW\customer_tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'login',
+    2 => 'login_action',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'tp5.com',
+  'connection' => 'keep-alive',
+  'content-length' => '28',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://tp5.com',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.119 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'referer' => 'http://tp5.com/login.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=2utuuljc36t2doio0v55si0du5',
+)
+[ info ] [ PARAM ] array (
+  'user_name' => 'admin',
+  'password' => '123',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'expire' => 60,
+  'type' => '',
+  'auto_start' => true,
+  'httponly' => false,
+  'secure' => false,
+  'use_cookies' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Login->login_action[ E:\myphp_www\PHPTutorial\WWW\customer_tp5\application\admin\controller\Login.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001714s ] mysql:host=127.0.0.1;port=3306;dbname=tp5_cmt;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `cmt_user` [ RunTime:0.021782s ]
+[ sql ] [ SQL ] SELECT * FROM `cmt_user` WHERE  `user_name` = 'admin' LIMIT 1 [ RunTime:0.000610s ]
+[ sql ] [ EXPLAIN : array (
+  'id' => 1,
+  'select_type' => 'SIMPLE',
+  'table' => 'cmt_user',
+  'type' => 'ref',
+  'possible_keys' => 'user_name',
+  'key' => 'user_name',
+  'key_len' => '302',
+  'ref' => 'const',
+  'rows' => 1,
+  'extra' => 'Using where',
+) ]
+[ sql ] [ SQL ] UPDATE `cmt_user`  SET `lastlogintime`=1517452729  WHERE  `user_id` = 1 [ RunTime:0.000490s ]
+---------------------------------------------------------------
+[ 2018-02-01T10:38:51+08:00 ] 127.0.0.1 127.0.0.1 GET /admin.html
+[ info ] tp5.com/admin.html [运行时间：0.149703s][吞吐率：6.68req/s] [内存消耗：2,887.45kb] [文件加载：55]
+[ info ] [ LANG ] E:\myphp_www\PHPTutorial\WWW\customer_tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'index',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'tp5.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.119 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://tp5.com/login.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=2utuuljc36t2doio0v55si0du5',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'expire' => 60,
+  'type' => '',
+  'auto_start' => true,
+  'httponly' => false,
+  'secure' => false,
+  'use_cookies' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Index->index[ E:\myphp_www\PHPTutorial\WWW\customer_tp5\application\admin\controller\Index.php ]
+[ info ] [ VIEW ] E:\myphp_www\PHPTutorial\WWW\customer_tp5\public/../application/admin\view\index\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000891s ] mysql:host=127.0.0.1;port=3306;dbname=tp5_cmt;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `cmt_user` [ RunTime:0.014517s ]
+[ sql ] [ SQL ] SELECT `password` FROM `cmt_user` WHERE  `user_id` = 1 LIMIT 1 [ RunTime:0.000404s ]
+[ sql ] [ EXPLAIN : array (
+  'id' => 1,
+  'select_type' => 'SIMPLE',
+  'table' => 'cmt_user',
+  'type' => 'const',
+  'possible_keys' => 'PRIMARY',
+  'key' => 'PRIMARY',
+  'key_len' => '3',
+  'ref' => 'const',
+  'rows' => 1,
+  'extra' => '',
+) ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `cmt_menu` [ RunTime:0.013029s ]
+[ sql ] [ SQL ] SELECT * FROM `cmt_menu` [ RunTime:0.000606s ]
+[ sql ] [ EXPLAIN : array (
+  'id' => 1,
+  'select_type' => 'SIMPLE',
+  'table' => 'cmt_menu',
+  'type' => 'ALL',
+  'possible_keys' => NULL,
+  'key' => NULL,
+  'key_len' => NULL,
+  'ref' => NULL,
+  'rows' => 5,
+  'extra' => '',
+) ]
+---------------------------------------------------------------
+[ 2018-02-01T10:38:52+08:00 ] 127.0.0.1 127.0.0.1 GET /admin.html
+[ info ] tp5.com/admin.html [运行时间：0.121479s][吞吐率：8.23req/s] [内存消耗：2,887.76kb] [文件加载：55]
+[ info ] [ LANG ] E:\myphp_www\PHPTutorial\WWW\customer_tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'index',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'tp5.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.119 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://tp5.com/login.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=2utuuljc36t2doio0v55si0du5',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'expire' => 60,
+  'type' => '',
+  'auto_start' => true,
+  'httponly' => false,
+  'secure' => false,
+  'use_cookies' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Index->index[ E:\myphp_www\PHPTutorial\WWW\customer_tp5\application\admin\controller\Index.php ]
+[ info ] [ VIEW ] E:\myphp_www\PHPTutorial\WWW\customer_tp5\public/../application/admin\view\index\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000922s ] mysql:host=127.0.0.1;port=3306;dbname=tp5_cmt;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `cmt_user` [ RunTime:0.012737s ]
+[ sql ] [ SQL ] SELECT `password` FROM `cmt_user` WHERE  `user_id` = 1 LIMIT 1 [ RunTime:0.000406s ]
+[ sql ] [ EXPLAIN : array (
+  'id' => 1,
+  'select_type' => 'SIMPLE',
+  'table' => 'cmt_user',
+  'type' => 'const',
+  'possible_keys' => 'PRIMARY',
+  'key' => 'PRIMARY',
+  'key_len' => '3',
+  'ref' => 'const',
+  'rows' => 1,
+  'extra' => '',
+) ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `cmt_menu` [ RunTime:0.011754s ]
+[ sql ] [ SQL ] SELECT * FROM `cmt_menu` [ RunTime:0.000419s ]
+[ sql ] [ EXPLAIN : array (
+  'id' => 1,
+  'select_type' => 'SIMPLE',
+  'table' => 'cmt_menu',
+  'type' => 'ALL',
+  'possible_keys' => NULL,
+  'key' => NULL,
+  'key_len' => NULL,
+  'ref' => NULL,
+  'rows' => 5,
+  'extra' => '',
+) ]
+---------------------------------------------------------------
+[ 2018-02-01T10:38:53+08:00 ] 127.0.0.1 127.0.0.1 GET /admin.html
+[ info ] tp5.com/admin.html [运行时间：0.152990s][吞吐率：6.54req/s] [内存消耗：2,887.76kb] [文件加载：55]
+[ info ] [ LANG ] E:\myphp_www\PHPTutorial\WWW\customer_tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'index',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'tp5.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.119 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://tp5.com/login.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=2utuuljc36t2doio0v55si0du5',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'expire' => 60,
+  'type' => '',
+  'auto_start' => true,
+  'httponly' => false,
+  'secure' => false,
+  'use_cookies' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Index->index[ E:\myphp_www\PHPTutorial\WWW\customer_tp5\application\admin\controller\Index.php ]
+[ info ] [ VIEW ] E:\myphp_www\PHPTutorial\WWW\customer_tp5\public/../application/admin\view\index\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001040s ] mysql:host=127.0.0.1;port=3306;dbname=tp5_cmt;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `cmt_user` [ RunTime:0.023975s ]
+[ sql ] [ SQL ] SELECT `password` FROM `cmt_user` WHERE  `user_id` = 1 LIMIT 1 [ RunTime:0.000404s ]
+[ sql ] [ EXPLAIN : array (
+  'id' => 1,
+  'select_type' => 'SIMPLE',
+  'table' => 'cmt_user',
+  'type' => 'const',
+  'possible_keys' => 'PRIMARY',
+  'key' => 'PRIMARY',
+  'key_len' => '3',
+  'ref' => 'const',
+  'rows' => 1,
+  'extra' => '',
+) ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `cmt_menu` [ RunTime:0.012505s ]
+[ sql ] [ SQL ] SELECT * FROM `cmt_menu` [ RunTime:0.000423s ]
+[ sql ] [ EXPLAIN : array (
+  'id' => 1,
+  'select_type' => 'SIMPLE',
+  'table' => 'cmt_menu',
+  'type' => 'ALL',
+  'possible_keys' => NULL,
+  'key' => NULL,
+  'key_len' => NULL,
+  'ref' => NULL,
+  'rows' => 5,
+  'extra' => '',
+) ]
+---------------------------------------------------------------
+[ 2018-02-01T10:38:53+08:00 ] 127.0.0.1 127.0.0.1 GET /admin.html
+[ info ] tp5.com/admin.html [运行时间：0.157432s][吞吐率：6.35req/s] [内存消耗：2,887.76kb] [文件加载：55]
+[ info ] [ LANG ] E:\myphp_www\PHPTutorial\WWW\customer_tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'index',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'tp5.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.119 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://tp5.com/login.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=2utuuljc36t2doio0v55si0du5',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'expire' => 60,
+  'type' => '',
+  'auto_start' => true,
+  'httponly' => false,
+  'secure' => false,
+  'use_cookies' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Index->index[ E:\myphp_www\PHPTutorial\WWW\customer_tp5\application\admin\controller\Index.php ]
+[ info ] [ VIEW ] E:\myphp_www\PHPTutorial\WWW\customer_tp5\public/../application/admin\view\index\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000872s ] mysql:host=127.0.0.1;port=3306;dbname=tp5_cmt;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `cmt_user` [ RunTime:0.021864s ]
+[ sql ] [ SQL ] SELECT `password` FROM `cmt_user` WHERE  `user_id` = 1 LIMIT 1 [ RunTime:0.000603s ]
+[ sql ] [ EXPLAIN : array (
+  'id' => 1,
+  'select_type' => 'SIMPLE',
+  'table' => 'cmt_user',
+  'type' => 'const',
+  'possible_keys' => 'PRIMARY',
+  'key' => 'PRIMARY',
+  'key_len' => '3',
+  'ref' => 'const',
+  'rows' => 1,
+  'extra' => '',
+) ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `cmt_menu` [ RunTime:0.011416s ]
+[ sql ] [ SQL ] SELECT * FROM `cmt_menu` [ RunTime:0.000586s ]
+[ sql ] [ EXPLAIN : array (
+  'id' => 1,
+  'select_type' => 'SIMPLE',
+  'table' => 'cmt_menu',
+  'type' => 'ALL',
+  'possible_keys' => NULL,
+  'key' => NULL,
+  'key_len' => NULL,
+  'ref' => NULL,
+  'rows' => 5,
+  'extra' => '',
+) ]
+---------------------------------------------------------------
+[ 2018-02-01T10:38:53+08:00 ] 127.0.0.1 127.0.0.1 GET /admin.html
+[ info ] tp5.com/admin.html [运行时间：0.169063s][吞吐率：5.91req/s] [内存消耗：2,887.76kb] [文件加载：55]
+[ info ] [ LANG ] E:\myphp_www\PHPTutorial\WWW\customer_tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'index',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'tp5.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.119 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://tp5.com/login.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=2utuuljc36t2doio0v55si0du5',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'expire' => 60,
+  'type' => '',
+  'auto_start' => true,
+  'httponly' => false,
+  'secure' => false,
+  'use_cookies' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Index->index[ E:\myphp_www\PHPTutorial\WWW\customer_tp5\application\admin\controller\Index.php ]
+[ info ] [ VIEW ] E:\myphp_www\PHPTutorial\WWW\customer_tp5\public/../application/admin\view\index\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000878s ] mysql:host=127.0.0.1;port=3306;dbname=tp5_cmt;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `cmt_user` [ RunTime:0.023539s ]
+[ sql ] [ SQL ] SELECT `password` FROM `cmt_user` WHERE  `user_id` = 1 LIMIT 1 [ RunTime:0.001224s ]
+[ sql ] [ EXPLAIN : array (
+  'id' => 1,
+  'select_type' => 'SIMPLE',
+  'table' => 'cmt_user',
+  'type' => 'const',
+  'possible_keys' => 'PRIMARY',
+  'key' => 'PRIMARY',
+  'key_len' => '3',
+  'ref' => 'const',
+  'rows' => 1,
+  'extra' => '',
+) ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `cmt_menu` [ RunTime:0.011618s ]
+[ sql ] [ SQL ] SELECT * FROM `cmt_menu` [ RunTime:0.000540s ]
+[ sql ] [ EXPLAIN : array (
+  'id' => 1,
+  'select_type' => 'SIMPLE',
+  'table' => 'cmt_menu',
+  'type' => 'ALL',
+  'possible_keys' => NULL,
+  'key' => NULL,
+  'key_len' => NULL,
+  'ref' => NULL,
+  'rows' => 5,
+  'extra' => '',
+) ]
+---------------------------------------------------------------
+[ 2018-02-01T10:39:07+08:00 ] 127.0.0.1 127.0.0.1 GET /admin.html
+[ info ] tp5.com/admin.html [运行时间：0.154464s][吞吐率：6.47req/s] [内存消耗：2,887.76kb] [文件加载：55]
+[ info ] [ LANG ] E:\myphp_www\PHPTutorial\WWW\customer_tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'index',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'tp5.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.119 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://tp5.com/login.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=2utuuljc36t2doio0v55si0du5',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'expire' => 60,
+  'type' => '',
+  'auto_start' => true,
+  'httponly' => false,
+  'secure' => false,
+  'use_cookies' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Index->index[ E:\myphp_www\PHPTutorial\WWW\customer_tp5\application\admin\controller\Index.php ]
+[ info ] [ VIEW ] E:\myphp_www\PHPTutorial\WWW\customer_tp5\public/../application/admin\view\index\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000933s ] mysql:host=127.0.0.1;port=3306;dbname=tp5_cmt;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `cmt_user` [ RunTime:0.022047s ]
+[ sql ] [ SQL ] SELECT `password` FROM `cmt_user` WHERE  `user_id` = 1 LIMIT 1 [ RunTime:0.000393s ]
+[ sql ] [ EXPLAIN : array (
+  'id' => 1,
+  'select_type' => 'SIMPLE',
+  'table' => 'cmt_user',
+  'type' => 'const',
+  'possible_keys' => 'PRIMARY',
+  'key' => 'PRIMARY',
+  'key_len' => '3',
+  'ref' => 'const',
+  'rows' => 1,
+  'extra' => '',
+) ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `cmt_menu` [ RunTime:0.013689s ]
+[ sql ] [ SQL ] SELECT * FROM `cmt_menu` [ RunTime:0.000545s ]
+[ sql ] [ EXPLAIN : array (
+  'id' => 1,
+  'select_type' => 'SIMPLE',
+  'table' => 'cmt_menu',
+  'type' => 'ALL',
+  'possible_keys' => NULL,
+  'key' => NULL,
+  'key_len' => NULL,
+  'ref' => NULL,
+  'rows' => 5,
+  'extra' => '',
+) ]
+---------------------------------------------------------------
+[ 2018-02-01T11:29:20+08:00 ] 127.0.0.1 127.0.0.1 GET /admin.html
+[ info ] tp5.com/admin.html [运行时间：0.094434s][吞吐率：10.59req/s] [内存消耗：1,771.41kb] [文件加载：45]
+[ info ] [ LANG ] E:\myphp_www\PHPTutorial\WWW\customer_tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'index',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'tp5.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.119 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://tp5.com/login.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'expire' => 60,
+  'type' => '',
+  'auto_start' => true,
+  'httponly' => false,
+  'secure' => false,
+  'use_cookies' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-02-01T11:29:20+08:00 ] 127.0.0.1 127.0.0.1 GET /login.html
+[ info ] tp5.com/login.html [运行时间：0.061902s][吞吐率：16.15req/s] [内存消耗：1,768.32kb] [文件加载：44]
+[ info ] [ LANG ] E:\myphp_www\PHPTutorial\WWW\customer_tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'login',
+    2 => 'login',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'tp5.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.119 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://tp5.com/login.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=qmt1idfkbudi8dbmq7chfgakm1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'expire' => 60,
+  'type' => '',
+  'auto_start' => true,
+  'httponly' => false,
+  'secure' => false,
+  'use_cookies' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Login->login[ E:\myphp_www\PHPTutorial\WWW\customer_tp5\application\admin\controller\Login.php ]
+[ info ] [ VIEW ] E:\myphp_www\PHPTutorial\WWW\customer_tp5\public/../application/admin\view\login\login.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-02-01T11:29:22+08:00 ] 127.0.0.1 127.0.0.1 GET /login.html
+[ info ] tp5.com/login.html [运行时间：0.095938s][吞吐率：10.42req/s] [内存消耗：1,768.32kb] [文件加载：44]
+[ info ] [ LANG ] E:\myphp_www\PHPTutorial\WWW\customer_tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'login',
+    2 => 'login',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'tp5.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.119 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://tp5.com/login.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=qmt1idfkbudi8dbmq7chfgakm1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'expire' => 60,
+  'type' => '',
+  'auto_start' => true,
+  'httponly' => false,
+  'secure' => false,
+  'use_cookies' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Login->login[ E:\myphp_www\PHPTutorial\WWW\customer_tp5\application\admin\controller\Login.php ]
+[ info ] [ VIEW ] E:\myphp_www\PHPTutorial\WWW\customer_tp5\public/../application/admin\view\login\login.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-02-01T11:29:22+08:00 ] 127.0.0.1 127.0.0.1 GET /login.html
+[ info ] tp5.com/login.html [运行时间：0.144169s][吞吐率：6.94req/s] [内存消耗：1,768.32kb] [文件加载：44]
+[ info ] [ LANG ] E:\myphp_www\PHPTutorial\WWW\customer_tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'login',
+    2 => 'login',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'tp5.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.119 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://tp5.com/login.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=qmt1idfkbudi8dbmq7chfgakm1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'expire' => 60,
+  'type' => '',
+  'auto_start' => true,
+  'httponly' => false,
+  'secure' => false,
+  'use_cookies' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Login->login[ E:\myphp_www\PHPTutorial\WWW\customer_tp5\application\admin\controller\Login.php ]
+[ info ] [ VIEW ] E:\myphp_www\PHPTutorial\WWW\customer_tp5\public/../application/admin\view\login\login.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-02-01T11:29:22+08:00 ] 127.0.0.1 127.0.0.1 GET /login.html
+[ info ] tp5.com/login.html [运行时间：0.150193s][吞吐率：6.66req/s] [内存消耗：1,768.32kb] [文件加载：44]
+[ info ] [ LANG ] E:\myphp_www\PHPTutorial\WWW\customer_tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'login',
+    2 => 'login',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'tp5.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.119 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://tp5.com/login.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=qmt1idfkbudi8dbmq7chfgakm1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'expire' => 60,
+  'type' => '',
+  'auto_start' => true,
+  'httponly' => false,
+  'secure' => false,
+  'use_cookies' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Login->login[ E:\myphp_www\PHPTutorial\WWW\customer_tp5\application\admin\controller\Login.php ]
+[ info ] [ VIEW ] E:\myphp_www\PHPTutorial\WWW\customer_tp5\public/../application/admin\view\login\login.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-02-01T11:29:22+08:00 ] 127.0.0.1 127.0.0.1 GET /login.html
+[ info ] tp5.com/login.html [运行时间：0.107005s][吞吐率：9.35req/s] [内存消耗：1,768.32kb] [文件加载：44]
+[ info ] [ LANG ] E:\myphp_www\PHPTutorial\WWW\customer_tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'login',
+    2 => 'login',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'tp5.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.119 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://tp5.com/login.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=qmt1idfkbudi8dbmq7chfgakm1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'expire' => 60,
+  'type' => '',
+  'auto_start' => true,
+  'httponly' => false,
+  'secure' => false,
+  'use_cookies' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Login->login[ E:\myphp_www\PHPTutorial\WWW\customer_tp5\application\admin\controller\Login.php ]
+[ info ] [ VIEW ] E:\myphp_www\PHPTutorial\WWW\customer_tp5\public/../application/admin\view\login\login.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-02-01T11:29:22+08:00 ] 127.0.0.1 127.0.0.1 GET /login.html
+[ info ] tp5.com/login.html [运行时间：0.143801s][吞吐率：6.95req/s] [内存消耗：1,768.32kb] [文件加载：44]
+[ info ] [ LANG ] E:\myphp_www\PHPTutorial\WWW\customer_tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'login',
+    2 => 'login',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'tp5.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.119 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://tp5.com/login.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=qmt1idfkbudi8dbmq7chfgakm1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'expire' => 60,
+  'type' => '',
+  'auto_start' => true,
+  'httponly' => false,
+  'secure' => false,
+  'use_cookies' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Login->login[ E:\myphp_www\PHPTutorial\WWW\customer_tp5\application\admin\controller\Login.php ]
+[ info ] [ VIEW ] E:\myphp_www\PHPTutorial\WWW\customer_tp5\public/../application/admin\view\login\login.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-02-01T11:31:10+08:00 ] 127.0.0.1 127.0.0.1 GET /login.html
+[ info ] tp5.com/login.html [运行时间：0.088195s][吞吐率：11.34req/s] [内存消耗：1,767.83kb] [文件加载：44]
+[ info ] [ LANG ] E:\myphp_www\PHPTutorial\WWW\customer_tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'login',
+    2 => 'login',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'tp5.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.119 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://tp5.com/login.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'expire' => 60,
+  'type' => '',
+  'auto_start' => true,
+  'httponly' => false,
+  'secure' => false,
+  'use_cookies' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Login->login[ E:\myphp_www\PHPTutorial\WWW\customer_tp5\application\admin\controller\Login.php ]
+[ info ] [ VIEW ] E:\myphp_www\PHPTutorial\WWW\customer_tp5\public/../application/admin\view\login\login.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-02-01T11:31:13+08:00 ] 127.0.0.1 127.0.0.1 POST /check/login.html
+[ info ] tp5.com/check/login.html [运行时间：0.110091s][吞吐率：9.08req/s] [内存消耗：2,904.83kb] [文件加载：55]
+[ info ] [ LANG ] E:\myphp_www\PHPTutorial\WWW\customer_tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'login',
+    2 => 'login_action',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'tp5.com',
+  'connection' => 'keep-alive',
+  'content-length' => '28',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://tp5.com',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.119 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'referer' => 'http://tp5.com/login.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=ah9s4v36k45top4185kauoeif7',
+)
+[ info ] [ PARAM ] array (
+  'user_name' => 'admin',
+  'password' => '123',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'expire' => 60,
+  'type' => '',
+  'auto_start' => true,
+  'httponly' => false,
+  'secure' => false,
+  'use_cookies' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Login->login_action[ E:\myphp_www\PHPTutorial\WWW\customer_tp5\application\admin\controller\Login.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001967s ] mysql:host=127.0.0.1;port=3306;dbname=tp5_cmt;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `cmt_user` [ RunTime:0.022301s ]
+[ sql ] [ SQL ] SELECT * FROM `cmt_user` WHERE  `user_name` = 'admin' LIMIT 1 [ RunTime:0.000695s ]
+[ sql ] [ EXPLAIN : array (
+  'id' => 1,
+  'select_type' => 'SIMPLE',
+  'table' => 'cmt_user',
+  'type' => 'ref',
+  'possible_keys' => 'user_name',
+  'key' => 'user_name',
+  'key_len' => '302',
+  'ref' => 'const',
+  'rows' => 1,
+  'extra' => 'Using where',
+) ]
+[ sql ] [ SQL ] UPDATE `cmt_user`  SET `lastlogintime`=1517455873  WHERE  `user_id` = 1 [ RunTime:0.001077s ]
+---------------------------------------------------------------
+[ 2018-02-01T11:31:15+08:00 ] 127.0.0.1 127.0.0.1 GET /admin.html
+[ info ] tp5.com/admin.html [运行时间：0.174861s][吞吐率：5.72req/s] [内存消耗：2,957.63kb] [文件加载：55]
+[ info ] [ LANG ] E:\myphp_www\PHPTutorial\WWW\customer_tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'index',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'tp5.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.119 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://tp5.com/login.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=ah9s4v36k45top4185kauoeif7',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'expire' => 60,
+  'type' => '',
+  'auto_start' => true,
+  'httponly' => false,
+  'secure' => false,
+  'use_cookies' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Index->index[ E:\myphp_www\PHPTutorial\WWW\customer_tp5\application\admin\controller\Index.php ]
+[ info ] [ VIEW ] E:\myphp_www\PHPTutorial\WWW\customer_tp5\public/../application/admin\view\index\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.003218s ] mysql:host=127.0.0.1;port=3306;dbname=tp5_cmt;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `cmt_user` [ RunTime:0.023509s ]
+[ sql ] [ SQL ] SELECT `password` FROM `cmt_user` WHERE  `user_id` = 1 LIMIT 1 [ RunTime:0.000597s ]
+[ sql ] [ EXPLAIN : array (
+  'id' => 1,
+  'select_type' => 'SIMPLE',
+  'table' => 'cmt_user',
+  'type' => 'const',
+  'possible_keys' => 'PRIMARY',
+  'key' => 'PRIMARY',
+  'key_len' => '3',
+  'ref' => 'const',
+  'rows' => 1,
+  'extra' => '',
+) ]
+---------------------------------------------------------------
+[ 2018-02-01T11:31:15+08:00 ] 127.0.0.1 127.0.0.1 GET /css/bootstrap.min.css
+[ info ] tp5.com/css/bootstrap.min.css [运行时间：0.183256s][吞吐率：5.46req/s] [内存消耗：1,494.92kb] [文件加载：39]
+[ info ] [ LANG ] E:\myphp_www\PHPTutorial\WWW\customer_tp5\thinkphp\lang\zh-cn.php
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-02-01T11:31:15+08:00 ] 127.0.0.1 127.0.0.1 GET /js/bootstrap.min.js
+[ info ] tp5.com/js/bootstrap.min.js [运行时间：0.184701s][吞吐率：5.41req/s] [内存消耗：1,494.91kb] [文件加载：39]
+[ info ] [ LANG ] E:\myphp_www\PHPTutorial\WWW\customer_tp5\thinkphp\lang\zh-cn.php
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-02-01T11:32:49+08:00 ] 127.0.0.1 127.0.0.1 GET /admin.html
+[ info ] tp5.com/admin.html [运行时间：0.105279s][吞吐率：9.50req/s] [内存消耗：1,771.41kb] [文件加载：45]
+[ info ] [ LANG ] E:\myphp_www\PHPTutorial\WWW\customer_tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'index',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'tp5.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.119 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://tp5.com/login.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'expire' => 60,
+  'type' => '',
+  'auto_start' => true,
+  'httponly' => false,
+  'secure' => false,
+  'use_cookies' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-02-01T11:32:49+08:00 ] 127.0.0.1 127.0.0.1 GET /login.html
+[ info ] tp5.com/login.html [运行时间：0.086330s][吞吐率：11.58req/s] [内存消耗：1,768.32kb] [文件加载：44]
+[ info ] [ LANG ] E:\myphp_www\PHPTutorial\WWW\customer_tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'login',
+    2 => 'login',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'tp5.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.119 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://tp5.com/login.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=3lm59ppgp47ujj97f291nqcg36',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'expire' => 60,
+  'type' => '',
+  'auto_start' => true,
+  'httponly' => false,
+  'secure' => false,
+  'use_cookies' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Login->login[ E:\myphp_www\PHPTutorial\WWW\customer_tp5\application\admin\controller\Login.php ]
+[ info ] [ VIEW ] E:\myphp_www\PHPTutorial\WWW\customer_tp5\public/../application/admin\view\login\login.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-02-01T11:32:50+08:00 ] 127.0.0.1 127.0.0.1 GET /login.html
+[ info ] tp5.com/login.html [运行时间：0.074730s][吞吐率：13.38req/s] [内存消耗：1,768.32kb] [文件加载：44]
+[ info ] [ LANG ] E:\myphp_www\PHPTutorial\WWW\customer_tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'login',
+    2 => 'login',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'tp5.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.119 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://tp5.com/login.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=3lm59ppgp47ujj97f291nqcg36',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'expire' => 60,
+  'type' => '',
+  'auto_start' => true,
+  'httponly' => false,
+  'secure' => false,
+  'use_cookies' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Login->login[ E:\myphp_www\PHPTutorial\WWW\customer_tp5\application\admin\controller\Login.php ]
+[ info ] [ VIEW ] E:\myphp_www\PHPTutorial\WWW\customer_tp5\public/../application/admin\view\login\login.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-02-01T11:32:51+08:00 ] 127.0.0.1 127.0.0.1 GET /login.html
+[ info ] tp5.com/login.html [运行时间：0.074123s][吞吐率：13.49req/s] [内存消耗：1,768.44kb] [文件加载：44]
+[ info ] [ LANG ] E:\myphp_www\PHPTutorial\WWW\customer_tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'login',
+    2 => 'login',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'tp5.com',
+  'connection' => 'keep-alive',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.119 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://tp5.com/login.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=3lm59ppgp47ujj97f291nqcg36',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'expire' => 60,
+  'type' => '',
+  'auto_start' => true,
+  'httponly' => false,
+  'secure' => false,
+  'use_cookies' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Login->login[ E:\myphp_www\PHPTutorial\WWW\customer_tp5\application\admin\controller\Login.php ]
+[ info ] [ VIEW ] E:\myphp_www\PHPTutorial\WWW\customer_tp5\public/../application/admin\view\login\login.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-02-01T11:33:35+08:00 ] 127.0.0.1 127.0.0.1 GET /login.html
+[ info ] tp5.com/login.html [运行时间：0.080546s][吞吐率：12.42req/s] [内存消耗：1,768.32kb] [文件加载：44]
+[ info ] [ LANG ] E:\myphp_www\PHPTutorial\WWW\customer_tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'login',
+    2 => 'login',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'tp5.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.119 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://tp5.com/login.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=3lm59ppgp47ujj97f291nqcg36',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'expire' => 60,
+  'type' => '',
+  'auto_start' => true,
+  'httponly' => false,
+  'secure' => false,
+  'use_cookies' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Login->login[ E:\myphp_www\PHPTutorial\WWW\customer_tp5\application\admin\controller\Login.php ]
+[ info ] [ VIEW ] E:\myphp_www\PHPTutorial\WWW\customer_tp5\public/../application/admin\view\login\login.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-02-01T11:33:36+08:00 ] 127.0.0.1 127.0.0.1 GET /login.html
+[ info ] tp5.com/login.html [运行时间：0.068972s][吞吐率：14.50req/s] [内存消耗：1,768.32kb] [文件加载：44]
+[ info ] [ LANG ] E:\myphp_www\PHPTutorial\WWW\customer_tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'login',
+    2 => 'login',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'tp5.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.119 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://tp5.com/login.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=3lm59ppgp47ujj97f291nqcg36',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'expire' => 60,
+  'type' => '',
+  'auto_start' => true,
+  'httponly' => false,
+  'secure' => false,
+  'use_cookies' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Login->login[ E:\myphp_www\PHPTutorial\WWW\customer_tp5\application\admin\controller\Login.php ]
+[ info ] [ VIEW ] E:\myphp_www\PHPTutorial\WWW\customer_tp5\public/../application/admin\view\login\login.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-02-01T11:33:37+08:00 ] 127.0.0.1 127.0.0.1 GET /login.html
+[ info ] tp5.com/login.html [运行时间：0.067538s][吞吐率：14.81req/s] [内存消耗：1,768.44kb] [文件加载：44]
+[ info ] [ LANG ] E:\myphp_www\PHPTutorial\WWW\customer_tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'login',
+    2 => 'login',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'tp5.com',
+  'connection' => 'keep-alive',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.119 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://tp5.com/login.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=3lm59ppgp47ujj97f291nqcg36',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'expire' => 60,
+  'type' => '',
+  'auto_start' => true,
+  'httponly' => false,
+  'secure' => false,
+  'use_cookies' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Login->login[ E:\myphp_www\PHPTutorial\WWW\customer_tp5\application\admin\controller\Login.php ]
+[ info ] [ VIEW ] E:\myphp_www\PHPTutorial\WWW\customer_tp5\public/../application/admin\view\login\login.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-02-01T11:33:37+08:00 ] 127.0.0.1 127.0.0.1 GET /login.html
+[ info ] tp5.com/login.html [运行时间：0.094280s][吞吐率：10.61req/s] [内存消耗：1,768.44kb] [文件加载：44]
+[ info ] [ LANG ] E:\myphp_www\PHPTutorial\WWW\customer_tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'login',
+    2 => 'login',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'tp5.com',
+  'connection' => 'keep-alive',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.119 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://tp5.com/login.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=3lm59ppgp47ujj97f291nqcg36',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'expire' => 60,
+  'type' => '',
+  'auto_start' => true,
+  'httponly' => false,
+  'secure' => false,
+  'use_cookies' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Login->login[ E:\myphp_www\PHPTutorial\WWW\customer_tp5\application\admin\controller\Login.php ]
+[ info ] [ VIEW ] E:\myphp_www\PHPTutorial\WWW\customer_tp5\public/../application/admin\view\login\login.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-02-01T11:33:37+08:00 ] 127.0.0.1 127.0.0.1 GET /login.html
+[ info ] tp5.com/login.html [运行时间：0.048946s][吞吐率：20.43req/s] [内存消耗：1,768.44kb] [文件加载：44]
+[ info ] [ LANG ] E:\myphp_www\PHPTutorial\WWW\customer_tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'login',
+    2 => 'login',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'tp5.com',
+  'connection' => 'keep-alive',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.119 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://tp5.com/login.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=3lm59ppgp47ujj97f291nqcg36',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'expire' => 60,
+  'type' => '',
+  'auto_start' => true,
+  'httponly' => false,
+  'secure' => false,
+  'use_cookies' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Login->login[ E:\myphp_www\PHPTutorial\WWW\customer_tp5\application\admin\controller\Login.php ]
+[ info ] [ VIEW ] E:\myphp_www\PHPTutorial\WWW\customer_tp5\public/../application/admin\view\login\login.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-02-01T11:34:11+08:00 ] 127.0.0.1 127.0.0.1 GET /login.html
+[ info ] tp5.com/login.html [运行时间：0.072370s][吞吐率：13.82req/s] [内存消耗：1,767.83kb] [文件加载：44]
+[ info ] [ LANG ] E:\myphp_www\PHPTutorial\WWW\customer_tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'login',
+    2 => 'login',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'tp5.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.119 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://tp5.com/login.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'expire' => 60,
+  'type' => '',
+  'auto_start' => true,
+  'httponly' => false,
+  'secure' => false,
+  'use_cookies' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Login->login[ E:\myphp_www\PHPTutorial\WWW\customer_tp5\application\admin\controller\Login.php ]
+[ info ] [ VIEW ] E:\myphp_www\PHPTutorial\WWW\customer_tp5\public/../application/admin\view\login\login.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-02-01T11:34:12+08:00 ] 127.0.0.1 127.0.0.1 GET /login.html
+[ info ] tp5.com/login.html [运行时间：0.067573s][吞吐率：14.80req/s] [内存消耗：1,768.03kb] [文件加载：44]
+[ info ] [ LANG ] E:\myphp_www\PHPTutorial\WWW\customer_tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'login',
+    2 => 'login',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'tp5.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.119 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://tp5.com/login.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=d8vsc5qlm7dtn2735c4uk4s046',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'expire' => 60,
+  'type' => '',
+  'auto_start' => true,
+  'httponly' => false,
+  'secure' => false,
+  'use_cookies' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Login->login[ E:\myphp_www\PHPTutorial\WWW\customer_tp5\application\admin\controller\Login.php ]
+[ info ] [ VIEW ] E:\myphp_www\PHPTutorial\WWW\customer_tp5\public/../application/admin\view\login\login.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-02-01T11:34:13+08:00 ] 127.0.0.1 127.0.0.1 GET /login.html
+[ info ] tp5.com/login.html [运行时间：0.068696s][吞吐率：14.56req/s] [内存消耗：1,768.03kb] [文件加载：44]
+[ info ] [ LANG ] E:\myphp_www\PHPTutorial\WWW\customer_tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'login',
+    2 => 'login',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'tp5.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.119 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://tp5.com/login.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=d8vsc5qlm7dtn2735c4uk4s046',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'expire' => 60,
+  'type' => '',
+  'auto_start' => true,
+  'httponly' => false,
+  'secure' => false,
+  'use_cookies' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Login->login[ E:\myphp_www\PHPTutorial\WWW\customer_tp5\application\admin\controller\Login.php ]
+[ info ] [ VIEW ] E:\myphp_www\PHPTutorial\WWW\customer_tp5\public/../application/admin\view\login\login.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-02-01T11:34:13+08:00 ] 127.0.0.1 127.0.0.1 GET /login.html
+[ info ] tp5.com/login.html [运行时间：0.116795s][吞吐率：8.56req/s] [内存消耗：1,768.03kb] [文件加载：44]
+[ info ] [ LANG ] E:\myphp_www\PHPTutorial\WWW\customer_tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'login',
+    2 => 'login',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'tp5.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.119 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://tp5.com/login.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=d8vsc5qlm7dtn2735c4uk4s046',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'expire' => 60,
+  'type' => '',
+  'auto_start' => true,
+  'httponly' => false,
+  'secure' => false,
+  'use_cookies' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Login->login[ E:\myphp_www\PHPTutorial\WWW\customer_tp5\application\admin\controller\Login.php ]
+[ info ] [ VIEW ] E:\myphp_www\PHPTutorial\WWW\customer_tp5\public/../application/admin\view\login\login.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-02-01T11:34:13+08:00 ] 127.0.0.1 127.0.0.1 GET /login.html
+[ info ] tp5.com/login.html [运行时间：0.092780s][吞吐率：10.78req/s] [内存消耗：1,768.03kb] [文件加载：44]
+[ info ] [ LANG ] E:\myphp_www\PHPTutorial\WWW\customer_tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'login',
+    2 => 'login',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'tp5.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.119 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://tp5.com/login.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=d8vsc5qlm7dtn2735c4uk4s046',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'expire' => 60,
+  'type' => '',
+  'auto_start' => true,
+  'httponly' => false,
+  'secure' => false,
+  'use_cookies' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Login->login[ E:\myphp_www\PHPTutorial\WWW\customer_tp5\application\admin\controller\Login.php ]
+[ info ] [ VIEW ] E:\myphp_www\PHPTutorial\WWW\customer_tp5\public/../application/admin\view\login\login.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-02-01T11:34:13+08:00 ] 127.0.0.1 127.0.0.1 GET /login.html
+[ info ] tp5.com/login.html [运行时间：0.287065s][吞吐率：3.48req/s] [内存消耗：1,768.03kb] [文件加载：44]
+[ info ] [ LANG ] E:\myphp_www\PHPTutorial\WWW\customer_tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'login',
+    2 => 'login',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'tp5.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.119 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://tp5.com/login.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=d8vsc5qlm7dtn2735c4uk4s046',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'expire' => 60,
+  'type' => '',
+  'auto_start' => true,
+  'httponly' => false,
+  'secure' => false,
+  'use_cookies' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Login->login[ E:\myphp_www\PHPTutorial\WWW\customer_tp5\application\admin\controller\Login.php ]
+[ info ] [ VIEW ] E:\myphp_www\PHPTutorial\WWW\customer_tp5\public/../application/admin\view\login\login.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-02-01T11:34:13+08:00 ] 127.0.0.1 127.0.0.1 GET /login.html
+[ info ] tp5.com/login.html [运行时间：0.170059s][吞吐率：5.88req/s] [内存消耗：1,768.03kb] [文件加载：44]
+[ info ] [ LANG ] E:\myphp_www\PHPTutorial\WWW\customer_tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'login',
+    2 => 'login',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'tp5.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.119 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://tp5.com/login.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=d8vsc5qlm7dtn2735c4uk4s046',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'expire' => 60,
+  'type' => '',
+  'auto_start' => true,
+  'httponly' => false,
+  'secure' => false,
+  'use_cookies' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Login->login[ E:\myphp_www\PHPTutorial\WWW\customer_tp5\application\admin\controller\Login.php ]
+[ info ] [ VIEW ] E:\myphp_www\PHPTutorial\WWW\customer_tp5\public/../application/admin\view\login\login.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-02-01T13:27:56+08:00 ] 127.0.0.1 127.0.0.1 GET /login.html
+[ info ] tp5.com/login.html [运行时间：0.085172s][吞吐率：11.74req/s] [内存消耗：1,767.83kb] [文件加载：44]
+[ info ] [ LANG ] E:\myphp_www\PHPTutorial\WWW\customer_tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'login',
+    2 => 'login',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'tp5.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.119 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://tp5.com/login.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'expire' => 60,
+  'type' => '',
+  'auto_start' => true,
+  'httponly' => false,
+  'secure' => false,
+  'use_cookies' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Login->login[ E:\myphp_www\PHPTutorial\WWW\customer_tp5\application\admin\controller\Login.php ]
+[ info ] [ VIEW ] E:\myphp_www\PHPTutorial\WWW\customer_tp5\public/../application/admin\view\login\login.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
