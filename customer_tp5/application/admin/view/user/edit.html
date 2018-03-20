@@ -1,0 +1,64 @@
+<button onclick="history.go(-1)">返回</button>
+<table class="table" id="" style="width: 80%" align="center">
+    <thead>
+    <tr>
+        <th colspan="2" style="text-align: center">{$user.real_name} 的信息列表</th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr>
+        <td>用户名</td>
+        <td>{$user.user_name}</td>
+    </tr>
+    <tr>
+        <td>角色</td>
+        <td>
+            {$user.role_id|role_by_id}
+        </td>
+    </tr>
+    <tr>
+        <td>QQ</td>
+        <td>{$user.qq}</td>
+    </tr>
+    <tr>
+        <td>手机</td>
+        <td>{$user.phone}</td>
+    </tr>
+    <tr>
+        <td>Email</td>
+        <td>{$user.email}</td>
+    </tr>
+    <tr>
+        <td>注册时间</td>
+        <td>{$user.createdate}</td>
+    </tr>
+    <tr>
+        <td>最后一次登录时间</td>
+        <td>{$user.lastlogintime|date='Y-m-d H:i:s',###}</td>
+    </tr>
+    <tr>
+        <td>最后登录ip</td>
+        <td>{$user.lastloginip}</td>
+    </tr>
+    <tr>
+        <td>状态</td>
+        <td>{$user.status|user_status}</td>
+    </tr>
+    <tr>
+        <td>操作</td>
+        <td>
+            <form id="set_user_role_form" onsubmit="return user_set_role()">
+                <input type="text" name="user_id" id="user_id" value="{$user.user_id}" hidden/>
+                <select name="user_role_id">
+                    {volist name='role_list' id='rl'}
+                    <option value="{$rl.role_id}">{$rl.role_name}</option>
+                    {/volist}
+                </select>
+                <input type="submit" value="分配角色">
+            </form>
+            <button onclick="user_set_pw({$user.user_id})">重置密码</button>
+            <button onclick="user_delete({$user.user_id})">删除用户</button>
+        </td>
+    </tr>
+    </tbody>
+</table>

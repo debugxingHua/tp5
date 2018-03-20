@@ -1,0 +1,32 @@
+<h3>角色管理</h3>
+<form method="post" id="menu_add_form" onsubmit="return menu_add()">
+    <input type="text" name="menu_name" placeholder="菜单名称"/>
+    <input type="text" name="menu_url" placeholder="菜单路由"/>
+    <input type="submit" />
+</form>
+
+<table class="table" id="menu_table" width="80%">
+    <thead>
+    <tr>
+        <th>菜单ID</th>
+        <th>菜单名称</th>
+        <th>上级ID</th>
+        <th>菜单路由</th>
+        <th>操作</th>
+    </tr>
+    </thead>
+    <tbody>
+    {volist name='menu' id='m'}
+    <tr>
+        <td>{$m.menu_id}</td>
+        <td>{$m.menu_name}</td>
+        <td>{$m.parent_id}</td>
+        <td>{$m.menu_url}</td>
+        <td>
+        <a id="menu_delete" attr-id="{$m.menu_id}" title="删除用户">删除</a>
+        </td>
+    </tr>
+    {/volist}
+    </tbody>
+</table>
+{$menu->render()}

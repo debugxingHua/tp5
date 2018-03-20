@@ -1,0 +1,29 @@
+<button onclick="history.go(-1)">返回</button>
+<table class="table" id="role_table_edit" style="width: 60%" align="center">
+    <thead>
+    <tr>
+        <th colspan="2" style="text-align: center">角色：{$role.role_name} 的菜单权限列表</th>
+    </tr>
+    <tr>
+        <th>菜单名称</th>
+        <th>角色分配</th>
+    </tr>
+    </thead>
+    <tbody>
+    {volist name='menu_list' id='ml'}
+    <tr>
+        <form id="role_menu_form" method="post">
+            <input type="text" name="role_id" value="{$role.role_id}" hidden/>
+            <td>
+                {$ml.menu_name}
+            </td>
+            <td>
+                <a type="button" id="set_role_auth" attr-id="{$ml.menu_id}" role-id="{$role.role_id}">
+                    {$ml.bool==true? '<span style="color: blue">已授权</span>' : '<span style="color: red">未授权</span>'}
+                </a>
+            </td>
+        </form>
+    </tr>
+    {/volist}
+    </tbody>
+</table>
